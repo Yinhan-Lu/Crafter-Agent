@@ -1,0 +1,370 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_36": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_11": [
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_0": [
+                "grass",
+                "stone",
+                "coal"
+            ],
+            "transition_31": [
+                "coal",
+                "stone",
+                "path",
+                "zombie"
+            ],
+            "transition_50": [
+                "coal",
+                "grass",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_45": [
+                "stone",
+                "stone",
+                "path",
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_56": [
+                "stone",
+                "stone",
+                "stone",
+                "path",
+                "stone",
+                "stone",
+                "coal"
+            ],
+            "transition_28": [
+                "stone",
+                "path",
+                "path",
+                "path",
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_21": [
+                "stone",
+                "path",
+                "path",
+                "path",
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_27": [
+                "coal",
+                "path",
+                "path",
+                "path",
+                "path",
+                "coal",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "path"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_19": [
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_14": [
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_49": [
+                "stone",
+                "coal",
+                "path"
+            ],
+            "transition_34": [
+                "stone",
+                "coal",
+                "path"
+            ],
+            "transition_7": [
+                "stone",
+                "coal",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_15": [
+                "lava",
+                "coal",
+                "path",
+                "lava",
+                "path",
+                "lava",
+                "path",
+                "lava"
+            ],
+            "transition_35": [
+                "stone",
+                "path",
+                "stone",
+                "path",
+                "coal",
+                "stone",
+                "path",
+                "path"
+            ],
+            "transition_38": [
+                "path",
+                "coal",
+                "stone",
+                "stone",
+                "path",
+                "stone",
+                "stone",
+                "path"
+            ],
+            "transition_39": [
+                "stone",
+                "path",
+                "path",
+                "path",
+                "path",
+                "stone",
+                "stone",
+                "coal"
+            ],
+            "transition_5": [
+                "coal",
+                "path",
+                "stone",
+                "path",
+                "coal",
+                "stone",
+                "coal",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone",
+            "path"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_37": [
+                "coal",
+                "path",
+                "stone"
+            ],
+            "transition_13": [
+                "path",
+                "lava",
+                "stone",
+                "coal"
+            ],
+            "transition_64": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_59": [
+                "coal",
+                "stone",
+                "path"
+            ],
+            "transition_10": [
+                "coal",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_58": [
+                "stone",
+                "grass",
+                "coal"
+            ],
+            "transition_28": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_41": [
+                "path",
+                "stone",
+                "coal",
+                "grass"
+            ],
+            "transition_10": [
+                "coal",
+                "path",
+                "stone"
+            ],
+            "transition_51": [
+                "coal",
+                "stone",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_28": [
+                "stone",
+                "path",
+                "coal",
+                "lava"
+            ],
+            "transition_54": [
+                "stone",
+                "coal",
+                "iron",
+                "path",
+                "diamond"
+            ],
+            "transition_29": [
+                "path",
+                "stone",
+                "coal",
+                "lava"
+            ],
+            "transition_3": [
+                "coal",
+                "path",
+                "stone"
+            ],
+            "transition_18": [
+                "coal",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_29": [
+                "path",
+                "stone",
+                "coal",
+                "lava"
+            ],
+            "transition_56": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_9": [
+                "path",
+                "coal",
+                "stone"
+            ],
+            "transition_34": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_50": [
+                "coal",
+                "stone",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_27": [
+                "coal",
+                "path",
+                "stone"
+            ],
+            "transition_17": [
+                "stone",
+                "path",
+                "coal",
+                "lava"
+            ],
+            "transition_19": [
+                "coal",
+                "path",
+                "stone"
+            ],
+            "transition_41": [
+                "path",
+                "stone",
+                "coal",
+                "grass"
+            ],
+            "transition_39": [
+                "stone",
+                "path",
+                "coal"
+            ]
+        },
+        "common_immediate_objects": [
+            "coal",
+            "path",
+            "stone"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_58": {
+                "coal": "South"
+            },
+            "transition_59": {
+                "coal": "East"
+            },
+            "transition_25": {
+                "coal": "West"
+            },
+            "transition_24": {
+                "coal": "South"
+            },
+            "transition_6": {
+                "coal": "West"
+            }
+        },
+        "common_immediate_objects": {
+            "coal": "transition_6"
+        }
+    }
+}

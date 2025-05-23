@@ -1,0 +1,50 @@
+{
+    "0": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "1": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "2": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "4": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "5": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "6": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    },
+    "7": {
+        "inventory_increase": [
+            "wood"
+        ],
+        "status_increase": []
+    },
+    "9": {
+        "inventory_increase": {
+            "wood": 1
+        },
+        "status_increase": "None"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "0": [
+        "lava",
+        "water"
+    ],
+    "1": [
+        "lava",
+        "water"
+    ],
+    "2": [
+        "path",
+        "water",
+        "lava"
+    ],
+    "6": [
+        "grass",
+        "water",
+        "path",
+        "lava"
+    ],
+    "7": [
+        "water",
+        "path",
+        "lava",
+        "stone"
+    ]
+}

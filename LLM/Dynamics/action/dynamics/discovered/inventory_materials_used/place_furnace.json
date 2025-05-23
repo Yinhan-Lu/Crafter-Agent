@@ -1,0 +1,222 @@
+{
+    "0": {
+        "inventory_materials_used": {
+            "transition_8": {
+                "stone": 4
+            },
+            "transition_3": {
+                "stone": 4
+            },
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_11": {
+                "stone": 4
+            },
+            "transition_4": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "1": {
+        "inventory_materials_used": {
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_2": {
+                "stone": 4
+            },
+            "transition_7": {
+                "stone": 4
+            },
+            "transition_11": {
+                "stone": 4
+            },
+            "transition_8": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "2": {
+        "inventory_materials_used": {
+            "transition_0": {
+                "stone": 4
+            },
+            "transition_1": {
+                "stone": 4
+            },
+            "transition_2": {
+                "stone": 4
+            },
+            "transition_3": {
+                "stone": 4
+            },
+            "transition_10": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "3": {
+        "inventory_materials_used": {
+            "transition_8": {
+                "stone": 4
+            },
+            "transition_3": {
+                "stone": 4
+            },
+            "transition_7": {
+                "stone": 4
+            },
+            "transition_2": {
+                "stone": 4
+            },
+            "transition_10": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "4": {
+        "inventory_materials_used": {
+            "transition_3": {
+                "stone": 4
+            },
+            "transition_4": {
+                "stone": 4
+            },
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_7": {
+                "stone": 4
+            },
+            "transition_10": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "5": {
+        "inventory_materials_used": {
+            "transition_11": {
+                "stone": 4
+            },
+            "transition_3": {
+                "stone": 4
+            },
+            "transition_10": {
+                "stone": 4
+            },
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_6": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "6": {
+        "inventory_materials_used": {
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_4": {
+                "stone": 4
+            },
+            "transition_9": {
+                "stone": 4
+            },
+            "transition_0": {
+                "stone": 4
+            },
+            "transition_11": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "7": {
+        "inventory_materials_used": {
+            "transition_8": {
+                "stone": 4
+            },
+            "transition_0": {
+                "stone": 4
+            },
+            "transition_9": {
+                "stone": 4
+            },
+            "transition_5": {
+                "stone": 4
+            },
+            "transition_1": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "8": {
+        "inventory_materials_used": {
+            "transition_1": {
+                "stone": 4
+            },
+            "transition_6": {
+                "stone": 4
+            },
+            "transition_8": {
+                "stone": 4
+            },
+            "transition_7": {
+                "stone": 4
+            },
+            "transition_2": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    },
+    "9": {
+        "inventory_materials_used": {
+            "transition_0": {
+                "stone": 4
+            },
+            "transition_1": {
+                "stone": 4
+            },
+            "transition_2": {
+                "stone": 4
+            },
+            "transition_4": {
+                "stone": 4
+            },
+            "transition_8": {
+                "stone": 4
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 4
+        }
+    }
+}

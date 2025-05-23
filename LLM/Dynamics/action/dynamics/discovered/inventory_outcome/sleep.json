@@ -1,0 +1,668 @@
+{
+    "0": {
+        "increase": {
+            "transition_8": {
+                "inventory_increase": {
+                    "iron": 3,
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "health": 5,
+                    "food": 2,
+                    "drink": -3,
+                    "energy": 2
+                }
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "coal": 2
+                },
+                "status_increase": {
+                    "health": 5,
+                    "food": 2,
+                    "drink": -3,
+                    "energy": 2
+                }
+            },
+            "transition_16": {
+                "inventory_increase": {
+                    "iron": 2
+                },
+                "status_increase": {
+                    "health": 5,
+                    "food": 0,
+                    "drink": -3,
+                    "energy": 2
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "health": 3,
+                    "food": 0,
+                    "drink": -2,
+                    "energy": 2
+                }
+            },
+            "transition_13": {
+                "inventory_increase": {
+                    "iron": 4
+                },
+                "status_increase": {
+                    "health": 4,
+                    "food": 2,
+                    "drink": -3,
+                    "energy": 2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": 2
+            }
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": {
+                    "diamond": 2
+                },
+                "status_increase": {
+                    "health": 9,
+                    "food": 2,
+                    "drink": 8,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "wood": 5,
+                    "coal": 1,
+                    "iron": 1
+                },
+                "status_increase": {
+                    "health": 6,
+                    "food": 8,
+                    "drink": 8,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "diamond": 2,
+                    "coal": 4,
+                    "iron": 3,
+                    "wood": 4
+                },
+                "status_increase": {
+                    "health": 6,
+                    "food": 5,
+                    "drink": 4,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "health": 2,
+                    "food": 7,
+                    "drink": 8,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "sapling": 2,
+                    "wood": 6,
+                    "coal": 1,
+                    "iron": 2
+                },
+                "status_increase": {
+                    "health": 9,
+                    "food": 6,
+                    "drink": 3,
+                    "energy": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_16": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 5,
+                    "food": 2,
+                    "drink": 2,
+                    "energy": 2
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 3,
+                    "food": 1,
+                    "drink": 1,
+                    "energy": 1
+                }
+            },
+            "transition_9": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 3,
+                    "drink": 4,
+                    "energy": 7
+                }
+            },
+            "transition_10": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 0,
+                    "food": 7,
+                    "drink": 1,
+                    "energy": 2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "None"
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_12": {
+                "inventory_increase": {
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "health": null,
+                    "food": 1,
+                    "drink": "increased_to_9",
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "wood": 2,
+                    "stone": 4,
+                    "coal": 1,
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "drink": "increased_to_9",
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "stone": 7,
+                    "coal": 6
+                },
+                "status_increase": {
+                    "health": 2,
+                    "food": 4,
+                    "drink": "increased_to_9",
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "wood": 2,
+                    "stone": 7,
+                    "coal": 4,
+                    "diamond": 2
+                },
+                "status_increase": {
+                    "health": null,
+                    "food": 1,
+                    "drink": 4,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "wood": 3,
+                    "stone": 8
+                },
+                "status_increase": {
+                    "health": 3,
+                    "food": 1,
+                    "drink": 8,
+                    "energy": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_0": {
+                "inventory_increase": {
+                    "coal": 1,
+                    "stone_pickaxe": 1,
+                    "stone_sword": 1
+                },
+                "status_increase": {
+                    "health": 7,
+                    "food": 7,
+                    "drink": 7,
+                    "energy": 2
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "coal": 1,
+                    "stone_pickaxe": 1,
+                    "stone_sword": 1
+                },
+                "status_increase": {
+                    "health": 6,
+                    "food": 8,
+                    "drink": 8,
+                    "energy": 3
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "stone": 3,
+                    "iron": 2,
+                    "coal": 1
+                },
+                "status_increase": {
+                    "health": 2,
+                    "food": 7,
+                    "drink": 8,
+                    "energy": 0
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "stone": 4,
+                    "iron": 2,
+                    "coal": 1,
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "health": 4,
+                    "food": 5,
+                    "drink": 0,
+                    "energy": 5
+                }
+            },
+            "transition_13": {
+                "inventory_increase": {
+                    "wood": 5,
+                    "stone": 4,
+                    "iron": 4,
+                    "diamond": 1,
+                    "coal": 2
+                },
+                "status_increase": {
+                    "health": 3,
+                    "food": 5,
+                    "drink": 0,
+                    "energy": 5
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "None"
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_8": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": 5,
+                    "energy": 5
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 7,
+                    "energy": 5
+                }
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "increased_to_9",
+                    "energy": 3
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 4,
+                    "energy": 2
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 2,
+                    "energy": 2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": 2
+            }
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_16": {
+                "inventory_increase": {
+                    "iron": 0,
+                    "diamond": 0,
+                    "stone_sword": 0,
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "wood_sword": 0,
+                    "iron_pickaxe": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 4,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 3
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "iron": 0,
+                    "diamond": 0,
+                    "stone_sword": 0,
+                    "wood": 7,
+                    "stone": 0,
+                    "coal": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "wood_sword": 0,
+                    "iron_pickaxe": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 3,
+                    "drink": 0,
+                    "energy": 2
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "iron": 0,
+                    "diamond": 0,
+                    "stone_sword": 0,
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "wood_sword": 0,
+                    "iron_pickaxe": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 8
+                }
+            },
+            "transition_13": {
+                "inventory_increase": {
+                    "iron": 0,
+                    "diamond": 0,
+                    "stone_sword": 0,
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "wood_sword": 0,
+                    "iron_pickaxe": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 9,
+                    "energy": 4
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "iron": 0,
+                    "diamond": 0,
+                    "stone_sword": 0,
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "wood_sword": 0,
+                    "iron_pickaxe": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 6
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "energy"
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_3": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "energy"
+                ]
+            },
+            "transition_9": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "energy",
+                    "health"
+                ]
+            },
+            "transition_10": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "energy",
+                    "health"
+                ]
+            },
+            "transition_12": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "energy"
+                ]
+            },
+            "transition_15": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "energy"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                "energy"
+            ]
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_8": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 2,
+                    "food": 4,
+                    "drink": 0,
+                    "energy": 3
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "coal": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 3
+                }
+            },
+            "transition_16": {
+                "inventory_increase": {
+                    "iron": 2
+                },
+                "status_increase": {
+                    "health": -2,
+                    "food": 5,
+                    "drink": 5,
+                    "energy": 3
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "coal": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 3
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "stone": -8,
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": -9,
+                    "energy": 3
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": 3
+            }
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": {
+                    "coal": 3,
+                    "iron": 1
+                },
+                "status_increase": {
+                    "food": 4,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "wood": 4
+                },
+                "status_increase": {
+                    "food": 4,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "diamond": 1,
+                    "iron": 1,
+                    "wood_sword": 1
+                },
+                "status_increase": {
+                    "health": 2,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "iron": 2,
+                    "diamond": 1,
+                    "wood": 2,
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": 4,
+                    "food": 4,
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "coal": 6
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 6
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    }
+}

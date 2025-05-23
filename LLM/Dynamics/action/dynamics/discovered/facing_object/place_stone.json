@@ -1,0 +1,142 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_24": "grass",
+            "transition_30": "lava",
+            "transition_11": "lava",
+            "transition_70": "water",
+            "transition_40": "path"
+        },
+        "all_facing_objects_before_action": [
+            "grass",
+            "lava",
+            "water",
+            "path"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_97": "water",
+            "transition_60": "path",
+            "transition_101": "path",
+            "transition_84": "lava",
+            "transition_56": "stone"
+        },
+        "all_facing_object_before_action": [
+            "water",
+            "path",
+            "lava",
+            "stone"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_121": "grass",
+            "transition_15": "water",
+            "transition_118": "path",
+            "transition_32": "lava",
+            "transition_115": "water"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "water",
+            "path",
+            "lava"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_136": "lava",
+            "transition_68": "lava",
+            "transition_85": "lava",
+            "transition_118": "path",
+            "transition_81": "path"
+        },
+        "all_facing_object_before_action": [
+            "lava",
+            "path"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_14": "water",
+            "transition_106": "lava",
+            "transition_68": "lava",
+            "transition_41": "path",
+            "transition_124": "water"
+        },
+        "all_facing_objects_before_action": [
+            "water",
+            "lava",
+            "path"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_109": "lava",
+            "transition_128": "path",
+            "transition_24": "grass",
+            "transition_87": "path",
+            "transition_92": "lava"
+        },
+        "all_facing_object_before_action": [
+            "lava",
+            "path",
+            "grass"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_97": "water",
+            "transition_1": "path",
+            "transition_130": "path",
+            "transition_121": "grass",
+            "transition_13": "water"
+        },
+        "all_facing_object_before_action": [
+            "water",
+            "path",
+            "grass"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_3": "path",
+            "transition_65": "path",
+            "transition_74": "path",
+            "transition_125": "water",
+            "transition_30": "lava"
+        },
+        "all_facing_object_before_action": [
+            "path",
+            "water",
+            "lava"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_48": "lava",
+            "transition_47": "lava",
+            "transition_105": "lava",
+            "transition_115": "water",
+            "transition_95": "water"
+        },
+        "all_facing_object_before_action": [
+            "lava",
+            "water"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_110": "lava",
+            "transition_15": "water",
+            "transition_32": "lava",
+            "transition_119": "water",
+            "transition_112": "water"
+        },
+        "all_facing_object_before_action": [
+            "lava",
+            "water"
+        ]
+    }
+}

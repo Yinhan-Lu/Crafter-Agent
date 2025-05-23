@@ -1,0 +1,16 @@
+{
+    "0": [
+        "grass"
+    ],
+    "3": [
+        "stone"
+    ],
+    "5": [
+        "plant-ripe"
+    ],
+    "9": [
+        "stone",
+        "plant-ripe",
+        "grass"
+    ]
+}

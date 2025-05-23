@@ -1,0 +1,15 @@
+{
+    "0": {
+        "defeat_zombie": {
+            "General Plan": {
+                "step_1": "Navigate the environment to locate zombies, considering they can spawn on grass or path surfaces.",
+                "step_2": "Move towards a zombie by taking paths such as moving_left, moving_right, moving_up, or moving_down based on the terrain and obstacles.",
+                "step_3": "Ensure you have a weapon like a sword in your inventory to fulfill the requirement for defeating a zombie.",
+                "step_4": "Position within immediate distance of the zombie to engage.",
+                "step_5": "Face the zombie to fulfill the action requirement for defeat_zombie.",
+                "step_6": "Execute the defeat_zombie action to successfully eliminate the zombie."
+            },
+            "termination_condition": "The current state indicates there are no zombies within immediate or nearby distance."
+        }
+    }
+}

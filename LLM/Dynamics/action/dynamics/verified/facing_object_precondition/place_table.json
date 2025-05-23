@@ -1,0 +1,35 @@
+{
+    "0": {
+        "grass": ""
+    },
+    "1": {
+        "path": true,
+        "grass": true
+    },
+    "2": [
+        "path",
+        "grass"
+    ],
+    "3": {
+        "grass": [
+            "transition_0",
+            "transition_4",
+            "transition_9",
+            "transition_19"
+        ],
+        "path": [
+            "transition_1"
+        ]
+    },
+    "4": [
+        "grass"
+    ],
+    "6": [
+        "grass",
+        "path"
+    ],
+    "7": [
+        "grass",
+        "path"
+    ]
+}

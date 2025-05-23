@@ -1,0 +1,19 @@
+{
+    "4": {
+        "inventory_increase": {
+            "stone": 1
+        },
+        "status_increase": {
+            "health": 0,
+            "food": 0,
+            "drink": 0,
+            "energy": 0
+        }
+    },
+    "8": {
+        "inventory_increase": {
+            "stone": 1
+        },
+        "status_increase": {}
+    }
+}

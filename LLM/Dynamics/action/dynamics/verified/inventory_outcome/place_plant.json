@@ -1,0 +1,30 @@
+{
+    "0": {
+        "inventory_increase": {
+            "sapling": -1
+        },
+        "status_increase": "None"
+    },
+    "2": {
+        "inventory_increase": {},
+        "status_increase": {}
+    },
+    "3": {
+        "inventory_increase": {
+            "sapling": -1
+        },
+        "status_increase": "None"
+    },
+    "4": {
+        "inventory_increase": {
+            "sapling": -1
+        },
+        "status_increase": "None"
+    },
+    "8": {
+        "inventory_increase": {
+            "sapling": -1
+        },
+        "status_increase": "None"
+    }
+}

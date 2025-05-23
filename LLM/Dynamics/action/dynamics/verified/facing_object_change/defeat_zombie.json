@@ -1,0 +1,18 @@
+{
+    "2": {
+        "from": "zombie",
+        "to": "grass"
+    },
+    "4": {
+        "from": "zombie",
+        "to": "grass"
+    },
+    "5": {
+        "from": "zombie",
+        "to": "grass"
+    },
+    "8": {
+        "from": "zombie",
+        "to": "grass"
+    }
+}

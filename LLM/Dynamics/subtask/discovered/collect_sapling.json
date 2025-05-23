@@ -1,0 +1,13 @@
+{
+    "0": {
+        "collect_sapling": {
+            "General Plan": {
+                "step_1": "Identify and navigate towards an area with grass, ensuring it is within immediate distance.",
+                "step_2": "Face the grass to fulfill the action requirement.",
+                "step_3": "Make sure you have empty slots in the inventory by discarding any non-essential items.",
+                "step_4": "Execute the collect_sapling action."
+            },
+            "termination_condition": "The inventory's sapling amount increased by 1, or the food, drink, or energy levels are critically low, or there are dangerous entities like zombies or skeletons nearby."
+        }
+    }
+}

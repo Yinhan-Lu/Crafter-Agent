@@ -1,0 +1,270 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_2": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_8": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_9": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_8": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_9": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_9": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_5": {
+                "from": "furnace on the east",
+                "to": "furnace on the east"
+            },
+            "transition_2": {
+                "from": "furnace on the east",
+                "to": "furnace on the east"
+            },
+            "transition_3": {
+                "from": "furnace on the south",
+                "to": "furnace on the south"
+            },
+            "transition_9": {
+                "from": "furnace on the south",
+                "to": "furnace on the south"
+            },
+            "transition_0": {
+                "from": "furnace on the north",
+                "to": "furnace on the north"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "facing furnace on the north",
+                "to": "facing furnace on the north"
+            },
+            "transition_4": {
+                "from": "facing furnace on the east",
+                "to": "facing furnace on the east"
+            },
+            "transition_5": {
+                "from": "facing furnace on the east",
+                "to": "facing furnace on the east"
+            },
+            "transition_6": {
+                "from": "facing furnace on the south",
+                "to": "facing furnace on the south"
+            },
+            "transition_9": {
+                "from": "facing furnace on the south",
+                "to": "facing furnace on the south"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_4": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_2": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_9": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_1": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_9": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "furnace",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "furnace",
+            "to": "furnace"
+        }
+    }
+}

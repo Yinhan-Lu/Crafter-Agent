@@ -1,0 +1,13 @@
+{
+    "0": {
+        "place_plant": {
+            "General Plan": {
+                "step_1": "Ensure that the player is facing either grass or path. If not, navigate to face grass or path.",
+                "step_2": "Verify the inventory has at least one sapling. If not, gather sapling by mining or collecting nearby resources until a sapling is acquired.",
+                "step_3": "Stand within immediate distance of the target placement location (grass or path).",
+                "step_4": "Execute the place_plant action to plant the sapling."
+            },
+            "termination_condition": "The facing object changes to 'plant', or the food, drink, or energy levels are low, or there are hostile entities like zombies or skeletons nearby."
+        }
+    }
+}

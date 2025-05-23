@@ -1,0 +1,402 @@
+{
+    "0": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_8": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_7": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_2": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_12": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_2": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_3": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_0": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_12": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_11": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_12": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_11": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_8": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_3": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_0": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_3": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_8": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_1": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_11": {
+                "inventory_increase": [
+                    "stone_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": {
+                    "stone_sword": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "stone_sword": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "stone_sword": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "stone_sword": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "stone_sword": 1
+                },
+                "status_increase": "None"
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "stone_sword": 1
+            },
+            "status_increase": "None"
+        }
+    }
+}

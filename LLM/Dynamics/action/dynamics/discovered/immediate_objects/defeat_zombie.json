@@ -1,0 +1,281 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_2": [
+                "stone",
+                "path",
+                "zombie"
+            ],
+            "transition_1": [
+                "grass",
+                "cow",
+                "zombie"
+            ],
+            "transition_13": [
+                "grass",
+                "zombie"
+            ],
+            "transition_14": [
+                "grass",
+                "zombie"
+            ],
+            "transition_6": [
+                "stone",
+                "coal",
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_2": [
+                "path",
+                "stone",
+                "grass",
+                "zombie"
+            ],
+            "transition_12": [
+                "zombie",
+                "grass"
+            ],
+            "transition_16": [
+                "zombie",
+                "grass",
+                "path",
+                "stone"
+            ],
+            "transition_11": [
+                "zombie",
+                "path",
+                "stone"
+            ],
+            "transition_15": [
+                "grass",
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_1": [
+                "grass",
+                "cow",
+                "zombie"
+            ],
+            "transition_2": [
+                "path",
+                "stone",
+                "zombie"
+            ],
+            "transition_3": [
+                "grass",
+                "zombie"
+            ],
+            "transition_4": [
+                "grass",
+                "tree",
+                "zombie"
+            ],
+            "transition_15": [
+                "grass",
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_19": [
+                "zombie"
+            ],
+            "transition_0": [
+                "zombie"
+            ],
+            "transition_9": [
+                "zombie"
+            ],
+            "transition_8": [
+                "zombie"
+            ],
+            "transition_1": [
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_1": [
+                "zombie"
+            ],
+            "transition_2": [
+                "stone",
+                "zombie"
+            ],
+            "transition_8": [
+                "zombie"
+            ],
+            "transition_14": [
+                "zombie"
+            ],
+            "transition_20": [
+                "stone",
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_17": [
+                "zombie"
+            ],
+            "transition_8": [
+                "zombie"
+            ],
+            "transition_14": [
+                "zombie"
+            ],
+            "transition_7": [
+                "zombie"
+            ],
+            "transition_9": [
+                "zombie"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_0": [
+                "grass",
+                "zombie"
+            ],
+            "transition_2": [
+                "path",
+                "stone",
+                "zombie"
+            ],
+            "transition_17": [
+                "zombie",
+                "grass"
+            ],
+            "transition_19": [
+                "zombie",
+                "grass"
+            ],
+            "transition_21": [
+                "zombie",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_22": [
+                "zombie",
+                "path",
+                "lava"
+            ],
+            "transition_18": [
+                "water",
+                "zombie",
+                "grass",
+                "path"
+            ],
+            "transition_4": [
+                "grass",
+                "tree",
+                "zombie"
+            ],
+            "transition_5": [
+                "grass",
+                "zombie"
+            ],
+            "transition_7": [
+                "zombie",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_17": [
+                "zombie",
+                "grass"
+            ],
+            "transition_22": [
+                "zombie",
+                "path",
+                "lava"
+            ],
+            "transition_19": [
+                "zombie",
+                "grass"
+            ],
+            "transition_11": [
+                "zombie",
+                "path",
+                "stone"
+            ],
+            "transition_1": [
+                "zombie",
+                "grass",
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_11": [
+                "zombie",
+                "path",
+                "stone"
+            ],
+            "transition_17": [
+                "zombie",
+                "grass"
+            ],
+            "transition_21": [
+                "zombie",
+                "grass"
+            ],
+            "transition_1": [
+                "zombie",
+                "grass",
+                "cow"
+            ],
+            "transition_13": [
+                "zombie",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "zombie"
+        ]
+    }
+}

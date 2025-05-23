@@ -1,0 +1,12 @@
+{
+    "0": {
+        "collect_stone": {
+            "General Plan": {
+                "step_1": "Locate a stone block within the immediate distance by navigating the environment.",
+                "step_2": "Face the stone block to fulfill the precondition for the collect_stone action.",
+                "step_3": "Once the stone block is within the immediate distance and the agent is facing it, execute the collect_stone action."
+            },
+            "termination_condition": "The inventory's stone amount increases by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

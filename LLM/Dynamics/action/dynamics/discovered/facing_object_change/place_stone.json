@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_73": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_35": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_88": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_87": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_125": {
+                "from": "path",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "varied",
+            "to": "stone"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_103": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_27": {
+                "from": "grass",
+                "to": "stone"
+            },
+            "transition_104": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_26": {
+                "from": "grass",
+                "to": "stone"
+            },
+            "transition_0": {
+                "from": "path",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "various",
+            "to": "stone"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_75": {
+                "from": "path on the east",
+                "to": "stone on the east"
+            },
+            "transition_50": {
+                "from": "path on the west",
+                "to": "stone on the west"
+            },
+            "transition_2": {
+                "from": "path on the north",
+                "to": "stone on the north"
+            },
+            "transition_31": {
+                "from": "lava on the north",
+                "to": "stone on the north"
+            },
+            "transition_97": {
+                "from": "water on the east",
+                "to": "stone on the east"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "various objects",
+            "to": "stone"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_2": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_3": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "stone"
+            },
+            "transition_5": {
+                "from": "water",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "any",
+            "to": "stone"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "water on the east",
+                "to": "stone on the east"
+            },
+            "transition_2": {
+                "from": "lava on the east",
+                "to": "stone on the east"
+            },
+            "transition_3": {
+                "from": "stone on the north",
+                "to": "stone on the north"
+            },
+            "transition_4": {
+                "from": "path on the west",
+                "to": "stone on the west"
+            },
+            "transition_5": {
+                "from": "path on the south",
+                "to": "stone on the south"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "varies",
+            "to": "stone"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_104": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_62": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_106": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_116": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_33": {
+                "from": "path",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "various",
+            "to": "stone"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_110": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_70": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_117": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_84": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_100": {
+                "from": "path",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "any",
+            "to": "stone"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_94": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_55": {
+                "from": "grass",
+                "to": "stone"
+            },
+            "transition_11": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_79": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_30": {
+                "from": "lava",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "any",
+            "to": "stone"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_11": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_93": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_7": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_58": {
+                "from": "path",
+                "to": "stone"
+            },
+            "transition_68": {
+                "from": "lava",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "Any",
+            "to": "stone"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_109": {
+                "from": "lava",
+                "to": "stone"
+            },
+            "transition_22": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_27": {
+                "from": "grass",
+                "to": "stone"
+            },
+            "transition_72": {
+                "from": "water",
+                "to": "stone"
+            },
+            "transition_74": {
+                "from": "path",
+                "to": "stone"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "various",
+            "to": "stone"
+        }
+    }
+}

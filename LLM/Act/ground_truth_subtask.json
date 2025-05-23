@@ -1,0 +1,259 @@
+{
+    "collect_coal": {
+        "General Plan": {
+            "step_1": "Explore the environment to locate coal blocks, which can be identified by their distinct texture compared to other stone blocks.",
+            "step_2": "Navigate you to be within a 1-block distance from the coal, ensuring there are no obstacles directly between you and the coal.",
+            "step_3": "Ensure you are facing the coal block directly to interact with it.",
+            "step_4": "Use the 'collect_coal' action to mine the coal block, which converts the block into a collectible item in the inventory.",
+            "step_5": "Repeat the process for additional coal blocks as necessary, monitoring your health, hunger, and tool durability."
+        },
+        "Pre-conditions": "{'wood_pickaxe': 1}",
+        "Outcome": "{'coal': 1}", 
+        "Note": "Collecting coal does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's coal amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_diamond": {
+        "General Plan": {
+            "step_1": "Explore the environment to locate a diamond block.",
+            "step_2": "Navigate through obstacles and terrain to reach the diamond.",
+            "step_3": "Ensure to meet the requirement of facing the diamond block and being within a 1-block distance.",
+            "step_4": "Collect the diamond.",
+            "step_5": "Safely navigate back or continue with the next objective."
+        },
+        "Pre-conditions": "{'iron_pickaxe': 1}",
+        "Outcome": "{'diamond': 1}",
+        "Note": "Collecting diamond does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's diamond amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_water": {
+        "General Plan": {
+            "step_1": "Move towards water source as it's the fundamental requirement for the collect_water action.", 
+            "step_2": "Ensure to have no obstacles like walls or enemies in the direct path to the water source to avoid unnecessary actions.",
+            "step_3": "Stand adjacent to the water block ensuring you are facing the water.",
+            "step_4": "Perform the 'collect_water' action to increase the drink by 1 repeatly until you reach the maximum level of drink 9."
+        },
+        "Pre-conditions": "None",
+        "Outcome": "reaching the maximum level of drink 9",
+        "Note": "Collecting water does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's water amount increased to 9 or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_iron": {
+        "General Plan": {
+            "step_1": "Identify the location of iron blocks within the environment.",
+            "step_2": "Navigate towards the identified iron block(s), taking the shortest and safest route possible.",
+            "step_3": "Position you adjacent to the iron block and face it directly.",
+            "step_4": "Execute the 'collect_iron' action to mine the iron.",
+            "step_5": "Repeat the process for other accessible iron blocks if necessary.",
+            "step_6": "Manage health, food, drink, and energy levels to sustain the mining activity and navigation."
+        },
+        "Pre-conditions": "{'stone_pickaxe': 1}",
+        "Outcome": "{'iron': 1}",
+        "Note": "Collecting iron does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's iron amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_stone": {
+        "General Plan": {
+            "step_1": "Identify the location of stone blocks in the environment.",
+            "step_2": "Navigate towards the stone blocks, making sure to adjust movement based on the environment's layout.",
+            "step_3": "Position you in front of the stone block to meet the 'face the object' requirement.",
+            "step_4": "Perform the collect_stone action to collect the stone. This action changes the stone block to a path.",
+            "step_5": "Repeat steps 2 to 4 as necessary to collect the desired amount of stone blocks."
+        },
+        "Pre-conditions": "{'wood_pickaxe': 1}",
+        "Outcome": "{'stone': 1}",
+        "termination_condition": "The inventory's stone amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_wood": {
+        "General Plan": {
+            "step_1": "Locate a tree within the environment.",
+            "step_2": "Navigate towards the tree ensuring to avoid or navigate around obstacles.",
+            "step_3": "Position you adjacent to the tree.",
+            "step_4": "Orient you to face the tree directly.",
+            "step_5": "Perform the action 'collect_wood' to gather wood from the tree."
+        },
+        "Pre-conditions": "None",
+        "Outcome": "{'wood': 1}",
+        "Note": "Collecting wood does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's wood amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "defeat_skeleton": {
+        "General Plan": {
+            "step_1": "Locate the skeleton. This might involve exploring the environment to find where the skeleton is.",
+            "step_2": "Move towards the skeleton. Ensure you are within a 1-block distance to engage.",
+            "step_3": "Face the skeleton. Orientation is crucial to successfully carry out the attack.",
+            "step_4": "Attack the skeleton by performing 'do(mine_or_collect_or_attack)' or the relevant action based on game mechanics until it is defeated."
+        },
+        "Pre-conditions": "{'wood_sword': 1}",
+        "Outcome": "{}",
+        "Note": "Defeating skeleton does not consume food, drink, or energy.",
+        "termination_condition": "there are no skeletons nearby with no obstacles in between."
+    },
+    "defeat_zombie": {
+        "General Plan": {
+            "step_1": "Navigate the environment to locate zombies, considering they can spawn on grass or path surfaces.",
+            "step_2": "Maintain health, food, drink, and energy levels to ensure you can withstand zombie attacks and travel the environment.",
+            "step_3": "Position you within a 1-block distance of a zombie to engage.",
+            "step_4": "Face the zombie to fulfill the action requirement for defeat_zombie.",
+            "step_5": "Execute the defeat_zombie action to successfully eliminate the zombie."
+        },
+        "Pre-conditions": "{'wood_sword': 1}",
+        "Outcome": "{}",
+        "Note": "Defeating zombie does not consume food, drink, or energy.",
+        "termination_condition": "there are no zombies nearby."
+    },
+    "eat_cow": {
+        "General Plan": {
+            "step_1": "Locate a cow within the environment.",
+            "step_2": "Move towards the cow ensuring to maintain or reach a 1-block distance.",
+            "step_3": "Face the cow directly to meet the action requirement.",
+            "step_4": "Perform the action eat_cow to complete the task."
+        },
+        "Pre-conditions": "{'wood_sword': 1}",
+        "Outcome": "{'food': 6} or reaching the maxim of food level 9",
+        "Note": "Eating cow does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's food amount increased by 6 or reached 9, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_iron_pickaxe": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table and furnace",
+            "step_2": "Standing 1-block away from both the table and furnace",
+            "step_3": "Use the crafting table and furnace to make an iron pickaxe."
+        },
+        "Pre-conditions": "{'wood': 1, 'coal': 1, 'iron': 1, 'table': exist, 'furnace: exist}",
+        "Outcome": "{iron_pickaxe': 1}",
+        "Note": "Making iron pickaxe does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's iron_pickaxe amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_iron_sword": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table and furnace",
+            "step_2": "Standing 1-block away from both the table and furnace",
+            "step_3": "Use the crafting table and furnace to make an iron sword."
+        },
+        "Pre-conditions": "{'wood': 1, 'coal': 1, 'iron': 1, 'table': exist, 'furnace: exist}",
+        "Outcome": "{iron_sword': 1}",
+        "Note": "Making iron sword does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's iron_sword amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_stone_pickaxe": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table",
+            "step_2": "Standing 1-block away from the table",
+            "step_3": "Use the crafting table to make the stone pickaxe."
+        },
+        "Pre-conditions": "{'wood': 1, 'stone': 1, 'table': exist}",
+        "Outcome": "{stone_pickaxe': 1}",
+        "Note": "Making stone pickaxe does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's stone_pickaxe amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_stone_sword": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table",
+            "step_2": "Standing 1-block away from the table",
+            "step_3": "Use the crafting table to make the stone sword."
+        },
+        "Pre-conditions": "{'wood': 1, 'stone': 1, 'table': exist}",
+        "Outcome": "{stone_sword': 1}",
+        "Note": "Making stone sword does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's stone_sword amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_wood_pickaxe": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table",
+            "step_2": "Standing 1-block away from the table",
+            "step_3": "Use the crafting table to make the wood pickaxe."
+        },
+        "Pre-conditions": "{'wood': 1, 'table': exist}",
+        "Outcome": "{wood_pickaxe': 1}",
+        "Note": "Making wood pickaxe does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's wood_pickaxe amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "make_wood_sword": {
+        "General Plan": {
+            "step_1": "Walk to the nearest table",
+            "step_2": "Standing 1-block away from the table",
+            "step_3": "Use the crafting table to make the wood sword."
+        },
+        "Pre-conditions": "{'wood': 1, 'table': exist}",
+        "Outcome": "{wood_sword': 1}",
+        "Note": "Making wood sword does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's wood_sword amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "place_furnace": {
+        "General Plan": {
+            "step_1": "Moving toward the table; if no table can be found, place the table first.",
+            "step_2": "You can only place the furnace when you are facing grass, sand or path and near the table",
+            "step_3": "Execute the place_furnace action, when it is available."
+        },
+        "Pre-conditions": "{'stone': 4}",
+        "Outcome": "{'furnace': 1}",
+        "Note": "Placing furnace does not consume food, drink, or energy.",
+        "termination_condition": "There is a furnace in the observation and nearby with no obstacles in between, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "place_table": {
+        "General Plan": {
+            "step_1": "Identify a suitable location for the table, ensuring it is on grass or path as per world dynamics.",
+            "step_2": "Place the table within a 1-block distance from you, ensuring you faces towards grass or path surface.",
+            "step_3": "Adjust the placement if needed to ensure it fits well within the environment and usage needs."
+        },
+        "Pre-conditions": "{'wood': 2}",
+        "Outcome": "{'table': 1}",
+        "Note": "Placing table does not consume food, drink, or energy.",
+        "termination_condition": "There is a table in the observation and nearby with no obstacles in between, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "sleep": {
+        "General Plan": {
+            "step_1": "Travel to a safe location that has stones nearby and is distant to any grass",
+            "step_2": "Place stone to further enhance the safety of the location.",
+            "step_3": "Press the sleep action"
+        },
+        "Pre-conditions": "No zombies or skeletons nearby with no obstacles in between with no obstacles in between",
+        "Outcome": "{'energy': 1} or the energy reaches the maximum level 9",
+        "Note": "Sleeping does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's energy amount reached 9, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "place_stone": {
+        "General Plan": {
+            "step_1": "Facing the grass, sand, path or water block",
+            "step_2": "Execute the place_stone action, when it is available."
+        },
+        "Pre-conditions": "{'stone': 1}",
+        "Outcome": "None",
+        "Note": "Placing stone does not consume food, drink, or energy.",
+        "termination_condition": "There is a stone in the observation and nearby with no obstacles in between, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_sapling": {
+        "General Plan": {
+            "step_1": "Move towards grass as it's the fundamental requirement for the collect_sapling action.", 
+            "step_2": "Ensure to have no obstacles or enemies in the direct path to the grass to avoid unnecessary actions.",
+            "step_3": "Stand adjacent to the grass block ensuring you are facing the grass.",
+            "step_4": "Perform the 'collect_sapling' action to increase the sapling by 1."
+        },
+        "Pre-conditions": "None",
+        "Outcome": "{'sapling': 1}",
+        "Note": "Collecting sapling does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's sapling amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "place_plant": {
+        "General Plan": {
+            "step_1": "Facing the grass block",
+            "step_2": "Execute the place_plant action, when it is available."
+        },
+        "Pre-conditions": "{'sapling': 1}",
+        "Outcome": "None",
+        "Note": "Placing plant does not consume food, drink, or energy.",
+        "termination_condition":  "There is a plant in the observation and nearby with no obstacles in between, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    },
+    "collect_plant": {
+        "General Plan": {
+            "step_1": "Move towards plant-ripe as it's the fundamental requirement for the collect_plant action.", 
+            "step_2": "Ensure to have no obstacles or enemies in the direct path to the plant-ripe to avoid unnecessary actions.",
+            "step_3": "Stand adjacent to the plant-ripe block ensuring you are facing the plant-ripe.",
+            "step_4": "Perform the 'collect_plant' action to increase the food level by 4."
+        },
+        "Pre-conditions": "None",
+        "Outcome": "{'food': 4}",
+        "Note": "Collecting plant does not consume food, drink, or energy.",
+        "termination_condition": "The inventory's food amount increased by 4 or reached 9, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby with no obstacles in between."
+    }
+}

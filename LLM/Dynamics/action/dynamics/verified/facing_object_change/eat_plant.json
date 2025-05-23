@@ -1,0 +1,42 @@
+{
+    "0": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "1": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "2": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "3": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "4": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "5": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "6": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "7": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "8": {
+        "from": "plant-ripe",
+        "to": "plant"
+    },
+    "9": {
+        "from": "plant-ripe",
+        "to": "plant"
+    }
+}

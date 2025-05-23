@@ -1,0 +1,377 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_6": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": []
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": []
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": []
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime or nighttime. The agent's health, food, drink, and energy statuses change when collecting wood, possibly due to associated risks or efforts."
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "stone": 8
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "sand"
+            ],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Daytime"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_6": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "The tree must be within immediate distance, meaning the tree is right next to the agent."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "The tree must be within immediate distance, meaning the tree is right next to the agent. The agent does not necessarily have to be facing the tree."
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ]
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ]
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "Daytime or nighttime does not matter"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "Daytime or nighttime does not matter"
+        }
+    }
+}

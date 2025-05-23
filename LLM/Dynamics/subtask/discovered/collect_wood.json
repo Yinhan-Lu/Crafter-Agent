@@ -1,0 +1,13 @@
+{
+    "0": {
+        "collect_wood": {
+            "General Plan": {
+                "step_1": "Locate a tree, ensuring 'tree' is within immediate distance.",
+                "step_2": "Move closer to the tree if it's not within immediate distance. This may involve navigating around obstacles such as grass, stone, or paths.",
+                "step_3": "Face the tree to meet the precondition of the action.",
+                "step_4": "Execute the 'collect_wood' action to gather wood from the tree."
+            },
+            "termination_condition": "The inventory's wood amount increases by 1, or if health, food, drink, or energy levels drop critically low, or a threat (such as skeletons or zombies) is detected nearby."
+        }
+    }
+}

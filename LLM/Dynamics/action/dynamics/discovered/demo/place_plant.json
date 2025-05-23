@@ -1,0 +1,403 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It must be nighttime."
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "path",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Can be daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "Can be daytime or nighttime"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": null
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It can be daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "The agent's health, food, drink, and energy levels do not matter"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "The environment can contain different objects nearby, including path, stone, coal, skeleton, tree, sand, water"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ]
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "an arrow will not hit you",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "Requires the time to be Nighttime"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "Requires the time to be Daytime"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Requires no immediate paths around"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "Day or night"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "Day or night"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "The time of day does not affect the pre-conditions"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "path",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "path"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "sand"
+            ],
+            "other_preconditions": "Time of day: It is daytime"
+        }
+    }
+}

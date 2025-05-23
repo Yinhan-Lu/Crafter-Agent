@@ -1,0 +1,98 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_0": "zombie",
+            "transition_5": "zombie",
+            "transition_7": "zombie",
+            "transition_10": "zombie",
+            "transition_15": "zombie"
+        },
+        "all_facing_object_before_action": [
+            "zombie"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_11": "zombie",
+            "transition_10": "zombie",
+            "transition_12": "zombie",
+            "transition_8": "zombie",
+            "transition_20": "zombie"
+        },
+        "all_facing_object_before_action": [
+            "zombie"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_7": "zombie",
+            "transition_10": "zombie",
+            "transition_11": "zombie",
+            "transition_2": "zombie",
+            "transition_21": "zombie"
+        },
+        "all_facing_object_before_action": {
+            "zombie": true
+        }
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_0": "zombie",
+            "transition_20": "zombie",
+            "transition_17": "zombie",
+            "transition_5": "zombie",
+            "transition_1": "zombie"
+        },
+        "all_facing_object_before_action": [
+            "zombie"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_0": "zombie",
+            "transition_13": "zombie",
+            "transition_22": "zombie",
+            "transition_5": "zombie",
+            "transition_2": "zombie"
+        },
+        "all_facing_object_before_action": {
+            "facing_object_before_action": "zombie"
+        }
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_1": "zombie",
+            "transition_3": "zombie",
+            "transition_8": "zombie",
+            "transition_11": "zombie",
+            "transition_22": "zombie"
+        },
+        "all_facing_object_before_action": [
+            "zombie"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_9": "zombie",
+            "transition_14": "zombie",
+            "transition_16": "zombie",
+            "transition_20": "zombie",
+            "transition_12": "zombie"
+        },
+        "all_facing_object_before_action": [
+            "zombie"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_4": "zombie",
+            "transition_8": "zombie",
+            "transition_17": "zombie",
+            "transition_18": "zombie",
+            "transition_22": "zombie"
+        },
+        "all_facing_object_before_action": {
+            "zombie": "."
+        }
+    }
+}

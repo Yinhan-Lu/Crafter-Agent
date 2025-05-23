@@ -1,0 +1,13 @@
+{
+    "0": {
+        "make_iron_sword": {
+            "General Plan": {
+                "step_1": "Ensure you have the required resources in your inventory: coal (1), iron (1), and wood (1).",
+                "step_2": "Locate and position yourself within immediate distance of a furnace and a table.",
+                "step_3": "Face one of the following objects: grass, path, furnace, or stone.",
+                "step_4": "Execute the make_iron_sword action."
+            },
+            "termination_condition": "The inventory's iron_sword amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

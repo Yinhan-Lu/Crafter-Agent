@@ -1,0 +1,448 @@
+{
+    "0": {
+        "increase": {
+            "transition_9": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_13": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_sword": 1,
+                    "status_increase": "None"
+                },
+                "transition_10": {
+                    "inventory_increase": {
+                        "iron_sword": 1,
+                        "status_increase": "None"
+                    },
+                    "transition_13": {
+                        "inventory_increase": {
+                            "iron_sword": 1
+                        },
+                        "status_increase": "None"
+                    },
+                    "transition_14": {
+                        "inventory_increase": {
+                            "iron_sword": 1
+                        },
+                        "status_increase": "None"
+                    },
+                    "transition_8": {
+                        "inventory_increase": {
+                            "iron_sword": 1
+                        },
+                        "status_increase": "None"
+                    }
+                },
+                "common_increase": {
+                    "inventory_increase": {
+                        "iron_sword": 1
+                    },
+                    "status_increase": "None"
+                }
+            }
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_7": {
+                "inventory_increase": [
+                    "iron_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "iron_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "iron_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "iron_sword"
+                ],
+                "status_increase": []
+            },
+            "transition_4": {
+                "inventory_increase": [
+                    "iron_sword"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "iron_sword"
+            ],
+            "status_increase": []
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                },
+                "transition_12": {
+                    "inventory_increase": {
+                        "iron_sword": 1
+                    },
+                    "status_increase": {
+                        "None": "None"
+                    },
+                    "transition_6": {
+                        "inventory_increase": {
+                            "iron_sword": 1
+                        },
+                        "status_increase": {
+                            "None": "None"
+                        },
+                        "transition_11": {
+                            "inventory_increase": {
+                                "iron_sword": 1
+                            },
+                            "status_increase": {
+                                "None": "None"
+                            },
+                            "transition_3": {
+                                "inventory_increase": {
+                                    "iron_sword": 1
+                                },
+                                "status_increase": {
+                                    "None": "None"
+                                }
+                            },
+                            "common_increase": {
+                                "inventory_increase": {
+                                    "iron_sword": 1
+                                },
+                                "status_increase": {
+                                    "None": "None"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_8": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": {
+                "energy": -1
+            }
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_3": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_10": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_9": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": "3/9"
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": "7/9"
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": "4/9"
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": "6/9"
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "energy": "9/9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_14": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "iron_sword": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_sword": 1
+            },
+            "status_increase": "None"
+        }
+    }
+}

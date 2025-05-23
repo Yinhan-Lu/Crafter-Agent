@@ -1,0 +1,328 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_23": [
+                "iron",
+                "path",
+                "stone"
+            ],
+            "transition_45": [
+                "stone",
+                "path",
+                "lava",
+                "iron"
+            ],
+            "transition_18": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_47": [
+                "stone",
+                "iron",
+                "diamond"
+            ],
+            "transition_9": [
+                "iron",
+                "path",
+                "stone",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_7": [
+                "iron",
+                "stone",
+                "path",
+                "grass"
+            ],
+            "transition_76": [
+                "stone",
+                "iron"
+            ],
+            "transition_3": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_50": [
+                "path",
+                "grass",
+                "stone",
+                "iron"
+            ],
+            "transition_18": [
+                "iron",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_13": [
+                "stone",
+                "iron",
+                "path"
+            ],
+            "transition_8": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_38": [
+                "path",
+                "iron"
+            ],
+            "transition_28": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_11": [
+                "iron",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_67": [
+                "stone",
+                "iron",
+                "lava",
+                "path"
+            ],
+            "transition_48": [
+                "stone",
+                "iron",
+                "path",
+                "coal"
+            ],
+            "transition_10": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_39": [
+                "iron",
+                "stone",
+                "path",
+                "diamond"
+            ],
+            "transition_56": [
+                "path",
+                "iron",
+                "lava",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_51": [
+                "sand",
+                "path",
+                "iron",
+                "table"
+            ],
+            "transition_0": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_64": [
+                "path",
+                "iron",
+                "stone"
+            ],
+            "transition_76": [
+                "stone",
+                "iron"
+            ],
+            "transition_46": [
+                "path",
+                "iron",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_45": [
+                "stone",
+                "path",
+                "lava",
+                "iron"
+            ],
+            "transition_41": [
+                "path",
+                "grass",
+                "iron",
+                "stone"
+            ],
+            "transition_71": [
+                "zombie",
+                "stone",
+                "iron",
+                "grass"
+            ],
+            "transition_17": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_74": [
+                "stone",
+                "path",
+                "iron"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_55": [
+                "stone",
+                "iron",
+                "tree",
+                "lava"
+            ],
+            "transition_43": [
+                "stone",
+                "iron"
+            ],
+            "transition_23": [
+                "iron",
+                "stone"
+            ],
+            "transition_48": [
+                "iron",
+                "stone",
+                "coal"
+            ],
+            "transition_10": [
+                "iron",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone",
+            "iron"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_70": [
+                "iron",
+                "stone",
+                "path"
+            ],
+            "transition_9": [
+                "iron",
+                "stone",
+                "path",
+                "lava"
+            ],
+            "transition_55": [
+                "iron",
+                "stone",
+                "grass",
+                "lava",
+                "tree"
+            ],
+            "transition_71": [
+                "iron",
+                "stone",
+                "grass",
+                "zombie"
+            ],
+            "transition_68": [
+                "iron",
+                "stone",
+                "path",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron",
+            "stone"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_1": [
+                "iron",
+                "stone"
+            ],
+            "transition_10": [
+                "iron"
+            ],
+            "transition_41": [
+                "iron"
+            ],
+            "transition_14": [
+                "iron"
+            ],
+            "transition_7": [
+                "iron"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_4": [
+                "iron",
+                "stone"
+            ],
+            "transition_26": [
+                "path",
+                "iron"
+            ],
+            "transition_71": [
+                "stone",
+                "iron",
+                "grass",
+                "zombie"
+            ],
+            "transition_51": [
+                "path",
+                "sand",
+                "iron",
+                "table"
+            ],
+            "transition_64": [
+                "path",
+                "iron",
+                "stone",
+                "coal"
+            ]
+        },
+        "common_immediate_objects": [
+            "iron"
+        ]
+    }
+}

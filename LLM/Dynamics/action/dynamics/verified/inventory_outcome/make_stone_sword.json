@@ -1,0 +1,32 @@
+{
+    "4": {
+        "inventory_increase": [
+            "stone_sword"
+        ],
+        "status_increase": []
+    },
+    "6": {
+        "inventory_increase": [
+            "stone_sword"
+        ],
+        "status_increase": []
+    },
+    "7": {
+        "inventory_increase": [
+            "stone_sword"
+        ],
+        "status_increase": []
+    },
+    "8": {
+        "inventory_increase": [
+            "stone_sword"
+        ],
+        "status_increase": []
+    },
+    "9": {
+        "inventory_increase": {
+            "stone_sword": 1
+        },
+        "status_increase": "None"
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "0": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Not related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "path": "Very related",
+            "sand": "Not related",
+            "plant": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "16": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Very related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "32": {
+        "related_objects": {}
+    },
+    "48": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "64": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "80": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "96": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Very related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Very related",
+            "zombie": "Very related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "112": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "128": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Not related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Not related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "144": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "160": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "176": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "192": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "208": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "224": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Not related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Not related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Not related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "240": {
+        "related_objects": {
+            "diamond": "Very related",
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Very related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "256": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Not related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Not related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "272": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Very related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "288": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Very related",
+            "cow": "Not related",
+            "diamond": "Not related",
+            "iron": "Very related",
+            "lava": "Very related",
+            "skeleton": "Not related",
+            "stone": "Very related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    },
+    "304": {
+        "related_objects": {
+            "grass": "Not related",
+            "coal": "Not related",
+            "cow": "Not related",
+            "diamond": "Very related",
+            "iron": "Not related",
+            "lava": "Not related",
+            "skeleton": "Not related",
+            "stone": "Not related",
+            "tree": "Not related",
+            "water": "Not related",
+            "zombie": "Not related",
+            "plant": "Not related",
+            "path": "Not related",
+            "sand": "Not related",
+            "plant-ripe": "Not related"
+        }
+    }
+}

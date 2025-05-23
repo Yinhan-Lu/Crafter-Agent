@@ -1,0 +1,234 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": [],
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent's facing direction must be towards water."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": [],
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "Water must be within immediate proximity."
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {
+                "None": "None"
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be either daytime or nighttime, facing immediate water."
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": {
+                "time_of_day": [
+                    "daytime",
+                    "nighttime"
+                ]
+            }
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": {
+                "time_of_day": [
+                    "daytime",
+                    "nighttime"
+                ]
+            }
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "water",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "water"
+            ],
+            "other_preconditions": "The action can be performed during daytime or nighttime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The agent's drink status must be less than the maximum (9/9)."
+        }
+    }
+}

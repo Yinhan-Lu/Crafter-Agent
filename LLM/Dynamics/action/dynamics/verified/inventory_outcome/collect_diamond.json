@@ -1,0 +1,31 @@
+{
+    "1": {
+        "inventory_increase": {
+            "diamond": 1
+        },
+        "status_increase": "None"
+    },
+    "2": {
+        "inventory_increase": {
+            "diamond": 1
+        },
+        "status_increase": "None"
+    },
+    "5": {
+        "inventory_increase": [
+            "diamond"
+        ],
+        "status_increase": []
+    },
+    "7": {
+        "inventory_increase": {
+            "diamond": 1
+        },
+        "status_increase": {
+            "health": 0,
+            "food": 0,
+            "drink": 0,
+            "energy": 0
+        }
+    }
+}

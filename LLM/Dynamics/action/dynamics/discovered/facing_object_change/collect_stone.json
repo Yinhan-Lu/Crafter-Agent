@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_256": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_263": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_420": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_159": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_22": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_500": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_202": {
+                "from": "stone on the east",
+                "to": "path on the east"
+            },
+            "transition_113": {
+                "from": "stone on the south",
+                "to": "path on the south"
+            },
+            "transition_304": {
+                "from": "stone on the east",
+                "to": "path on the east"
+            },
+            "transition_60": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_389": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_27": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_364": {
+                "from": "stone on the north",
+                "to": "path on the north"
+            },
+            "transition_395": {
+                "from": "stone on the south",
+                "to": "path on the south"
+            },
+            "transition_18": {
+                "from": "stone on the east",
+                "to": "path on the east"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_269": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_162": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_539": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_379": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_452": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_31": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_7": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_466": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_277": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_257": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "stone (South)",
+                "to": "path (South)"
+            },
+            "transition_2": {
+                "from": "stone (East)",
+                "to": "path (East)"
+            },
+            "transition_3": {
+                "from": "stone (East)",
+                "to": "path (East)"
+            },
+            "transition_4": {
+                "from": "stone (South)",
+                "to": "path (South)"
+            },
+            "transition_5": {
+                "from": "stone (West)",
+                "to": "path (West)"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_244": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_34": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_112": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_321": {
+                "from": "stone",
+                "to": "path"
+            },
+            "transition_555": {
+                "from": "stone",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_368": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_216": {
+                "from": "stone on the east",
+                "to": "path on the east"
+            },
+            "transition_555": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_542": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            },
+            "transition_265": {
+                "from": "stone on the west",
+                "to": "path on the west"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "path"
+        }
+    }
+}

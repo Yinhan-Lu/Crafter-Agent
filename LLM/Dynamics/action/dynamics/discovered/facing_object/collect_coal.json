@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_3": "coal",
+            "transition_33": "coal",
+            "transition_57": "coal",
+            "transition_7": "coal",
+            "transition_26": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_36": "coal",
+            "transition_13": "coal",
+            "transition_1": "coal",
+            "transition_54": "coal",
+            "transition_23": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_8": "coal",
+            "transition_64": "coal",
+            "transition_14": "coal",
+            "transition_37": "coal",
+            "transition_25": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_11": "coal",
+            "transition_2": "coal",
+            "transition_9": "coal",
+            "transition_5": "coal",
+            "transition_33": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_0": "coal",
+            "transition_5": "coal",
+            "transition_19": "coal",
+            "transition_27": "coal",
+            "transition_53": "coal"
+        },
+        "all_facing_object_before_action": {
+            "coal": "coal"
+        }
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_53": "coal",
+            "transition_22": "coal",
+            "transition_25": "coal",
+            "transition_10": "coal",
+            "transition_3": "coal"
+        },
+        "all_facing_object_before_action": {
+            "coal": "coal"
+        }
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_4": "coal",
+            "transition_37": "coal",
+            "transition_1": "coal",
+            "transition_23": "coal",
+            "transition_49": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_46": "coal",
+            "transition_63": "coal",
+            "transition_32": "coal",
+            "transition_47": "coal",
+            "transition_9": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_42": "coal",
+            "transition_13": "coal",
+            "transition_63": "coal",
+            "transition_7": "coal",
+            "transition_48": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_32": "coal",
+            "transition_56": "coal",
+            "transition_41": "coal",
+            "transition_36": "coal",
+            "transition_1": "coal"
+        },
+        "all_facing_object_before_action": [
+            "coal"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "1": {
+        "from": "any object",
+        "to": "Nothing on the None"
+    },
+    "4": {
+        "from": "stone",
+        "to": "Nothing on the None"
+    },
+    "5": {
+        "from": "stone",
+        "to": "Nothing"
+    },
+    "6": {
+        "from": "stone",
+        "to": "Nothing"
+    },
+    "7": "None",
+    "8": {
+        "from": "stone",
+        "to": "Nothing"
+    }
+}

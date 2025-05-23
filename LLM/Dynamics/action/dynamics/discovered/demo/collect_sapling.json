@@ -1,0 +1,335 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "cow",
+                "grass"
+            ],
+            "other_preconditions": "It is nighttime"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It's either daytime or nighttime."
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "Agent must be within a certain distance range from the tree object."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "Agent must have sufficient energy."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": null,
+            "other_preconditions": "Agent may need to have wood in their inventory."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": null,
+            "other_preconditions": "Agent may need to have stone in their inventory."
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "The agent must be facing a tree to collect a sapling from it."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "The agent must be facing a plant to collect a sapling from it."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "sapling",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "The agent must be facing a sapling to collect a new sapling from it."
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "none": 0
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "sapling"
+            ],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "none": 0
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "sapling"
+            ],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "sapling"
+            ],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "tree"
+            ],
+            "other_preconditions": "It must be daytime or nighttime"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {
+                "wood": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "tree",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    }
+}

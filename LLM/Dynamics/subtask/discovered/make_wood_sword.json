@@ -1,0 +1,13 @@
+{
+    "0": {
+        "make_wood_sword": {
+            "General Plan": {
+                "step_1": "Make sure the inventory has 'wood' and is free of specific unnecessary items (e.g., 'None').",
+                "step_2": "Navigate towards an area with 'grass' and a 'table' within immediate distance.",
+                "step_3": "Face either 'grass' or 'table' in the immediate area.",
+                "step_4": "Execute the make_wood_sword action."
+            },
+            "termination_condition": "The inventory has a 'wood_sword', the food, drink, or energy levels are low, or there are zombies or other potential threats nearby."
+        }
+    }
+}

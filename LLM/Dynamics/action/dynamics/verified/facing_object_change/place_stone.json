@@ -1,0 +1,34 @@
+{
+    "1": {
+        "from": "various",
+        "to": "stone"
+    },
+    "2": {
+        "from": "various objects",
+        "to": "stone"
+    },
+    "3": {
+        "from": "any",
+        "to": "stone"
+    },
+    "4": {
+        "from": "varies",
+        "to": "stone"
+    },
+    "6": {
+        "from": "any",
+        "to": "stone"
+    },
+    "7": {
+        "from": "any",
+        "to": "stone"
+    },
+    "8": {
+        "from": "Any",
+        "to": "stone"
+    },
+    "9": {
+        "from": "various",
+        "to": "stone"
+    }
+}

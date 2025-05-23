@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "plant-ripe",
+                "to": "plant"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "plant-ripe",
+            "to": "plant"
+        }
+    }
+}

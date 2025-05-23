@@ -1,0 +1,257 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_4": [
+                "skeleton",
+                "stone",
+                "path"
+            ],
+            "transition_10": [
+                "skeleton",
+                "grass",
+                "path"
+            ],
+            "transition_6": [
+                "skeleton",
+                "stone",
+                "path"
+            ],
+            "transition_2": [
+                "skeleton",
+                "path",
+                "stone"
+            ],
+            "transition_7": [
+                "skeleton",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_1": [
+                "path",
+                "stone",
+                "skeleton"
+            ],
+            "transition_8": [
+                "grass",
+                "tree",
+                "skeleton"
+            ],
+            "transition_3": [
+                "path",
+                "skeleton"
+            ],
+            "transition_12": [
+                "path",
+                "lava",
+                "skeleton"
+            ],
+            "transition_13": [
+                "skeleton",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_10": {
+                "skeleton": "transition_5"
+            },
+            "skeleton": {
+                "transition_9": "skeleton"
+            },
+            "transition_12": "skeleton"
+        },
+        "transition_0": "skeleton"
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_1": {
+                "skeleton": "West",
+                "stone": "South"
+            },
+            "transition_6": {
+                "skeleton": "East",
+                "stone": "North"
+            },
+            "transition_0": {
+                "skeleton": "North",
+                "stone": "West"
+            },
+            "transition_5": {
+                "skeleton": "South"
+            },
+            "transition_12": {
+                "skeleton": "West",
+                "lava": "South"
+            }
+        },
+        "common_immediate_objects": {
+            "skeleton": "present in all transitions"
+        }
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_0": [
+                "skeleton"
+            ],
+            "transition_12": [
+                "skeleton"
+            ],
+            "transition_7": [
+                "skeleton"
+            ],
+            "transition_8": [
+                "skeleton"
+            ],
+            "transition_6": [
+                "skeleton"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_1": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_0": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_3": [
+                "skeleton"
+            ],
+            "transition_6": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_2": [
+                "skeleton",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_12": [
+                "skeleton",
+                "lava",
+                "path"
+            ],
+            "transition_1": [
+                "skeleton",
+                "stone",
+                "path"
+            ],
+            "transition_6": [
+                "skeleton",
+                "stone",
+                "path"
+            ],
+            "transition_8": [
+                "skeleton",
+                "grass",
+                "tree"
+            ],
+            "transition_5": [
+                "skeleton",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_5": [
+                "path",
+                "skeleton"
+            ],
+            "transition_3": [
+                "path",
+                "skeleton"
+            ],
+            "transition_2": [
+                "path",
+                "stone",
+                "skeleton"
+            ],
+            "transition_9": [
+                "path",
+                "skeleton"
+            ],
+            "transition_0": [
+                "path",
+                "skeleton",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "path",
+            "skeleton"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_1": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_2": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_4": [
+                "skeleton",
+                "stone",
+                "lava"
+            ],
+            "transition_3": [
+                "skeleton",
+                "path"
+            ]
+        },
+        "common_immediate_objects": "skeleton"
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_11": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_4": [
+                "skeleton"
+            ],
+            "transition_7": [
+                "skeleton"
+            ],
+            "transition_2": [
+                "skeleton",
+                "stone"
+            ],
+            "transition_9": [
+                "skeleton"
+            ]
+        },
+        "common_immediate_objects": [
+            "skeleton"
+        ]
+    }
+}

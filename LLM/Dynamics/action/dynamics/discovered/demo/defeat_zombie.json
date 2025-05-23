@@ -1,0 +1,464 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "any_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent health must be sufficient to survive zombie attack (e.g., health > 0)."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent energy must be sufficiently high to perform the action (e.g., energy > 0)."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime."
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": {
+                "health_greater_than": 3
+            }
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": {
+                "health_greater_than": 5,
+                "energy_greater_than": 1
+            }
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": {
+                "health_greater_than": 4,
+                "energy_greater_than": 2
+            }
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "zombie"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Health, food, drink, and energy levels above 0"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Health, food, drink, and energy levels must be enough to survive the encounter"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It can be either daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It can be either daytime or nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It can be either daytime or nighttime"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Health greater than 0"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Health greater than 0"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Health greater than 0"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "zombie",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "0": {
+        "place_table": {
+            "General Plan": {
+                "step_1": "Navigate to an area where there is grass or path in the immediate vicinity.",
+                "step_2": "Ensure that the inventory contains at least 2 units of wood.",
+                "step_3": "Face the object 'grass' or 'path' to fulfill the action's precondition.",
+                "step_4": "Execute the place_table action, transforming the faced object into a 'table'."
+            },
+            "termination_condition": "A 'table' is visible in the environment facing area, the inventory wood count decreases by 2, or the food, drink, or energy levels are low, or there are hostile entities like zombies or skeletons nearby."
+        }
+    }
+}

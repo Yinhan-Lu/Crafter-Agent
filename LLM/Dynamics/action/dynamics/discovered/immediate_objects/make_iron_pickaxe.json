@@ -1,0 +1,316 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_9": [
+                "furnace",
+                "table"
+            ],
+            "transition_4": [
+                "furnace",
+                "table"
+            ],
+            "transition_10": [
+                "furnace",
+                "table"
+            ],
+            "transition_8": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_1": [
+                "furnace",
+                "table"
+            ],
+            "transition_2": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table"
+            ],
+            "transition_10": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_1": [
+                "grass",
+                "furnace",
+                "path",
+                "table"
+            ],
+            "transition_2": [
+                "grass",
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "grass",
+                "furnace",
+                "table"
+            ],
+            "transition_7": [
+                "grass",
+                "furnace",
+                "table",
+                "path"
+            ],
+            "transition_10": [
+                "grass",
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass",
+            "furnace",
+            "table"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_0": [
+                "furnace",
+                "table"
+            ],
+            "transition_1": [
+                "furnace",
+                "table"
+            ],
+            "transition_4": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table"
+            ],
+            "transition_7": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_9": {
+                "furnace": "East",
+                "table": "North"
+            },
+            "transition_10": {
+                "furnace": "South",
+                "table": "West"
+            },
+            "transition_4": {
+                "furnace": "East",
+                "table": "North"
+            },
+            "transition_6": {
+                "furnace": "East",
+                "table": "North"
+            },
+            "transition_5": {
+                "furnace": "East",
+                "table": "North"
+            }
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_1": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table"
+            ],
+            "transition_7": [
+                "furnace",
+                "table"
+            ],
+            "transition_9": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_0": {
+                "furnace": "North",
+                "table": "West"
+            },
+            "transition_1": {
+                "furnace": "North",
+                "table": "West"
+            },
+            "transition_5": {
+                "furnace": "East",
+                "table": "North"
+            },
+            "transition_6": {
+                "furnace": "East",
+                "table": "North"
+            },
+            "transition_8": {
+                "furnace": "South",
+                "table": "North East"
+            }
+        },
+        "common_immediate_objects": "None"
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_4": {
+                "furnace": "East",
+                "table": "North",
+                "grass": [
+                    "North",
+                    "South",
+                    "South East",
+                    "South West",
+                    "West"
+                ]
+            },
+            "transition_8": {
+                "furnace": "South",
+                "table": "North East",
+                "grass": [
+                    "East",
+                    "North",
+                    "South East",
+                    "West"
+                ]
+            },
+            "transition_9": {
+                "furnace": "East",
+                "table": "North",
+                "grass": [
+                    "North East",
+                    "North West",
+                    "South West",
+                    "South"
+                ]
+            },
+            "transition_5": {
+                "furnace": "East",
+                "table": "North",
+                "grass": [
+                    "North",
+                    "East",
+                    "South West",
+                    "South East",
+                    "West"
+                ]
+            },
+            "transition_0": {
+                "furnace": "North",
+                "table": "West",
+                "path": [
+                    "East",
+                    "North East",
+                    "North West",
+                    "South",
+                    "South East",
+                    "South West"
+                ]
+            }
+        },
+        "common_immediate_objects": "None"
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_7": [
+                "table",
+                "furnace"
+            ],
+            "transition_10": [
+                "table",
+                "furnace"
+            ],
+            "transition_6": [
+                "table",
+                "furnace"
+            ],
+            "transition_8": [
+                "furnace"
+            ],
+            "transition_4": [
+                "table",
+                "furnace"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_7": [
+                "table",
+                "furnace"
+            ],
+            "transition_2": [
+                "table",
+                "furnace"
+            ],
+            "transition_10": [
+                "table",
+                "furnace"
+            ],
+            "transition_8": [
+                "table",
+                "furnace"
+            ],
+            "transition_0": [
+                "table",
+                "furnace"
+            ]
+        },
+        "common_immediate_objects": [
+            "table",
+            "furnace"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "0": {
+        "make_stone_pickaxe": {
+            "General Plan": {
+                "step_1": "Ensure you have the required items in the inventory: 1 wood, 1 stone, and an empty slot.",
+                "step_2": "Move to a location facing 'grass', 'furnace', or 'table' and ensure the table is within immediate distance.",
+                "step_3": "If a table is not present, place a table from the inventory.",
+                "step_4": "Execute the 'make_stone_pickaxe' action while facing 'grass', 'furnace', or 'table'."
+            },
+            "termination_condition": "The inventory's 'stone_pickaxe' amount has increased by 1, or any critical resource levels (food, drink, energy) are low, or there are threats (e.g., zombies or skeletons) nearby."
+        }
+    }
+}

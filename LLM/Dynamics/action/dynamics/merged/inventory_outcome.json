@@ -1,0 +1,122 @@
+{
+    "collect_coal": {
+        "inventory": [
+            "coal"
+        ],
+        "status": []
+    },
+    "collect_diamond": {
+        "inventory": [
+            "diamond"
+        ],
+        "status": []
+    },
+    "collect_drink": {
+        "inventory": [],
+        "status": [
+            "drink"
+        ]
+    },
+    "collect_iron": {
+        "inventory": [
+            "iron"
+        ],
+        "status": []
+    },
+    "collect_sapling": {
+        "inventory": [
+            "sapling"
+        ],
+        "status": []
+    },
+    "collect_stone": {
+        "inventory": [
+            "stone"
+        ],
+        "status": []
+    },
+    "collect_wood": {
+        "inventory": [
+            "wood"
+        ],
+        "status": []
+    },
+    "defeat_skeleton": {
+        "inventory": [],
+        "status": []
+    },
+    "defeat_zombie": {
+        "inventory": [],
+        "status": []
+    },
+    "eat_cow": {
+        "inventory": [],
+        "status": [
+            "food"
+        ]
+    },
+    "eat_plant": {
+        "inventory": [],
+        "status": [
+            "food"
+        ]
+    },
+    "make_iron_pickaxe": {
+        "inventory": [
+            "iron_pickaxe"
+        ],
+        "status": []
+    },
+    "make_iron_sword": {
+        "inventory": [
+            "iron_sword"
+        ],
+        "status": []
+    },
+    "make_stone_pickaxe": {
+        "inventory": [
+            "stone_pickaxe"
+        ],
+        "status": []
+    },
+    "make_stone_sword": {
+        "inventory": [
+            "stone_sword"
+        ],
+        "status": []
+    },
+    "make_wood_pickaxe": {
+        "inventory": [
+            "wood_pickaxe"
+        ],
+        "status": []
+    },
+    "make_wood_sword": {
+        "inventory": [
+            "wood_sword"
+        ],
+        "status": []
+    },
+    "place_furnace": {
+        "inventory": [],
+        "status": []
+    },
+    "place_plant": {
+        "inventory": [],
+        "status": []
+    },
+    "place_stone": {
+        "inventory": [],
+        "status": []
+    },
+    "place_table": {
+        "inventory": [],
+        "status": []
+    },
+    "sleep": {
+        "inventory": [],
+        "status": [
+            "energy"
+        ]
+    }
+}

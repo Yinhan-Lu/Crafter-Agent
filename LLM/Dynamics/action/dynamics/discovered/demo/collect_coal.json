@@ -1,0 +1,437 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is nighttime"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "iron": 0,
+                "diamond": 0,
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "The agent must be facing a coal block."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "stone": 0,
+                "iron": 0,
+                "diamond": 0,
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "The agent must be facing a coal block."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "iron": 0,
+                "diamond": 0,
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "The agent must be facing a coal block."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "diamond": 0,
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "The agent must be facing a coal block."
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "It must be daytime or nighttime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "It must be daytime or nighttime."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "It must be daytime or nighttime."
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "none": 0
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "none": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "none": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "It must be daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "It must be daytime or nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "coal"
+            ],
+            "other_preconditions": "Coal must be within immediate distance"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Time of day does not matter"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Time of day does not matter"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Time of day does not matter"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "coal",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Time of day does not matter"
+        }
+    }
+}

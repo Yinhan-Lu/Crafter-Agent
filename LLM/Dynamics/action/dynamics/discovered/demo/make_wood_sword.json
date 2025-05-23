@@ -1,0 +1,360 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "table"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "table"
+            ]
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 5
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "sand"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "wood_pickaxe": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "....."
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": null
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": null
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": null
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Must be facing the table"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    }
+}

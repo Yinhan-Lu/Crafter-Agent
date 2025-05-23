@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_2": "iron",
+            "transition_33": "iron",
+            "transition_41": "iron",
+            "transition_56": "iron",
+            "transition_40": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_6": "iron",
+            "transition_12": "iron",
+            "transition_28": "iron",
+            "transition_21": "iron",
+            "transition_11": "iron"
+        },
+        "all_facing_objects_before_action": [
+            "iron"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_18": "iron",
+            "transition_51": "iron",
+            "transition_39": "iron",
+            "transition_36": "iron",
+            "transition_22": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_12": "iron",
+            "transition_11": "iron",
+            "transition_52": "iron",
+            "transition_24": "iron",
+            "transition_42": "iron"
+        },
+        "all_facing_objects_before_action": [
+            "iron"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_50": "iron",
+            "transition_55": "iron",
+            "transition_4": "iron",
+            "transition_14": "iron",
+            "transition_41": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_50": "iron",
+            "transition_17": "iron",
+            "transition_14": "iron",
+            "transition_49": "iron",
+            "transition_20": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_0": "iron",
+            "transition_52": "iron",
+            "transition_29": "iron",
+            "transition_15": "iron",
+            "transition_34": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_1": "iron",
+            "transition_2": "iron",
+            "transition_9": "iron",
+            "transition_41": "iron",
+            "transition_44": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_15": "iron",
+            "transition_24": "iron",
+            "transition_2": "iron",
+            "transition_44": "iron",
+            "transition_36": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_23": "iron",
+            "transition_44": "iron",
+            "transition_39": "iron",
+            "transition_16": "iron",
+            "transition_56": "iron"
+        },
+        "all_facing_object_before_action": [
+            "iron"
+        ]
+    }
+}

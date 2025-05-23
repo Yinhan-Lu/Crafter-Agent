@@ -1,0 +1,206 @@
+{
+    "coal": {
+        "top": [
+            "stone",
+            "iron",
+            "diamond"
+        ],
+        "bottom": [
+            "grass",
+            "cow",
+            "skeleton"
+        ]
+    },
+    "cow": {
+        "top": [
+            "grass",
+            "tree",
+            "water"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "iron"
+        ]
+    },
+    "diamond": {
+        "top": [
+            "stone",
+            "iron",
+            "coal"
+        ],
+        "bottom": [
+            "grass",
+            "cow",
+            "tree"
+        ]
+    },
+    "furnace": {
+        "top": [
+            "coal",
+            "iron",
+            "lava"
+        ],
+        "bottom": [
+            "skeleton",
+            "tree",
+            "zombie"
+        ]
+    },
+    "grass": {
+        "top": [
+            "tree",
+            "water",
+            "path"
+        ],
+        "bottom": [
+            "diamond",
+            "coal",
+            "iron"
+        ]
+    },
+    "iron": {
+        "top": [
+            "coal",
+            "diamond",
+            "stone"
+        ],
+        "bottom": [
+            "grass",
+            "cow",
+            "skeleton"
+        ]
+    },
+    "lava": {
+        "top": [
+            "stone",
+            "water",
+            "sand"
+        ],
+        "bottom": [
+            "cow",
+            "tree",
+            "zombie"
+        ]
+    },
+    "path": {
+        "top": [
+            "grass",
+            "tree",
+            "water"
+        ],
+        "bottom": [
+            "zombie",
+            "coal",
+            "cow"
+        ]
+    },
+    "plant-ripe": {
+        "top": [
+            "grass",
+            "water",
+            "stone"
+        ],
+        "bottom": [
+            "coal",
+            "cow",
+            "diamond"
+        ]
+    },
+    "plant": {
+        "top": [
+            "grass",
+            "tree",
+            "water"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "iron"
+        ]
+    },
+    "sand": {
+        "top": [
+            "water",
+            "grass",
+            "path"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "lava"
+        ]
+    },
+    "skeleton": {
+        "top": [
+            "zombie",
+            "lava",
+            "grass"
+        ],
+        "bottom": [
+            "cow",
+            "grass",
+            "coal"
+        ]
+    },
+    "stone": {
+        "top": [
+            "iron",
+            "coal",
+            "diamond"
+        ],
+        "bottom": [
+            "cow",
+            "zombie",
+            "skeleton"
+        ]
+    },
+    "table": {
+        "top": [
+            "path",
+            "grass",
+            "stone"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "lava"
+        ]
+    },
+    "tree": {
+        "top": [
+            "grass",
+            "path",
+            "water"
+        ],
+        "bottom": [
+            "coal",
+            "cow",
+            "diamond"
+        ]
+    },
+    "water": {
+        "top": [
+            "sand",
+            "grass",
+            "tree"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "iron"
+        ]
+    },
+    "zombie": {
+        "top": [
+            "skeleton",
+            "grass",
+            "cow"
+        ],
+        "bottom": [
+            "coal",
+            "diamond",
+            "iron"
+        ]
+    }
+}

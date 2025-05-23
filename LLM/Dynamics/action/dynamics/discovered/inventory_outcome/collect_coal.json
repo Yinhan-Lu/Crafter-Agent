@@ -1,0 +1,474 @@
+{
+    "0": {
+        "increase": {
+            "transition_41": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 0
+                }
+            },
+            "transition_61": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_78": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_29": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 0
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_33": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 6
+                }
+            },
+            "transition_18": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "food": 2,
+                    "drink": 1,
+                    "energy": 8
+                }
+            },
+            "transition_34": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 6
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 5
+                }
+            },
+            "transition_49": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_67": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_73": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_56": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_57": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_32": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_56": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_31": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            },
+            "transition_74": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": -1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": {
+                "energy": -1
+            }
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_26": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_31": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_49": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_57": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_42": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_46": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_66": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_26": {
+                "inventory_increase": {
+                    "coal": 7
+                },
+                "status_increase": {}
+            },
+            "transition_56": {
+                "inventory_increase": {
+                    "coal": 4
+                },
+                "status_increase": {}
+            },
+            "transition_78": {
+                "inventory_increase": {
+                    "coal": 3
+                },
+                "status_increase": {}
+            },
+            "transition_22": {
+                "inventory_increase": {
+                    "coal": 3
+                },
+                "status_increase": {}
+            },
+            "transition_30": {
+                "inventory_increase": {
+                    "coal": 4
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_24": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_56": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_44": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_52": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            },
+            "transition_34": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_18": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_32": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_70": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_74": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            },
+            "transition_79": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "None": "None"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_80": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            },
+            "transition_40": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "energy": 1
+                }
+            },
+            "transition_65": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "drink": 1,
+                    "energy": 1
+                }
+            },
+            "transition_59": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "coal": 1
+            },
+            "status_increase": {
+                "energy": 1
+            }
+        }
+    }
+}

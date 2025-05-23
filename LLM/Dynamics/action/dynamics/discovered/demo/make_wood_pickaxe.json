@@ -1,0 +1,258 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "If facing table is unnecessary when wood_sword is in inventory."
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 6
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Agent must be well-nourished (health, food, drink, and energy near full)"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It is daytime; facing the table."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It is daytime; facing the table."
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": null
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "wood_pickaxe should not already be in the inventory"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    }
+}

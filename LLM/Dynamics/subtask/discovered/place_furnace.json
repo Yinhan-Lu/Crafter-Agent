@@ -1,0 +1,13 @@
+{
+    "0": {
+        "place_furnace": {
+            "General Plan": {
+                "step_1": "Move to a place where you face either grass or a path.",
+                "step_2": "Ensure that there is grass and a table within immediate distance; if not, place the table if you have one in your inventory.",
+                "step_3": "Check if you have at least 4 stones in your inventory.",
+                "step_4": "Execute the place_furnace action when the above conditions are met."
+            },
+            "termination_condition": "A furnace is placed and visible in the observation, or the food, drink, or energy levels are low, or there are zombies or other threats nearby."
+        }
+    }
+}

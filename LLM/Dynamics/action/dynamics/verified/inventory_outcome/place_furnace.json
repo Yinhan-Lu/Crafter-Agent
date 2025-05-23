@@ -1,0 +1,18 @@
+{
+    "2": {
+        "inventory_increase": "none",
+        "status_increase": "none"
+    },
+    "3": {
+        "inventory_increase": [
+            "furnace"
+        ],
+        "status_increase": [
+            "None"
+        ]
+    },
+    "7": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    }
+}

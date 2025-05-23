@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_22": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_11": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_16": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_20": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_10": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_15": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_20": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_2": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_14": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_19": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_13": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_20": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_21": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_12": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "path",
+                "to": "table"
+            },
+            "transition_16": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_17": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_11": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_20": {
+                "from": "facing grass on the north",
+                "to": "facing table on the north"
+            },
+            "transition_9": {
+                "from": "facing grass on the south",
+                "to": "facing table on the south"
+            },
+            "transition_0": {
+                "from": "facing grass on the west",
+                "to": "facing table on the west"
+            },
+            "transition_16": {
+                "from": "facing grass on the east",
+                "to": "facing table on the east"
+            },
+            "transition_1": {
+                "from": "facing path on the west",
+                "to": "facing table on the west"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "any terrain object (grass or path)",
+            "to": "facing table"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_20": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_16": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_9": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_3": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "facing grass on the south",
+                "to": "facing table on the south"
+            },
+            "transition_5": {
+                "from": "facing grass on the east",
+                "to": "facing table on the east"
+            },
+            "transition_8": {
+                "from": "facing grass on the west",
+                "to": "facing table on the west"
+            },
+            "transition_11": {
+                "from": "facing grass on the east",
+                "to": "facing table on the east"
+            },
+            "transition_15": {
+                "from": "facing grass on the north",
+                "to": "facing table on the north"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "facing grass",
+            "to": "facing table"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "path",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_9": {
+                "from": "grass",
+                "to": "table"
+            },
+            "transition_12": {
+                "from": "grass",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "table"
+        }
+    }
+}

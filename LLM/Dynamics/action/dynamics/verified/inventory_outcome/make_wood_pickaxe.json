@@ -1,0 +1,26 @@
+{
+    "0": {
+        "inventory_increase": {
+            "wood_pickaxe": 1
+        },
+        "status_increase": "None"
+    },
+    "5": {
+        "inventory_increase": {
+            "wood_pickaxe": 1
+        },
+        "status_increase": "None"
+    },
+    "6": {
+        "inventory_increase": [
+            "wood_pickaxe"
+        ],
+        "status_increase": []
+    },
+    "9": {
+        "inventory_increase": {
+            "wood_pickaxe": 1
+        },
+        "status_increase": "None"
+    }
+}

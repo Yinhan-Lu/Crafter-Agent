@@ -1,0 +1,466 @@
+{
+    "0": {
+        "inventory_tools": {
+            "transition_84": {
+                "sapling": 3,
+                "wood": 1,
+                "stone": 9,
+                "coal": 4,
+                "iron": 3,
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "iron_pickaxe": 1,
+                "wood_sword": 1,
+                "stone_sword": 1,
+                "iron_sword": 1
+            },
+            "transition_130": {
+                "wood": 9,
+                "stone": 9,
+                "coal": 3,
+                "iron": 1,
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "wood_sword": 1,
+                "stone_sword": 1
+            },
+            "transition_135": {
+                "wood": 5,
+                "stone": 7,
+                "coal": 1,
+                "diamond": 1,
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "iron_pickaxe": 1,
+                "wood_sword": 1,
+                "stone_sword": 1,
+                "iron_sword": 1
+            },
+            "transition_118": {
+                "wood": 4,
+                "stone": 6,
+                "wood_pickaxe": 1,
+                "wood_sword": 1
+            },
+            "transition_62": {
+                "wood": 4,
+                "stone": 9,
+                "coal": 4,
+                "iron": 3,
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "iron_pickaxe": 1,
+                "wood_sword": 1,
+                "stone_sword": 1,
+                "iron_sword": 1
+            }
+        },
+        "common_inventory_tools": {
+            "wood_pickaxe": 1,
+            "wood_sword": 1
+        },
+        "most_advanced_common_inventory_tools": "None"
+    },
+    "1": {
+        "inventory_tools": {
+            "transition_92": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_101": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_74": [
+                "wood_pickaxe",
+                "wood_sword"
+            ],
+            "transition_122": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_61": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "wood_sword"
+        ],
+        "most_advanced_common_inventory_tool": "wood_pickaxe"
+    },
+    "2": {
+        "inventory_tools": {
+            "transition_62": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_3": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_98": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_152": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_183": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "wood_sword",
+            "stone_sword"
+        ],
+        "most_advanced_common_inventory_tools": "stone_pickaxe"
+    },
+    "3": {
+        "inventory_tools": {
+            "transition_121": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_163": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_154": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_34": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_53": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "wood_sword",
+            "stone_sword"
+        ],
+        "most_advanced_common_inventory_tool": "stone_sword"
+    },
+    "4": {
+        "inventory_tools": {
+            "transition_30": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_96": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_102": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_116": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_187": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "wood_sword",
+            "stone_sword"
+        ],
+        "most_advanced_common_inventory_tool": "stone_sword"
+    },
+    "5": {
+        "inventory_tools": {
+            "transition_1": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_2": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_3": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_4": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_5": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "6": {
+        "inventory_tools": {
+            "transition_169": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_52": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_165": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_161": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_179": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "wood_sword"
+        ],
+        "most_advanced_common_inventory_tool": "stone_pickaxe"
+    },
+    "7": {
+        "inventory_tools": {
+            "transition_96": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_176": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_81": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_23": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_178": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "wood_sword"
+        ],
+        "most_advanced_common_inventory_tools": "stone_pickaxe"
+    },
+    "8": {
+        "inventory_tools": {
+            "transition_61": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_39": [
+                "wood_pickaxe",
+                "wood_sword"
+            ],
+            "transition_72": [
+                "wood_pickaxe",
+                "wood_sword"
+            ],
+            "transition_132": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_171": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "wood_sword"
+        ],
+        "most_advanced_common_inventory_tool": "wood_pickaxe"
+    },
+    "9": {
+        "inventory_tools": {
+            "transition_158": [
+                "wood_pickaxe",
+                "wood_sword"
+            ],
+            "transition_54": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_8": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "wood_sword",
+                "stone_sword"
+            ],
+            "transition_82": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_59": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "wood_sword"
+        ],
+        "most_advanced_common_inventory_tool": "wood_pickaxe"
+    }
+}

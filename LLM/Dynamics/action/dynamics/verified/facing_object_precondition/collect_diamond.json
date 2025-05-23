@@ -1,0 +1,28 @@
+{
+    "0": {
+        "facing_object": "diamond"
+    },
+    "1": [
+        "diamond"
+    ],
+    "2": {
+        "facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "3": [
+        "diamond"
+    ],
+    "4": [
+        "diamond"
+    ],
+    "5": [
+        "diamond"
+    ],
+    "6": [
+        "diamond"
+    ],
+    "7": [
+        "diamond"
+    ]
+}

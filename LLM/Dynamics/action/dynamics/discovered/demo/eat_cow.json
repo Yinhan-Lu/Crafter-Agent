@@ -1,0 +1,390 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The action 'eat_cow' requires facing a cow."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The action 'eat_cow' requires facing a cow."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The action 'eat_cow' requires facing a cow."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": {},
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The cow must be in the immediate vicinity (1 block away) to perform the action."
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": ""
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": ""
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "none"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "none"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "none"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "agent must have sufficient energy to perform the action"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "agent must be within one block distance of the cow"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "agent must be within one block distance of the cow"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The cow must be within immediate distance"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The cow must be within immediate distance"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "food level should be less than 9/9"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "cow"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "cow",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": ""
+        }
+    }
+}

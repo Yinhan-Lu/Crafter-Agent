@@ -1,0 +1,94 @@
+{
+    "collect_coal": [
+        "coal"
+    ],
+    "collect_diamond": [
+        "diamond"
+    ],
+    "collect_drink": [
+        "water"
+    ],
+    "collect_iron": [
+        "iron"
+    ],
+    "collect_sapling": [
+        "grass"
+    ],
+    "collect_stone": [
+        "stone"
+    ],
+    "collect_wood": [
+        "tree"
+    ],
+    "defeat_skeleton": [
+        "skeleton"
+    ],
+    "defeat_zombie": [
+        "zombie"
+    ],
+    "eat_cow": [
+        "cow"
+    ],
+    "eat_plant": [
+        "plant-ripe"
+    ],
+    "make_iron_pickaxe": [
+        "grass",
+        "path",
+        "furnace",
+        "stone"
+    ],
+    "make_iron_sword": [
+        "grass",
+        "path",
+        "furnace",
+        "stone"
+    ],
+    "make_stone_pickaxe": [
+        "grass",
+        "furnace",
+        "table"
+    ],
+    "make_stone_sword": [
+        "grass",
+        "furnace",
+        "table"
+    ],
+    "make_wood_pickaxe": [
+        "grass",
+        "path",
+        "table"
+    ],
+    "make_wood_sword": [
+        "grass",
+        "table"
+    ],
+    "move": [
+        "sand",
+        "grass",
+        "path"
+    ],
+    "place_furnace": [
+        "grass",
+        "path"
+    ],
+    "place_plant": [
+        "grass",
+        "path"
+    ],
+    "place_stone": [
+        "water",
+        "grass",
+        "path",
+        "stone",
+        "lava"
+    ],
+    "place_table": [
+        "grass",
+        "path"
+    ],
+    "sleep": [
+        "furnace",
+        "stone"
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_0": "skeleton",
+            "transition_4": "skeleton",
+            "transition_7": "skeleton",
+            "transition_9": "skeleton",
+            "transition_11": "skeleton"
+        },
+        "all_facing_object_before_action": {
+            "skeleton": []
+        }
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_3": "skeleton",
+            "transition_9": "skeleton",
+            "transition_13": "skeleton",
+            "transition_1": "skeleton",
+            "transition_7": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_4": "skeleton",
+            "transition_12": "skeleton",
+            "transition_5": "skeleton",
+            "transition_8": "skeleton",
+            "transition_1": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_6": "skeleton",
+            "transition_4": "skeleton",
+            "transition_5": "skeleton",
+            "transition_10": "skeleton",
+            "transition_2": "skeleton"
+        },
+        "all_facing_object_before_action": {
+            "skeleton": "skeleton"
+        }
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_0": "skeleton",
+            "transition_1": "skeleton",
+            "transition_5": "skeleton",
+            "transition_6": "skeleton",
+            "transition_10": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_10": "skeleton",
+            "transition_11": "skeleton",
+            "transition_12": "skeleton",
+            "transition_3": "skeleton",
+            "transition_7": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_12": "skeleton",
+            "transition_10": "skeleton",
+            "transition_8": "skeleton",
+            "transition_9": "skeleton",
+            "transition_4": "skeleton"
+        },
+        "all_facing_object_before_action": {
+            "facing_object_before_action": "skeleton"
+        }
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_12": "skeleton",
+            "transition_5": "skeleton",
+            "transition_6": "skeleton",
+            "transition_10": "skeleton",
+            "transition_11": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_12": "skeleton",
+            "transition_1": "skeleton",
+            "transition_4": "skeleton",
+            "transition_10": "skeleton",
+            "transition_13": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_9": "skeleton",
+            "transition_0": "skeleton",
+            "transition_8": "skeleton",
+            "transition_3": "skeleton",
+            "transition_5": "skeleton"
+        },
+        "all_facing_object_before_action": [
+            "skeleton"
+        ]
+    }
+}

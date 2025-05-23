@@ -1,0 +1,26 @@
+{
+    "0": {
+        "zombie": "."
+    },
+    "1": [
+        "zombie"
+    ],
+    "2": [
+        "zombie"
+    ],
+    "3": {
+        "facing_object_before_action": "zombie"
+    },
+    "4": [
+        "zombie"
+    ],
+    "5": {
+        "zombie": true
+    },
+    "6": [
+        "zombie"
+    ],
+    "7": [
+        "zombie"
+    ]
+}

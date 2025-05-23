@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_177": "water",
+            "transition_42": "water",
+            "transition_162": "water",
+            "transition_105": "water",
+            "transition_116": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_181": "water",
+            "transition_67": "water",
+            "transition_41": "water",
+            "transition_4": "water",
+            "transition_140": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_190": "water",
+            "transition_91": "water",
+            "transition_77": "water",
+            "transition_89": "water",
+            "transition_53": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_66": "water",
+            "transition_64": "water",
+            "transition_84": "water",
+            "transition_93": "water",
+            "transition_0": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_62": "water",
+            "transition_66": "water",
+            "transition_24": "water",
+            "transition_78": "water",
+            "transition_52": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_121": "water",
+            "transition_188": "water",
+            "transition_152": "water",
+            "transition_189": "water",
+            "transition_89": "water"
+        },
+        "all_facing_object_before_action": {
+            "water": "water"
+        }
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_23": "water",
+            "transition_95": "water",
+            "transition_79": "water",
+            "transition_124": "water",
+            "transition_32": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_176": "water",
+            "transition_22": "water",
+            "transition_92": "water",
+            "transition_55": "water",
+            "transition_94": "water"
+        },
+        "all_facing_object_before_action": {
+            "water": true
+        }
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_58": "water",
+            "transition_26": "water",
+            "transition_76": "water",
+            "transition_179": "water",
+            "transition_121": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_11": "water",
+            "transition_159": "water",
+            "transition_26": "water",
+            "transition_152": "water",
+            "transition_22": "water"
+        },
+        "all_facing_object_before_action": [
+            "water"
+        ]
+    }
+}

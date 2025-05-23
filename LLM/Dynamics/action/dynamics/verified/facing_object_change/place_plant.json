@@ -1,0 +1,38 @@
+{
+    "0": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "1": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "2": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "4": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "5": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "6": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "7": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "8": {
+        "from": "grass",
+        "to": "plant"
+    },
+    "9": {
+        "from": "grass",
+        "to": "plant"
+    }
+}

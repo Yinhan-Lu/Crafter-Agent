@@ -1,0 +1,12 @@
+{
+    "0": {
+        "collect_drink": {
+            "General Plan": {
+                "step_1": "Navigate toward a location where 'water' is within immediate distance. Use movement actions such as 'move_up', 'move_down', 'move_left', 'move_right' as required.",
+                "step_2": "Ensure the character is facing 'water'. Use facing actions if necessary, such as turning left or right.",
+                "step_3": "Execute the 'collect_drink' action multiple times to increase the 'drink' status in the inventory."
+            },
+            "termination_condition": "The drink level in the status reaches an acceptable level (near full), or the character's health, food, or energy levels are critical, or there are immediate dangers such as zombies nearby."
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "0": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "1": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "2": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "3": {
+        "inventory_increase": [],
+        "status_increase": []
+    },
+    "4": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "5": {
+        "inventory_increase": null,
+        "status_increase": null
+    },
+    "8": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    }
+}

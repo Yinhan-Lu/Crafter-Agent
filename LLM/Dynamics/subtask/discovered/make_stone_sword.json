@@ -1,0 +1,13 @@
+{
+    "0": {
+        "make_stone_sword": {
+            "General Plan": {
+                "step_1": "Make sure the inventory has at least 1 wood and 1 stone, and has an empty slot.",
+                "step_2": "Locate and navigate towards a table; ensure the table is within immediate distance.",
+                "step_3": "Face one of the following objects: grass, furnace, or table.",
+                "step_4": "Execute the make_stone_sword action."
+            },
+            "termination_condition": "The inventory shows 1 more stone_sword, or if health, food, drink, or energy levels are dangerously low, or if there are zombies or skeletons nearby."
+        }
+    }
+}
