@@ -1,0 +1,600 @@
+{
+    "0": {
+        "increase": {
+            "transition_31": {
+                "inventory_increase": {
+                    "meat": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9"
+                }
+            },
+            "transition_29": {
+                "inventory_increase": {
+                    "meat": 1
+                },
+                "status_increase": {
+                    "food": "None"
+                }
+            },
+            "transition_19": {
+                "inventory_increase": {
+                    "meat": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9"
+                }
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "meat": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9"
+                }
+            },
+            "transition_40": {
+                "inventory_increase": {
+                    "meat": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "meat": 1
+            },
+            "status_increase": {
+                "food": "increased_to_9"
+            }
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_23": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food: increased_to_9"
+                ]
+            },
+            "transition_17": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food: increased_to_9"
+                ]
+            },
+            "transition_14": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food: increased_to_9"
+                ]
+            },
+            "transition_31": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food: increased_to_9"
+                ]
+            },
+            "transition_39": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food: increased_to_9"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                "food: increased_to_9"
+            ]
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_0": {
+                "inventory_increase": {
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "iron": 0,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 4,
+                    "drink": 0,
+                    "energy": 0
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "iron": 0,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 5,
+                    "food": 1,
+                    "drink": 0,
+                    "energy": 0
+                }
+            },
+            "transition_29": {
+                "inventory_increase": {
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "iron": 0,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 1,
+                    "energy": 1
+                }
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "iron": 0,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 3,
+                    "food": 4,
+                    "drink": 0,
+                    "energy": 0
+                }
+            },
+            "transition_10": {
+                "inventory_increase": {
+                    "wood": 0,
+                    "stone": 0,
+                    "coal": 0,
+                    "iron": 0,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 1,
+                    "food": 2,
+                    "drink": 0,
+                    "energy": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0,
+                "wood_pickaxe": 0,
+                "stone_pickaxe": 0,
+                "iron_pickaxe": 0,
+                "wood_sword": 0,
+                "stone_sword": 0,
+                "iron_sword": 0
+            },
+            "status_increase": {
+                "drink": 0,
+                "energy": 0
+            }
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_27": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": 2,
+                    "food": 8,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_30": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": 4,
+                    "food": 8,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_35": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": null,
+                    "food": 1,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_22": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": 3,
+                    "food": 2,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_16": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": null,
+                    "food": 3,
+                    "drink": null,
+                    "energy": null
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": null,
+            "status_increase": {
+                "food": 1
+            }
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_35": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "health increased_to_9",
+                    "food increased_to_9",
+                    "drink increased_to_9",
+                    "energy increased_to_9"
+                ]
+            },
+            "transition_33": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "health increased_to_9",
+                    "food increased_to_9",
+                    "drink increased_to_9",
+                    "energy increased_to_9"
+                ]
+            },
+            "transition_34": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "health increased_to_9",
+                    "food increased_to_9",
+                    "drink increased_to_9",
+                    "energy increased_to_9"
+                ]
+            },
+            "transition_4": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "health increased_to_9",
+                    "food increased_to_9",
+                    "drink increased_to_9",
+                    "energy increased_to_9"
+                ]
+            },
+            "transition_6": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "health increased_to_9",
+                    "food increased_to_9",
+                    "drink increased_to_9",
+                    "energy increased_to_9"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                "health increased_to_9",
+                "food increased_to_9",
+                "drink increased_to_9",
+                "energy increased_to_9"
+            ]
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_14": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1
+                }
+            },
+            "transition_31": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "drink": 1
+                }
+            },
+            "transition_32": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "drink": 1
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1
+                }
+            },
+            "transition_26": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "wood": 1
+            },
+            "status_increase": {
+                "food": 1
+            }
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_33": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "health": "None",
+                    "food": 4,
+                    "drink": 2,
+                    "energy": 3
+                }
+            },
+            "transition_37": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "health": "None",
+                    "food": "increased_to_9",
+                    "drink": 1,
+                    "energy": 4
+                }
+            },
+            "transition_2": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "health": "None",
+                    "food": "increased_to_9",
+                    "drink": 1,
+                    "energy": 5
+                }
+            },
+            "transition_35": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "health": "None",
+                    "food": 1,
+                    "drink": 5,
+                    "energy": 2
+                }
+            },
+            "transition_26": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "health": "None",
+                    "food": 4,
+                    "drink": 2,
+                    "energy": 4
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "health": "None",
+                "food": "None",
+                "drink": 1,
+                "energy": "None"
+            }
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_32": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food increased by 3",
+                    "health increased_by_1"
+                ]
+            },
+            "transition_9": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food increased by 3",
+                    "health increased_by_1"
+                ]
+            },
+            "transition_13": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food increased by 3",
+                    "health increased_by_1"
+                ]
+            },
+            "transition_28": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food increased by 1: increased to 9",
+                    "health increased_by_1"
+                ]
+            },
+            "transition_37": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food increased by 3",
+                    "health increased_by_1"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": [
+                "food increased by 3",
+                "health increased_by_1"
+            ]
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_37": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": 1,
+                    "food": 2,
+                    "drink": null,
+                    "energy": 1
+                }
+            },
+            "transition_16": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": null,
+                    "food": 2,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_11": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": null,
+                    "food": 2,
+                    "drink": 1,
+                    "energy": null
+                }
+            },
+            "transition_41": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": 2,
+                    "food": 2,
+                    "drink": null,
+                    "energy": null
+                }
+            },
+            "transition_4": {
+                "inventory_increase": null,
+                "status_increase": {
+                    "health": null,
+                    "food": 2,
+                    "drink": null,
+                    "energy": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": null,
+            "status_increase": {
+                "food": 2
+            }
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_10": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food",
+                    "health"
+                ]
+            },
+            "transition_36": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food",
+                    "health"
+                ]
+            },
+            "transition_35": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food",
+                    "health"
+                ]
+            },
+            "transition_38": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food",
+                    "health"
+                ]
+            },
+            "transition_7": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "food",
+                    "health"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": [
+                "food",
+                "health"
+            ]
+        }
+    }
+}

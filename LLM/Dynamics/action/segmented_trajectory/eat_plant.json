@@ -1,0 +1,21 @@
+{
+    "seed_7/20240608T125847-ach21-len724.npz": [],
+    "seed_7/20240608T130205-ach21-len590.npz": [],
+    "seed_7/20240608T130642-ach21-len455.npz": [],
+    "seed_7/20240608T130933-ach21-len600.npz": [],
+    "seed_7/20240608T131218-ach20-len536.npz": [],
+    "seed_8/20240608T134727-ach19-len543.npz": [],
+    "seed_8/20240608T134944-ach21-len467.npz": [],
+    "seed_8/20240608T135421-ach22-len1098.npz": [
+        {
+            "previous_description": "It is nighttime\nState description: \n- East: immediate (stone); nearby (path); \n- North: immediate (plant-ripe); nearby (grass); \n- North East: immediate (stone); nearby (path, skeleton); \n- North West: immediate (grass); nearby (water); \n- South: immediate (grass); \n- South East: immediate (path); nearby (stone); \n- South West: immediate (grass); \n- West: immediate (grass); \nClosest:\n- grass: West 1 blocks away (immediate) (objects in between: None) \n- water: North West 4 blocks away (nearby) (objects in between: {'grass', 'plant-ripe'}) \n- stone: East 1 blocks away (immediate) (objects in between: None) \n- path: South East 2 blocks away (immediate) (objects in between: {'grass', 'stone'}) \n- skeleton: North East 5 blocks away (nearby) (objects in between: {'grass', 'path', 'plant-ripe', 'stone'}) \n- plant-ripe: North 1 blocks away (immediate) (objects in between: None) \n- Facing plant-ripe on the north.\nYour status:\n- health: 3/9\n- food: 0/9\n- drink: 9/9\n- energy: 7/9\nYour inventory:\n- sapling: 1\n- wood: 9\n- stone: 9\n- coal: 1\n- iron: 4\n- diamond: 2\n- wood_pickaxe: 1\n- stone_pickaxe: 1\n- iron_pickaxe: 1\n- wood_sword: 1\n- stone_sword: 1\n- iron_sword: 1\n",
+            "current_description": "It is nighttime\nState description: \n- East: immediate (stone); nearby (path); \n- North: immediate (plant); nearby (grass); \n- North East: immediate (stone); nearby (path, skeleton); \n- North West: immediate (grass); nearby (water); \n- South: immediate (grass); \n- South East: immediate (path); nearby (stone); \n- South West: immediate (grass); \n- West: immediate (grass); \nClosest:\n- grass: West 1 blocks away (immediate) (objects in between: None) \n- water: North West 4 blocks away (nearby) (objects in between: {'plant', 'grass'}) \n- stone: East 1 blocks away (immediate) (objects in between: None) \n- path: South East 2 blocks away (immediate) (objects in between: {'grass', 'stone'}) \n- skeleton: North East 5 blocks away (nearby) (objects in between: {'plant', 'grass', 'path', 'stone'}) \n- plant: North 1 blocks away (immediate) (objects in between: None) \n- Facing plant on the north.\nYour status:\n- health: 3/9\n- food: 4/9\n- drink: 9/9\n- energy: 7/9\nYour inventory:\n- sapling: 1\n- wood: 9\n- stone: 9\n- coal: 1\n- iron: 4\n- diamond: 2\n- wood_pickaxe: 1\n- stone_pickaxe: 1\n- iron_pickaxe: 1\n- wood_sword: 1\n- stone_sword: 1\n- iron_sword: 1\n",
+            "action": "eat_plant"
+        }
+    ],
+    "seed_8/20240608T135620-ach21-len432.npz": [],
+    "seed_8/20240608T135914-ach21-len649.npz": [],
+    "seed_9/20240609T193057-ach19-len444.npz": [],
+    "seed_9/20240609T193301-ach15-len405.npz": [],
+    "seed_9/20240609T193639-ach20-len684.npz": []
+}

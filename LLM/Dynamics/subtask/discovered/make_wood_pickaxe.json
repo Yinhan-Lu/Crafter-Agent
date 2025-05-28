@@ -1,0 +1,15 @@
+{
+    "0": {
+        "make_wood_pickaxe": {
+            "General Plan": {
+                "step_1": "Navigate the environment to locate a grassy area, as grass is a required facing object.",
+                "step_2": "Ensure a table and a patch of grass are within immediate distance from each other.",
+                "step_3": "Collect wood until at least one piece is in the inventory.",
+                "step_4": "Check that the inventory slot for the resultant object is empty. If not, clear an inventory slot.",
+                "step_5": "Face either grass, path, or table to fulfill the action requirement for making a wood pickaxe.",
+                "step_6": "Execute the make_wood_pickaxe action."
+            },
+            "termination_condition": "A wood_pickaxe is added to the inventory, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

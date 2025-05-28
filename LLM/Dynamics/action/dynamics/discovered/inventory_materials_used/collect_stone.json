@@ -1,0 +1,395 @@
+{
+    "0": {
+        "inventory_materials_used": {
+            "transition_200": {
+                "sapling": 0,
+                "wood": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_109": {
+                "sapling": 0,
+                "wood": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_536": {
+                "sapling": 0,
+                "wood": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_400": {
+                "sapling": 0,
+                "wood": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_103": {
+                "sapling": 0,
+                "wood": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "1": {
+        "inventory_materials_used": {
+            "transition_93": {
+                "wood": 3,
+                "stone": 8,
+                "coal": 5,
+                "iron": 1
+            },
+            "transition_387": {
+                "wood": 5,
+                "stone": 7,
+                "coal": 3,
+                "iron": 1
+            },
+            "transition_409": {
+                "wood": 7,
+                "stone": 8,
+                "coal": 1,
+                "iron": 3,
+                "diamond": 2
+            },
+            "transition_457": {
+                "sapling": 1,
+                "wood": 9,
+                "stone": 9,
+                "coal": 4,
+                "iron": 5,
+                "diamond": 2
+            },
+            "transition_42": {
+                "wood": 5,
+                "stone": 9,
+                "coal": 6,
+                "iron": 2
+            }
+        },
+        "all_common_materials_used": {
+            "stone": 8
+        }
+    },
+    "2": {
+        "inventory_materials_used": {
+            "transition_384": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_151": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_79": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_208": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_513": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "3": {
+        "inventory_materials_used": {
+            "transition_3": {
+                "wood_pickaxe": 1
+            },
+            "transition_113": {
+                "wood_pickaxe": 1
+            },
+            "transition_492": {
+                "wood_pickaxe": 1
+            },
+            "transition_37": {
+                "wood_pickaxe": 1
+            },
+            "transition_323": {
+                "wood_pickaxe": 1
+            }
+        },
+        "all_common_materials_used": {
+            "wood_pickaxe": 1
+        }
+    },
+    "4": {
+        "inventory_materials_used": {
+            "transition_206": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_243": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_343": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_177": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_160": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "5": {
+        "inventory_materials_used": {
+            "transition_437": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_357": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": -1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_490": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": -3,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_27": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_213": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": -1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "6": {
+        "inventory_materials_used": {
+            "transition_113": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_324": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_14": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_180": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "transition_158": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "7": {
+        "inventory_materials_used": {
+            "transition_255": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_433": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_189": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_510": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_227": {
+                "sapling": 0,
+                "wood": 0,
+                "stone": 1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    },
+    "8": {
+        "inventory_materials_used": {
+            "transition_69": {
+                "wood": 0,
+                "stone": -1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_335": {
+                "wood": 0,
+                "stone": -1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_505": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_418": {
+                "wood": 0,
+                "stone": -1,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "transition_351": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            }
+        },
+        "all_common_materials_used": {
+            "wood": 0,
+            "stone": -1,
+            "coal": 0,
+            "iron": 0,
+            "diamond": 0
+        }
+    },
+    "9": {
+        "inventory_materials_used": {
+            "transition_395": {
+                "stone": 0
+            },
+            "transition_297": {
+                "stone": 1
+            },
+            "transition_206": {
+                "stone": 1
+            },
+            "transition_334": {
+                "stone": 1
+            },
+            "transition_26": {
+                "stone": 0
+            }
+        },
+        "all_common_materials_used": "None"
+    }
+}

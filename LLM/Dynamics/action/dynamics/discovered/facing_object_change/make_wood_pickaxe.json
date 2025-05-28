@@ -1,0 +1,252 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_8": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_6": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_9": {
+                "from": "table on the west",
+                "to": "table on the west"
+            },
+            "transition_7": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_3": {
+                "from": "table on the south",
+                "to": "table on the south"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table on the north",
+                "to": "table on the north"
+            },
+            "transition_2": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_7": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_8": {
+                "from": "table on the east",
+                "to": "table on the east"
+            },
+            "transition_9": {
+                "from": "table on the west",
+                "to": "table on the west"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_8": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_8": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "cow"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    }
+}

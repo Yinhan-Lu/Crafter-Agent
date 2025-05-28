@@ -1,0 +1,13 @@
+{
+    "0": {
+        "defeat_skeleton": {
+            "General Plan": {
+                "step_1": "Locate a skeleton by navigating the environment. Ensure 'skeleton' is within immediate distance.",
+                "step_2": "Face the skeleton to meet the precondition of the action.",
+                "step_3": "Ensure your inventory does not contain any items listed in the precondition constraints.",
+                "step_4": "If faced with skeleton and within immediate distance, execute the 'defeat_skeleton' action."
+            },
+            "termination_condition": "The facing object changes to 'path' or if the player's health, food, or drink levels are critically low, indicating player needs to recover."
+        }
+    }
+}

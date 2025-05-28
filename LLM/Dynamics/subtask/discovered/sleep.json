@@ -1,0 +1,12 @@
+{
+    "0": {
+        "sleep": {
+            "General Plan": {
+                "step_1": "Ensure the character is facing a furnace or stone.",
+                "step_2": "Verify that there is a path and stone within immediate distance.",
+                "step_3": "Execute the sleep action."
+            },
+            "termination_condition": "The facing object changes to 'None', indicating success, or the character is in immediate danger (e.g., low health, nearby enemies)."
+        }
+    }
+}

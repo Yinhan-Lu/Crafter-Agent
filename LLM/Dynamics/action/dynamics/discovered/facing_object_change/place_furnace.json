@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_11": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_2": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_11": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "path",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "None",
+            "to": "furnace"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_8": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_11": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_9": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_2": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_3": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_5": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_6": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_7": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_10": {
+                "from": "grass",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "grass",
+            "to": "furnace"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_0": {
+                "from": "path",
+                "to": "furnace"
+            },
+            "transition_1": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_8": {
+                "from": "grass",
+                "to": "furnace"
+            },
+            "transition_11": {
+                "from": "path",
+                "to": "furnace"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "None",
+            "to": "furnace"
+        }
+    }
+}

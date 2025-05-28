@@ -1,0 +1,448 @@
+{
+    "0": {
+        "increase": {
+            "transition_27": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_18": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_20": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_9": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9",
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_10": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_12": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_26": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_14": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_17": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_18": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": "None"
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_5": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_23": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            },
+            "transition_26": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_28": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_21": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_27": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_19": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "sapling"
+            ],
+            "status_increase": []
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_20": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "None",
+                    "food": "None",
+                    "drink": "None",
+                    "energy": "None"
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "None",
+                    "food": "None",
+                    "drink": "None",
+                    "energy": "None"
+                }
+            },
+            "transition_13": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "None",
+                    "food": "None",
+                    "drink": "None",
+                    "energy": "None"
+                }
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "None",
+                    "food": "None",
+                    "drink": "None",
+                    "energy": "None"
+                }
+            },
+            "transition_19": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "None",
+                    "food": "None",
+                    "drink": "None",
+                    "energy": "None"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": {
+                "health": "None",
+                "food": "None",
+                "drink": "None",
+                "energy": "None"
+            }
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_0": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "drink": "decreased_by_1",
+                    "energy": "decreased_by_1"
+                }
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "drink": "decreased_by_1",
+                    "energy": "decreased_by_1"
+                }
+            },
+            "transition_28": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "food": "decreased_by_1"
+                }
+            },
+            "transition_19": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "health": "decreased_by_1",
+                    "energy": "decreased_by_1"
+                }
+            },
+            "transition_24": {
+                "inventory_increase": {
+                    "sapling": 1
+                },
+                "status_increase": {
+                    "None": "no_change"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "sapling": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_8": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_20": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_26": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            },
+            "transition_28": {
+                "inventory_increase": [
+                    "sapling"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "sapling"
+            ],
+            "status_increase": []
+        }
+    }
+}

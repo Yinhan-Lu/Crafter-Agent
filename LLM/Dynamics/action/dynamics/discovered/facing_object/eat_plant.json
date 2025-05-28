@@ -1,0 +1,10 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_0": "plant-ripe"
+        },
+        "all_facing_object_before_action": [
+            "plant-ripe"
+        ]
+    }
+}

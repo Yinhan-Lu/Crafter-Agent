@@ -1,0 +1,388 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "......"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "table"
+            ],
+            "other_preconditions": "Action can only be taken when it's nighttime."
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "path",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "none",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "path",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4,
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "path",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "path"
+            ],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "It must be daytime."
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "path",
+                "stone"
+            ],
+            "other_preconditions": "Time of day does not affect execution"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Action can be executed only if it is daytime."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Action can be executed only if it is nighttime."
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It is nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "path"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "grass",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": "None",
+            "other_preconditions": "It can be daytime or nighttime"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "path",
+                "stone",
+                "lava",
+                "cow",
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "path",
+                "stone",
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 4
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass",
+                "path",
+                "stone",
+                "lava",
+                "diamond",
+                "water",
+                "sand",
+                "tree",
+                "iron",
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    }
+}

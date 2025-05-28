@@ -1,0 +1,432 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "crafting_table"
+            ],
+            "other_preconditions": "Crafting table within immediate distance"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "crafting_table"
+            ],
+            "other_preconditions": "Crafting table within immediate distance"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It is daytime or nighttime does not affect the action."
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "iron": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "iron": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Agent may need to be in immediate vicinity of a crafting table"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "coal": 1,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "furnace"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "The agent must have at least 1 energy (optional water and/or food)"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "The agent must have at least 1 energy"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "none",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "if table is west within immediate"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": null
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Energy level should be sufficient to craft (not zero)"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Activation of 'Crafting Table' mode"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 5,
+                "iron": 1
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime or nighttime."
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 1,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "iron": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "iron": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ]
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Energy level should be at least 1/9"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Energy level should be at least 1/9"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It must be night time"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "furnace",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "coal": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "It must be night time"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "iron": 2,
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "iron": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_31": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_10": {
+                "from": "cow",
+                "to": "sand"
+            },
+            "transition_26": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_6": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_24": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_14": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_1": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_2": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_30": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_28": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_9": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_7": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_26": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_31": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_11": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_28": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_32": {
+                "from": "cow",
+                "to": "sand"
+            },
+            "transition_21": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_27": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_5": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_26": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_15": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_10": {
+                "from": "cow",
+                "to": "sand"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_2": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_4": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_5": {
+                "from": "cow",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_20": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_34": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_25": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_9": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_17": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_31": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_24": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_19": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_8": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_4": {
+                "from": "cow",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_29": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_33": {
+                "from": "cow",
+                "to": "grass"
+            },
+            "transition_24": {
+                "from": "cow",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_2": {
+                "from": "cow on the north",
+                "to": "grass on the north"
+            },
+            "transition_11": {
+                "from": "cow on the east",
+                "to": "grass on the east"
+            },
+            "transition_33": {
+                "from": "cow on the east",
+                "to": "grass on the east"
+            },
+            "transition_30": {
+                "from": "cow on the east",
+                "to": "grass on the east"
+            },
+            "transition_16": {
+                "from": "cow on the east",
+                "to": "grass on the east"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "cow",
+            "to": "grass"
+        }
+    }
+}

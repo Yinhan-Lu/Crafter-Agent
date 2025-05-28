@@ -1,0 +1,12 @@
+{
+    "0": {
+        "collect_diamond": {
+            "General Plan": {
+                "step_1": "Identify the direction of the nearest diamond, ensuring it is within immediate distance.",
+                "step_2": "Navigate towards the diamond while clearing any obstacles and facing the diamond when within immediate distance.",
+                "step_3": "Execute the collect_diamond action while facing the diamond."
+            },
+            "termination_condition": "The diamond is collected and the inventory reflects an increased amount of diamonds, or if health, food, drink, or energy levels are critically low, or if nearby threats like zombies or skeletons are present."
+        }
+    }
+}

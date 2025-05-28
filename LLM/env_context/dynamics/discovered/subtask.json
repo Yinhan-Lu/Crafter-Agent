@@ -1,0 +1,314 @@
+{
+    "collect_coal": {
+        "General Plan": {
+            "step_1": "Explore the environment to locate coal blocks, which can be identified by their distinct texture compared to other stone blocks.",
+            "step_2": "Navigate the player to be within a 1-block distance from the coal, ensuring there are no obstacles directly between the player and the coal.",
+            "step_3": "Ensure the player is facing the coal block directly to interact with it.",
+            "step_4": "Use the 'collect_coal' action to mine the coal block, which converts the block into a collectible item in the inventory.",
+            "step_5": "Repeat the process for additional coal blocks as necessary, monitoring the player's health, hunger, and tool durability."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In trajectories where lava is nearby, extra caution is required to avoid falling or stepping into it, as it can cause immediate health loss.",
+            "adaptation_2": "When skeletons or other hostile entities are near the coal, prepare to defend or evade combat by either fighting with a weapon or moving away.",
+            "adaptation_3": "Adapt movement plans based on environmental obstacles such as water bodies, lava, and terrain elevation to reach coal blocks safely.",
+            "adaptation_4": "Prioritize coal blocks that are easier to reach and have fewer risks associated, particularly when the player's resources or health are low.",
+            "adaptation_5": "Use 'noop' strategically to pass the time until a safer or more opportune moment to collect coal, especially when waiting for hostile entities to move away."
+        },
+        "Pre-conditions": "You only need to have the following objects: [\"one of the following objects: {'wood_pickaxe': 1, 'stone_pickaxe': 1}\"]",
+        "Outcome": "The outcome of this action is: {'coal': 1}"
+    },
+    "collect_diamond": {
+        "General Plan": {
+            "step_1": "Explore the environment to locate a diamond block.",
+            "step_2": "Navigate through obstacles and terrain to reach the diamond.",
+            "step_3": "Ensure to meet the requirement of facing the diamond block and being within a 1-block distance.",
+            "step_4": "Collect the diamond.",
+            "step_5": "Safely navigate back or continue with the next objective."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In trajectory 1, the player collects stone and mines through obstructions to create a path towards the diamond. This adaptation is crucial for overcoming environmental obstacles.",
+            "adaptation_2": "In trajectory 2, the player demonstrates patience by waiting (using 'noop') for the right moment or possibly assessing the situation before making significant moves towards the diamond. This showcases the importance of timing and strategic planning."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'iron_pickaxe': 1}]",
+        "Outcome": "The outcome of this action is: {'diamond': 1}"
+    },
+    "collect_drink": {
+        "General Plan": {
+            "step_1": "Move towards water source as it's the fundamental requirement for the collect_drink action.",
+            "step_2": "Ensure to have no obstacles like walls or enemies in the direct path to the water source to avoid unnecessary actions.",
+            "step_3": "Stand adjacent to the water block ensuring the player is facing the water to meet the 'nearby' condition.",
+            "step_4": "Perform the 'collect_drink' action to increase the drink meter by 1."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Moving strategically to avoid or minimize confrontation with enemies, especially in scenarios where health is critical and actions need conservation for survival, as seen in some trajectories with skeleton encounters.",
+            "adaptation_2": "Efficient use of energy by avoiding unnecessary actions such as 'noop' or repetitive crafting, which don't contribute directly to the collect_drink task.",
+            "adaptation_3": "Adapting movement based on time (day-night cycle), terrain (grass, sand, water), and obstacles (coal, stone, iron) to reach a water source indicates a need to plan paths considering environmental dynamics.",
+            "adaptation_4": "Considering the time of day for actions, as performing actions like moving and collecting can be strategically planned around safer times, ensuring survival and successful collection."
+        },
+        "Pre-conditions": "You only need to have the following objects: None",
+        "Outcome": "The outcome of this action is: {'drink': 1}"
+    },
+    "collect_iron": {
+        "General Plan": {
+            "step_1": "Identify the location of iron blocks within the environment.",
+            "step_2": "Navigate towards the identified iron block(s), taking the shortest and safest route possible.",
+            "step_3": "Position the player adjacent to the iron block and face it directly.",
+            "step_4": "Execute the 'collect_iron' action to mine the iron.",
+            "step_5": "Repeat the process for other accessible iron blocks if necessary.",
+            "step_6": "Manage health, food, drink, and energy levels to sustain the mining activity and navigation."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Moving around obstacles such as lava, water, and skeletons to reach the iron safely. It's essential as it prevents loss of health and ensures safe arrival to the iron location.",
+            "adaptation_2": "Collecting resources like stone and coal en route to crafting tools or for survival. This is important for maintaining good equipment and sustaining the player's health and energy.",
+            "adaptation_3": "Adjusting the player's direction to face the iron block before collection. Vital for meeting 'collect_iron' action prerequisites.",
+            "adaptation_4": "Decision-making on when to use 'noop' to pass time, in cases where action possibilities are limited by the game dynamics, like waiting for a safer time to navigate."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'stone_pickaxe': 1}]",
+        "Outcome": "The outcome of this action is: {'iron': 1}"
+    },
+    "collect_sapling": {
+        "General Plan": {
+            "step_1": "Locate a sapling or the circumstances under which a sapling can be collected ('grass' block nearby).",
+            "step_2": "Move towards the target location, adjusting direction as needed to navigate around obstacles.",
+            "step_3": "Ensure proper alignment with the target block ('grass') by facing towards it.",
+            "step_4": "Perform the 'collect_sapling' action when in the correct position (within a 1-block distance and facing the target).",
+            "step_5": "Adapt the strategy based on environmental factors, inventory status, and immediate threats or opportunities."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Trajectories varied in the approach to locating saplings, with some routes requiring the avoidance of enemies or the navigation of environmental obstacles. This variation highlights the importance of situational awareness and tactical maneuvering.",
+            "adaptation_2": "In some trajectories, the collection of resources like wood, stone, or engagement with enemies occurred before or after collecting saplings. This adaptation underscores the need to balance resource management with the primary objective.",
+            "adaptation_3": "The player's inventory and tool availability, such as pickaxes and swords, influenced the approach to collecting saplings and handling environmental threats. This suggests the importance of prioritizing inventory management and equipment upgrades."
+        },
+        "Pre-conditions": "You only need to have the following objects: None",
+        "Outcome": "The outcome of this action is: {'sapling': 1}"
+    },
+    "collect_stone": {
+        "General Plan": {
+            "step_1": "Identify the location of stone blocks in the environment.",
+            "step_2": "Navigate towards the stone blocks, making sure to adjust movement based on the environment's layout.",
+            "step_3": "Position the player in front of the stone block to meet the 'face the object' requirement.",
+            "step_4": "Perform the collect_stone action to collect the stone. This action changes the stone block to a path.",
+            "step_5": "Repeat steps 2 to 4 as necessary to collect the desired amount of stone blocks."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Adaptation in navigation strategies was crucial, given the different layouts of stone blocks and the presence of obstacles such as trees.",
+            "adaptation_2": "Choosing the optimal moment for collecting resources, such as stone, was essential. Planning moves to ensure survival needs (food, drink, and health) are met was critical.",
+            "adaptation_3": "The decision to collect other resources, such as wood and coal, while on the way to collect stone demonstrates a multi-tasking approach that maximizes efficiency.",
+            "adaptation_4": "Adjusting actions based on inventory status (e.g., ensuring the pickaxe is available and not broken) was necessary to successfully collect stone."
+        },
+        "Pre-conditions": "You only need to have the following objects: [\"one of the following objects: {'wood_pickaxe': 1, 'stone_pickaxe': 1}\"]",
+        "Outcome": "The outcome of this action is: {'stone': 1}"
+    },
+    "collect_wood": {
+        "General Plan": {
+            "step_1": "Locate a tree within the environment.",
+            "step_2": "Navigate towards the tree ensuring to avoid or navigate around obstacles.",
+            "step_3": "Position the player adjacent to the tree.",
+            "step_4": "Orient the player to face the tree directly.",
+            "step_5": "Perform the action 'collect_wood' to gather wood from the tree."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In some trajectories, the player crafted tools (e.g., wood_pickaxe, wood_sword) after collecting wood, highlighting the importance of utilizing collected resources for tool creation.",
+            "adaptation_2": "In certain situations, avoiding or interacting with animals (e.g., cows) was necessary, showing the importance of adapting to dynamic environmental elements.",
+            "adaptation_3": "The player occasionally took 'noop' actions, potentially indicating moments of planning or decision-making pause, underscoring the value of patience and observation before taking actions."
+        },
+        "Pre-conditions": "You only need to have the following objects: None",
+        "Outcome": "The outcome of this action is: {'wood': 1}"
+    },
+    "defeat_skeleton": {
+        "General Plan": {
+            "step_1": "Locate the skeleton. This might involve exploring the environment to find where the skeleton is.",
+            "step_2": "Move towards the skeleton. Ensure you are within a 1-block distance to engage.",
+            "step_3": "Face the skeleton. Orientation is crucial to successfully carry out the attack.",
+            "step_4": "Attack the skeleton by performing 'do(mine_or_collect_or_attack)' or the relevant action based on game mechanics until it is defeated."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Trajectory 1 showed the player moving around to collect resources (iron and stone) before engaging the skeleton. Collecting resources might be important to prepare for the battle or for subsequent needs after the battle.",
+            "adaptation_2": "In trajectories 2 and 4, the player engaged directly with the skeleton shortly after encountering it, indicating that immediate engagement could be vital if properly equipped or if the player seeks to quickly eliminate threats.",
+            "adaptation_3": "Trajectory 3 demonstrated the player upgrading their inventory (collecting stone) before fighting, which suggests that having stronger tools or weapons could be beneficial for easier victory over skeletons."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood_sword': 1}]",
+        "Outcome": "The outcome of this action is: {}"
+    },
+    "defeat_zombie": {
+        "General Plan": {
+            "step_1": "Navigate the environment to locate zombies, considering they can spawn on grass or path surfaces.",
+            "step_2": "Maintain health, food, drink, and energy levels to ensure the player can withstand zombie attacks and travel the environment.",
+            "step_3": "Position the player character within a 1-block distance of a zombie to engage.",
+            "step_4": "Face the zombie to fulfill the action requirement for defeat_zombie.",
+            "step_5": "Execute the defeat_zombie action to successfully eliminate the zombie."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "For trajectories that involve avoiding hazards (like lava) while approaching zombies, it's crucial to navigate the terrain carefully to prevent premature health loss.",
+            "adaptation_2": "In situations with multiple hostile entities, selecting the right moment to attack or choosing a strategic position can minimize damage taken.",
+            "adaptation_3": "Adapting actions based on the time of day is important, as different times may affect the spawn rates or behavior of zombies.",
+            "adaptation_4": "Inventory management is key when preparing for battle, ensuring that necessary tools or weapons are obtained and ready for use.",
+            "adaptation_5": "Energy conservation strategies, such as choosing when to rest or which actions to perform, are vital for maintaining the player's ability to fight or flee."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood_sword': 1}]",
+        "Outcome": "The outcome of this action is: {}"
+    },
+    "eat_cow": {
+        "General Plan": {
+            "step_1": "Locate a cow within the environment.",
+            "step_2": "Move towards the cow ensuring to maintain or reach a 1-block distance.",
+            "step_3": "Face the cow directly to meet the action requirement.",
+            "step_4": "Perform the action eat_cow to complete the task."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Collecting additional resources like stone, and wood on the way to crafting weapons or improving survival chances. This is important because it prepares the player for future challenges and enhances survival.",
+            "adaptation_2": "Drinking water or collecting drinkable resources to maintain hydration, evident in trajectory 9. Staying hydrated is crucial for survival, ensuring the player can continue exploring without succumbing to dehydration.",
+            "adaptation_3": "Adapting movements based on environmental structures and obstacles (e.g., avoiding water or navigating through grass), seen across various trajectories. It showcases the importance of environmental awareness in reaching objectives efficiently."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood_sword': 1}]",
+        "Outcome": "The outcome of this action is: {'food': 3}"
+    },
+    "make_iron_pickaxe": {
+        "General Plan": {
+            "step_1": "Place a crafting table to enable crafting advanced items, if no crafting table in the observation",
+            "step_2": "Place a furnace for smelting iron ore into iron ingots next to the crafting table.",
+            "step_3": "Use the crafting table and furnace to make an iron pickaxe."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Trajectories 3 and 4 show the significance of moving and positioning correctly near the table and furnace before attempting to craft the iron pickaxe.",
+            "adaptation_2": "Trajectory 6 highlights the importance of resource management, especially ensuring enough coal and iron before commencing the making of the iron pickaxe.",
+            "adaptation_3": "In trajectory 10, the player attempted to make a stone pickaxe before making an iron pickaxe, illustrating the need for proper tool progression."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood': 1}, {'coal': 1}, {'iron': 1},  table nearby, furnace nearby]",
+        "Outcome": "The outcome of this action is: {'iron_pickaxe': 1}"
+    },
+    "make_stone_pickaxe": {
+        "General Plan": {
+            "step_1": "Find or create a crafting table.",
+            "step_2": "Ensure you are within a 1-block distance of the crafting table and facing it.",
+            "step_3": "Use the crafting table to make the stone pickaxe."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In trajectories where players already have sufficient resources, they focus on finding or positioning themselves near a crafting table to make the stone pickaxe.",
+            "adaptation_2": "Players in some trajectories place the crafting table themselves, indicating the importance of having wood to not just make tools but also essential crafting stations.",
+            "adaptation_3": "Noop actions are observed when players possibly are planning their next steps or have no immediate actions to take towards making the stone pickaxe.",
+            "adaptation_4": "In environments rich in resources, players might collect extra materials for future use beyond the stone pickaxe, suggesting foresight and planning."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood': 1}, {'stone': 2}, table nearby]",
+        "Outcome": "The outcome of this action is: {'stone_pickaxe': 1}"
+    },
+    "make_stone_sword": {
+        "General Plan": {
+            "step_1": "Collect resources: Gather wood and stone.",
+            "step_2": "Create or find a crafting table.",
+            "step_3": "Approach the crafting table: Be within a 1-block distance from the crafting table.",
+            "step_4": "Craft the stone sword: Use the crafting table with the necessary materials to create a stone sword."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Trajectories varied in the order of gathering resources and crafting tools, emphasizing the flexibility in approach based on the available resources and environment.",
+            "adaptation_2": "In several trajectories, the player crafted additional items (e.g., wood pickaxe) prior to making the stone sword, highlighting the importance of having the right tools to gather necessary resources more effectively.",
+            "adaptation_3": "The placement of a crafting table was a necessary step in trajectories where one was not readily available, pointing out the necessity to adapt based on the crafting infrastructure in the player's vicinity.",
+            "adaptation_4": "Noop actions were prevalent in trajectories, indicating moments of planning or searching for resources, suggesting that effective navigation and resource identification are key."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'wood': 1}, {'stone': 2}, table nearby]",
+        "Outcome": "The outcome of this action is: {'stone_sword': 1}"
+    },
+    "make_wood_pickaxe": {
+        "General Plan": {
+            "step_1": "Walk to the crafting table within 1 block radius",
+            "step_2": "Use the crafting table to make a wood pickaxe."
+        },
+        "Individual Adaptation": {
+            "trajectory_1": "The player collects wood and immediately places a table. This shows planning, as they prepare the crafting station right away.",
+            "trajectory_2": "The player attempts to place a table twice, showing a possible misunderstanding of the game mechanics or an accidental action.",
+            "trajectory_3": "Similar to trajectory 2, with repeated non-productive actions, emphasizing the importance of understanding game controls.",
+            "trajectory_4": "Despite the original goal, the player crafts a wood sword instead, illustrating a diversion from the plan that may occur due to distractions or mismanagement.",
+            "trajectory_5": "The player mistakenly places multiple tables, underlining the importance of precisely executing actions according to the game's requirements.",
+            "trajectory_6": "Repetitive no-action illustrates potential indecisiveness or strategic waiting, which may not always benefit the player.",
+            "trajectory_7": "Placement of a crafting table amidst a challenging environment shows adaptability to surroundings.",
+            "trajectory_8": "A focus on observation rather than action, hinting at the importance of surveying the environment before making moves.",
+            "trajectory_9": "The player makes a wood sword by mistake; highlighting the necessity of careful decision-making and action selection.",
+            "trajectory_10": "A non-related action (place_plant) that does not contribute to the objective, signaling the potential for players to engage in unrelated tasks."
+        },
+        "Pre-conditions": "You needsubtasks to have the following objects: [{'wood': 1}, table nearby]",
+        "Outcome": "The outcome of this action is: {'wood_pickaxe': 1}"
+    },
+    "make_wood_sword": {
+        "General Plan": {
+            "step_1": "Ensure you are within a 1-block distance from the table to utilize it for crafting.",
+            "step_2": "Craft a wood sword using the table."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In scenarios lacking essential materials (like wood or stone), prioritize gathering these resources before attempting to craft items.",
+            "adaptation_2": "Adapt movements and actions based on environmental conditions and available resources. For instance, moving to areas with higher tree density for wood.",
+            "adaptation_3": "Efficient inventory management can expedite the crafting process, such as prioritizing the collection of specific resources based on the player's immediate goal.",
+            "adaptation_4": "Place crafting tables strategically to reduce travel time and increase crafting efficiency, especially in resource-rich areas.",
+            "adaptation_5": "In trajectories where 'noop' was frequently used, optimizing action plans to reduce idle time can significantly improve efficiency."
+        },
+        "Pre-conditions": "You needsubtasks to have the following objects: [{'wood': 1}, , table nearby]",
+        "Outcome": "The outcome of this action is: {'woord_sword': 1}"
+    },
+    "place_furnace": {
+        "General Plan": {
+            "step_1": "Position the player character within a 1-step distance of the intended placement location.",
+            "step_2": "Ensure the player character is facing a 'path' or 'grass' block.",
+            "step_3": "Execute the place_furnace action."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In some trajectories, players performed the action 'noop' multiple times before placing a table or making an iron_pickaxe. This may indicate a planning or decision-making phase, highlighting the importance of strategy before action.",
+            "adaptation_2": "The placement of the table before creating or placing the furnace in numerous trajectories illustrates the necessity of having a crafting interface available. This step is crucial for crafting additional items that might be required for further actions.",
+            "adaptation_3": "Moving towards or away from certain blocks before placing the furnace suggests that positioning and orientation in the environment are critical. This highlights the importance of being in the right location and facing the correct direction for the successful completion of tasks."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'stone': 4}]",
+        "Outcome": "The outcome of this action is: {'furnace': 1}"
+    },
+    "place_plant": {
+        "General Plan": {
+            "step_1": "Navigate the environment to locate a grass block within 1-block distance.",
+            "step_2": "Face the grass block directly.",
+            "step_3": "Use the 'place_plant' action to plant the sapling on the grass block, transforming it into a plant."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "In trajectory 7, player decides to place the plant after moving down multiple times signifying the importance of positioning.",
+            "adaptation_2": "In trajectory 9, the player places the plant successfully after discovering a grass tile by specifically moving up towards the needed environment.",
+            "adaptation_3": "Several trajectories involve the player utilizing 'noop' or idle actions, indicating moments of decision-making or searching for suitable locations.",
+            "adaptation_4": "In trajectory 10, repeated left movements before planting highlight the effort to align precisely with target grass blocks."
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'sapling': 1}]",
+        "Outcome": "The outcome of this action is: {}"
+    },
+    "place_stone": {
+        "General Plan": {
+            "step_1": "Locate a suitable placement location, such as grass or path blocks.",
+            "step_2": "Stand within a 1-block distance from the placement location.",
+            "step_3": "Face towards the desired placement location.",
+            "step_4": "Place the stone on the selected location."
+        },
+        "Individual Adaptation": {
+            "trajectory_1": {
+                "adaptation": "The player moved and collected stones, periodically engaging in no-action ('noop') sequences, suggesting planning or observation might be occurring.",
+                "importance": "Understanding the environment and resource management is crucial, even if it involves periods of inaction for strategic planning."
+            },
+            "trajectory_2": {
+                "adaptation": "Repeated 'noop' actions were taken after observing the environment, indicating a cautious approach or assessment of surroundings.",
+                "importance": "Taking time to assess the situation and surroundings can be critical, especially when new or dangerous elements (like skeletons) are encountered."
+            },
+            "trajectory_3": {
+                "adaptation": "Placement of a table instead of stone and then no further action, showing a potential misunderstanding of the goal or exploration of different interactions.",
+                "importance": "Experimenting with different environmental interactions can help understand the capabilities and limitations in achieving tasks."
+            }
+        },
+        "Pre-conditions": "You only need to have the following objects: [{'stone': 1}]",
+        "Outcome": "The outcome of this action is: {}"
+    },
+    "place_table": {
+        "General Plan": {
+            "step_1": "Identify a suitable location for the table, ensuring it is on grass or path as per world dynamics.",
+            "step_2": "Place the table within a 1-block distance from the player, ensuring the player faces towards grass or path surface.",
+            "step_3": "Adjust the placement if needed to ensure it fits well within the environment and usage needs."
+        },
+        "Individual Adaptation": {
+            "adaptation_1": "Trajectory indicates the need for tool crafting (e.g., wood pickaxe) for efficient resource gathering. Tools like the wood pickaxe help gather resources faster, such as wood for the table.",
+            "adaptation_2": "Maintaining health, food, drink, and energy levels are crucial, showcased by actions to avoid harm from entities like skeletons, or managing survival essentials.",
+            "adaptation_3": "Adapting movement based on environmental features such as avoiding water, lava, and making use of paths to efficiently navigate to resource locations.",
+            "adaptation_4": "Choosing to engage or avoid combat (no-operations or 'noop' when facing skeletons) based on current health and the necessity to preserve well-being for the primary task."
+        },
+        "Pre-conditions": "You only need to have the following objects: ['2 wood']",
+        "Outcome": "The outcome of this action is: {'table': 1}"
+    }
+}

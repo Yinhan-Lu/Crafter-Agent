@@ -1,0 +1,16 @@
+{
+    "0": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "8": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "9": {
+        "inventory_increase": {
+            "stone": -1
+        },
+        "status_increase": "None"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "0": {
+        "collect_iron": {
+            "General Plan": {
+                "step_1": "Identify the nearest or most accessible 'iron' node within the environment.",
+                "step_2": "Move towards the identified 'iron' node, ensuring its distance is within 'immediate' range.",
+                "step_3": "Face the 'iron' node directly to fulfill the action requirement for collect_iron.",
+                "step_4": "Execute the 'collect_iron' action to successfully collect the 'iron' node."
+            },
+            "termination_condition": "The inventory's 'iron' amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

@@ -1,0 +1,553 @@
+{
+    "0": {
+        "increase": {
+            "transition_6": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "furnace": 1
+            },
+            "status_increase": {
+                "energy": "increased_to_9"
+            }
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_2": {
+                "inventory_increase": {
+                    "iron": 3
+                },
+                "status_increase": {
+                    "health": "increased_to_9"
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "iron": 3
+                },
+                "status_increase": {
+                    "None": {
+                        "inventory_increase": {
+                            "None": {
+                                "inventory_increase": {
+                                    "iron": 3
+                                }
+                            },
+                            "transition_4": {
+                                "inventory_increase": {
+                                    "None": {
+                                        "inventory_increase": {
+                                            "iron": 3
+                                        }
+                                    },
+                                    "transition_0": {
+                                        "inventory_increase": {
+                                            "None": "status_increase None"
+                                        },
+                                        "transition_7": {
+                                            "inventory_increase": {
+                                                "coal": 3
+                                            },
+                                            "status_increase": {
+                                                "None": {
+                                                    "common_increase ": {
+                                                        "None": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_2": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_13": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "furnace"
+            ],
+            "status_increase": []
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "none": true
+                },
+                "status_increase": {
+                    "energy": 3
+                }
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "none": true
+                },
+                "status_increase": {
+                    "none": true
+                }
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "none": true
+                },
+                "status_increase": {
+                    "none": true
+                }
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "none": true
+                },
+                "status_increase": {
+                    "none": true
+                }
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "none": true
+                },
+                "status_increase": {
+                    "none": true
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "none",
+            "status_increase": "none"
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_8": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": [
+                    "None"
+                ]
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": [
+                    "None"
+                ]
+            },
+            "transition_0": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": [
+                    "None"
+                ]
+            },
+            "transition_1": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": [
+                    "None"
+                ]
+            },
+            "transition_14": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": [
+                    "None"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "furnace"
+            ],
+            "status_increase": [
+                "None"
+            ]
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_7": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_4": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_14": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "furnace"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "furnace"
+            ],
+            "status_increase": []
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": null
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": null
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": null
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": null
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": null
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "furnace": 1
+            },
+            "status_increase": null
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "none": "none"
+                }
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "none": "none"
+                }
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "none": "none"
+                }
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "none": "none"
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "furnace": 1
+                },
+                "status_increase": {
+                    "none": "none"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "furnace": 1
+            },
+            "status_increase": {
+                "none": "none"
+            }
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_14": {
+                "inventory_increase": {
+                    "wood": 4,
+                    "stone": 1,
+                    "coal": 0,
+                    "iron": -2,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 1,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": -2,
+                    "food": 6,
+                    "drink": "increased_to_9",
+                    "energy": -1
+                }
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "wood": 3,
+                    "stone": 1,
+                    "coal": 0,
+                    "iron": 1,
+                    "diamond": 0,
+                    "sapling": -2,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 1,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": -1,
+                    "food": -6,
+                    "drink": 1,
+                    "energy": 4
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "wood": 1,
+                    "stone": 1,
+                    "coal": 0,
+                    "iron": -1,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 1,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": -3,
+                    "food": -1,
+                    "drink": 1,
+                    "energy": -2
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "wood": 2,
+                    "stone": 0,
+                    "coal": -3,
+                    "iron": -1,
+                    "diamond": 0,
+                    "sapling": 0,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 3,
+                    "drink": 3,
+                    "energy": 2
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "wood": -2,
+                    "stone": -1,
+                    "coal": 1,
+                    "iron": -2,
+                    "diamond": 0,
+                    "sapling": 2,
+                    "wood_pickaxe": 0,
+                    "stone_pickaxe": 0,
+                    "iron_pickaxe": 0,
+                    "wood_sword": 0,
+                    "stone_sword": 0,
+                    "iron_sword": 0
+                },
+                "status_increase": {
+                    "health": -1,
+                    "food": "increased_to_9",
+                    "drink": "increased_to_9",
+                    "energy": 0
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "None"
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "iron": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            },
+            "transition_12": {
+                "inventory_increase": {
+                    "coal": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "diamond": 1
+                },
+                "status_increase": {
+                    "drink": "increased_to_9",
+                    "energy": 1
+                }
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "stone": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "wood": 1
+                },
+                "status_increase": {
+                    "food": 1,
+                    "energy": 1
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": {
+                "energy": 1
+            }
+        }
+    }
+}

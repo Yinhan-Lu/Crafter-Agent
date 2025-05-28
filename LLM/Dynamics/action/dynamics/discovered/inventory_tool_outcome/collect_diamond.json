@@ -1,0 +1,154 @@
+{
+    "0": {
+        "inventory_tool_outcome": {
+            "transition_13": [],
+            "transition_14": [],
+            "transition_8": [],
+            "transition_11": [],
+            "transition_3": []
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "1": {
+        "inventory_tool_outcome": {
+            "transition_14": [
+                "None"
+            ],
+            "transition_6": [
+                "None"
+            ],
+            "transition_0": [
+                "None"
+            ],
+            "transition_1": [
+                "None"
+            ],
+            "transition_10": [
+                "None"
+            ]
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "2": {
+        "inventory_tool_outcome": {
+            "transition_2": [],
+            "transition_10": [],
+            "transition_7": [],
+            "transition_0": [],
+            "transition_14": []
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "3": {
+        "inventory_tool_outcome": {
+            "transition_3": {
+                "None": 1
+            },
+            "transition_5": {
+                "None": 1
+            },
+            "transition_8": {
+                "None": 1
+            },
+            "transition_12": {
+                "None": 1
+            },
+            "transition_4": {
+                "None": 1
+            }
+        },
+        "common_inventory_tool_outcome": {
+            "common_tool_outcome": "None"
+        }
+    },
+    "4": {
+        "inventory_tool_outcome": {
+            "transition_0": [],
+            "transition_3": [],
+            "transition_14": [],
+            "transition_9": [],
+            "transition_2": []
+        },
+        "common_inventory_tool_outcome": null
+    },
+    "5": {
+        "inventory_tool_outcome": {
+            "transition_10": [],
+            "transition_5": [],
+            "transition_4": [],
+            "transition_7": [],
+            "transition_13": []
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "6": {
+        "inventory_tool_outcome": {
+            "state_transition_4": {
+                "tool_outcome": [
+                    "None"
+                ]
+            },
+            "state_transition_7": {
+                "tool_outcome": [
+                    "None"
+                ]
+            },
+            "state_transition_11": {
+                "tool_outcome": [
+                    "None"
+                ]
+            },
+            "state_transition_12": {
+                "tool_outcome": [
+                    "None"
+                ]
+            },
+            "state_transition_13": {
+                "tool_outcome": [
+                    "None"
+                ]
+            }
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "7": {
+        "inventory_tool_outcome": {
+            "transition_1": [],
+            "transition_2": [],
+            "transition_5": [],
+            "transition_7": [],
+            "transition_12": []
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "8": {
+        "inventory_tool_outcome": {
+            "transition_5": {
+                "tool_outcome": "None"
+            },
+            "transition_8": {
+                "tool_outcome": "None"
+            },
+            "transition_11": {
+                "tool_outcome": "None"
+            },
+            "transition_12": {
+                "tool_outcome": "None"
+            },
+            "transition_14": {
+                "tool_outcome": "None"
+            }
+        },
+        "common_inventory_tool_outcome": "None"
+    },
+    "9": {
+        "inventory_tool_outcome": {
+            "transition_0": "None",
+            "transition_3": "None",
+            "transition_7": "None",
+            "transition_10": "None",
+            "transition_13": "None"
+        },
+        "common_inventory_tool_outcome": "None"
+    }
+}

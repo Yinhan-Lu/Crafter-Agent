@@ -1,0 +1,14 @@
+{
+    "2": {
+        "inventory_increase": {
+            "iron": 1
+        },
+        "status_increase": "None"
+    },
+    "4": {
+        "inventory_increase": {
+            "iron": 1
+        },
+        "status_increase": "None"
+    }
+}

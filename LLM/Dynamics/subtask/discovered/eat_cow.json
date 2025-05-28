@@ -1,0 +1,12 @@
+{
+    "0": {
+        "eat_cow": {
+            "General Plan": {
+                "step_1": "Navigate towards the closest cow, ensuring it is within immediate distance.",
+                "step_2": "Face the cow to fulfill the precondition for the eat_cow action.",
+                "step_3": "Execute the eat_cow action."
+            },
+            "termination_condition": "The inventory's food status increases, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

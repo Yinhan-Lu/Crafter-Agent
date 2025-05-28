@@ -1,0 +1,276 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_11": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            },
+            "transition_13": {
+                "from": "stone on the north",
+                "to": "Nothing on the None"
+            },
+            "transition_3": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_2": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_4": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "Nothing on the None"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            },
+            "transition_9": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_3": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_12": {
+                "from": "furnace on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_5": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "any object",
+            "to": "Nothing on the None"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_10": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_7": {
+                "from": "stone on the north",
+                "to": "Nothing on the None"
+            },
+            "transition_8": {
+                "from": "stone on the south",
+                "to": "Nothing on the None",
+                "transition_6": {
+                    "from": "stone on the east",
+                    "to": "Nothing on the None"
+                },
+                "transition_5": {
+                    "from": "stone on the south",
+                    "to": "Nothing on the None"
+                }
+            },
+            "common_facing_object_change": {
+                "from": "stone",
+                "to": "Nothing on the None"
+            }
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "state_transition_4": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "state_transition_13": {
+                "from": "stone on the north",
+                "to": "Nothing on the None"
+            },
+            "state_transition_12": {
+                "from": "furnace on the south",
+                "to": "Nothing on the None"
+            },
+            "state_transition_7": {
+                "from": "stone on the north",
+                "to": "Nothing on the None"
+            },
+            "state_transition_11": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "an object",
+            "to": "Nothing on the None"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "state_transition_12": {
+                "from": "furnace on the south",
+                "to": "furnace on the south"
+            },
+            "state_transition_3": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "state_transition_2": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "state_transition_10": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "state_transition_9": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_4": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_8": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_2": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_13": {
+                "from": "stone on the north",
+                "to": "Nothing on the None"
+            },
+            "transition_6": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "Nothing on the None"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "stone on the west",
+                "to": "Nothing on the None"
+            },
+            "transition_11": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            },
+            "transition_4": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_5": {
+                "from": "stone on the south",
+                "to": "Nothing on the None"
+            },
+            "transition_6": {
+                "from": "stone on the east",
+                "to": "Nothing on the None"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "Nothing"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_12": {
+                "from": "furnace",
+                "to": "furnace"
+            },
+            "transition_4": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_6": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_0": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_1": {
+                "from": "stone",
+                "to": "Nothing"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "Nothing"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_5": {
+                "from": "Facing stone on the south",
+                "to": "Facing Nothing on the None"
+            },
+            "transition_1": {
+                "from": "Facing stone on the south",
+                "to": "Facing Nothing on the None"
+            },
+            "transition_12": {
+                "from": "Facing furnace on the south",
+                "to": "Facing furnace on the south"
+            },
+            "transition_0": {
+                "from": "Facing stone on the east",
+                "to": "Facing Nothing on the None"
+            },
+            "transition_4": {
+                "from": "Facing stone on the south",
+                "to": "Facing Nothing on the None"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_7": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_4": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_13": {
+                "from": "stone",
+                "to": "Nothing"
+            },
+            "transition_9": {
+                "from": "stone",
+                "to": "Nothing"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "stone",
+            "to": "Nothing"
+        }
+    }
+}

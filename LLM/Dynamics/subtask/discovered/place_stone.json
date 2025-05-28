@@ -1,0 +1,14 @@
+{
+    "0": {
+        "place_stone": {
+            "General Plan": {
+                "step_1": "Ensure you have at least one stone in your inventory. Gather stone blocks if needed.",
+                "step_2": "Navigate the environment to face one of the suitable surfaces ['water', 'grass', 'path', 'stone', 'lava'] for placing a stone.",
+                "step_3": "Move within immediate distance of the suitable surface.",
+                "step_4": "Face the suitable surface directly.",
+                "step_5": "Execute the place_stone action."
+            },
+            "termination_condition": "The facing object changes to 'stone', or if the food, drink, or energy levels are low, or there are any hostile entities (e.g., zombies) nearby."
+        }
+    }
+}

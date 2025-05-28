@@ -1,0 +1,234 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_16": [
+                "stone",
+                "grass"
+            ],
+            "transition_5": [
+                "path",
+                "grass"
+            ],
+            "transition_18": [
+                "grass"
+            ],
+            "transition_13": [
+                "grass"
+            ],
+            "transition_11": [
+                "grass",
+                "plant"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_7": [
+                "plant"
+            ],
+            "transition_16": [
+                "stone"
+            ],
+            "transition_9": [
+                "plant"
+            ],
+            "transition_6": [],
+            "transition_4": [
+                "tree",
+                "water"
+            ]
+        },
+        "common_immediate_objects": []
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_0": [],
+            "transition_19": [],
+            "transition_15": [],
+            "transition_2": [
+                "plant"
+            ],
+            "transition_13": []
+        },
+        "common_immediate_objects": "None"
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_14": {
+                "grass": "West",
+                "tree": "SouthWest"
+            },
+            "transition_19": {
+                "grass": "NorthEast",
+                "path": "NorthWest"
+            },
+            "transition_3": {
+                "grass": "South"
+            },
+            "transition_18": {
+                "grass": "West"
+            },
+            "transition_7": {
+                "grass": "West",
+                "path": "South"
+            }
+        },
+        "common_immediate_objects": {
+            "grass": "common_immediate_objects"
+        }
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_0": [
+                "grass"
+            ],
+            "transition_16": [
+                "stone",
+                "grass"
+            ],
+            "transition_8": [
+                "grass"
+            ],
+            "transition_13": [
+                "grass"
+            ],
+            "transition_19": [
+                "stone",
+                "path",
+                "sand",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_10": {
+                "grass": true,
+                "plant": true
+            },
+            "transition_3": {
+                "grass": true,
+                "path": true,
+                "stone": true
+            },
+            "transition_0": {
+                "grass": true
+            },
+            "transition_19": {
+                "grass": true,
+                "stone": true,
+                "path": true,
+                "sand": true
+            },
+            "transition_6": {
+                "grass": true
+            }
+        },
+        "common_immediate_objects": {
+            "grass": true
+        }
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_0": [
+                "grass"
+            ],
+            "transition_10": [
+                "grass",
+                "plant"
+            ],
+            "transition_1": [
+                "path",
+                "stone",
+                "tree",
+                "grass"
+            ],
+            "transition_15": [
+                "grass"
+            ],
+            "transition_4": [
+                "tree"
+            ]
+        },
+        "common_immediate_objects": "None"
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_20": [
+                "stone",
+                "table"
+            ],
+            "transition_8": [
+                "plant",
+                "stone",
+                "skeleton"
+            ],
+            "transition_18": [
+                "stone",
+                "tree"
+            ],
+            "transition_3": [
+                "stone",
+                "plant"
+            ],
+            "transition_4": [
+                "tree",
+                "water"
+            ]
+        },
+        "common_immediate_objects": "None"
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_0": [
+                "grass"
+            ],
+            "transition_20": [
+                "grass"
+            ],
+            "transition_13": [
+                "grass"
+            ],
+            "transition_11": [
+                "grass",
+                "plant"
+            ],
+            "transition_7": [
+                "grass",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_12": [
+                "plant"
+            ],
+            "transition_10": [
+                "plant"
+            ],
+            "transition_15": [
+                "plant"
+            ],
+            "transition_8": [
+                "plant"
+            ],
+            "transition_17": [
+                "plant"
+            ]
+        },
+        "common_immediate_objects": [
+            "plant"
+        ]
+    }
+}

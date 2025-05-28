@@ -1,0 +1,380 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "can only be performed next to a crafting table"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "can only be performed next to a crafting table"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 4,
+                "stone": 6
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Must be daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 3,
+                "stone": 5
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Must be daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Must be daytime"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": null
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Crafting table must be within immediate distance"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "Health, food, drink, and energy must be greater than 0."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Requires at least 1 unit of wood and 2 units of stone in inventory."
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The table must be within immediate distance in any direction."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime."
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It must be daytime."
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 2,
+                "stone": 3
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "table"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent health should be non-zero"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It must be daytime"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "table",
+            "precondition_about_inventory_materials": {
+                "wood": 1,
+                "stone": 2
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        }
+    }
+}

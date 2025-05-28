@@ -1,0 +1,574 @@
+{
+    "collect_stone": {
+        "nearby": [
+            {
+                "stone": 1
+            }
+        ],
+        "where": [
+            [
+                "stone"
+            ]
+        ],
+        "leaves": [
+            [
+                "path"
+            ]
+        ],
+        "additional_information": "The player must have at least one wooden or stone pickaxe in their inventory and face a stone block to perform the collect_stone action. Executing this action does not consume the pickaxe. Once the stone is collected, the player's stone inventory increases by one, and the original stone block is transformed into a path block, which the player can walk over.",
+        "name": "collect_stone",
+        "wid": 0,
+        "pre_condition": [
+            {
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1
+            }
+        ],
+        "outcome": {
+            "stone": 1
+        }
+    },
+    "idle": {
+        "nearby": [],
+        "where": [],
+        "leaves": [],
+        "additional_information": "The 'idle' action represents the player resting or waiting without performing any active task.",
+        "name": "idle",
+        "wid": 1,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "collect_drink": {
+        "nearby": [
+            {
+                "water": 1
+            }
+        ],
+        "where": [
+            [
+                "water"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "Player must be adjacent to water and facing water to collect drink, action increases the drink in inventory by 1",
+        "name": "collect_drink",
+        "wid": 2,
+        "pre_condition": [],
+        "outcome": {
+            "drink": 1
+        }
+    },
+    "place_plant": {
+        "nearby": [
+            {
+                "grass": 1
+            }
+        ],
+        "where": [
+            [
+                "grass"
+            ]
+        ],
+        "leaves": [
+            [
+                "plant"
+            ]
+        ],
+        "additional_information": "The player must have at least one sapling in their inventory and must be facing a grass block without any additional objects being nearby to perform the place_plant action. Upon using the action, a sapling is consumed from the player's inventory, and the targeted grass block is replaced with a plant block.",
+        "name": "place_plant",
+        "wid": 3,
+        "pre_condition": [
+            {
+                "sapling": 1
+            }
+        ],
+        "outcome": {}
+    },
+    "collect_coal": {
+        "nearby": [
+            {
+                "coal": 1
+            }
+        ],
+        "where": [
+            [
+                "coal"
+            ]
+        ],
+        "leaves": [
+            [
+                "path"
+            ]
+        ],
+        "additional_information": "To collect coal, the player must have either a wood pickaxe or a stone pickaxe and must be facing the coal tile directly. When coal is collected, the coal tile is converted into a walkable path tile, and the player receives one coal in inventory.",
+        "name": "collect_coal",
+        "wid": 4,
+        "pre_condition": [
+            {
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1
+            }
+        ],
+        "outcome": {
+            "coal": 1
+        }
+    },
+    "collect_wood": {
+        "nearby": [
+            {
+                "tree": 1
+            }
+        ],
+        "where": [
+            [
+                "tree"
+            ]
+        ],
+        "leaves": [
+            [
+                "grass"
+            ]
+        ],
+        "additional_information": "To collect wood, the player must have at least a wood pickaxe equipped and face a tree. Each successful action yields one wood and turns the tree into a grass tile",
+        "name": "collect_wood",
+        "wid": 5,
+        "pre_condition": [],
+        "outcome": {
+            "wood": 1
+        }
+    },
+    "make_stone_pickaxe": {
+        "nearby": [
+            {
+                "table": 1
+            }
+        ],
+        "where": [
+            [
+                "table"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "To craft a stone pickaxe, the player must have at least one wood and two stone in their inventory and must be standing adjacent to a table and facing it. The action consumes one wood and two stone from the inventory and adds one stone pickaxe to it.",
+        "name": "make_stone_pickaxe",
+        "wid": 6,
+        "pre_condition": [
+            {
+                "wood": 1
+            },
+            {
+                "stone": 2
+            }
+        ],
+        "outcome": {
+            "stone_pickaxe": 1
+        }
+    },
+    "make_stone_sword": {
+        "nearby": [
+            {
+                "table": 1
+            }
+        ],
+        "where": [
+            [
+                "table"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "To craft a stone sword, the player must have at least one wood and two stone in their inventory and must be standing adjacent to a table and facing it. The action consumes one wood and two stone from the inventory and adds one stone sword to it.",
+        "name": "make_stone_sword",
+        "wid": 7,
+        "pre_condition": [
+            {
+                "wood": 1
+            },
+            {
+                "stone": 2
+            }
+        ],
+        "outcome": {
+            "stone_sword": 1
+        }
+    },
+    "collect_sapling": {
+        "nearby": [
+            {
+                "grass": 1
+            }
+        ],
+        "where": [
+            [
+                "grass"
+            ]
+        ],
+        "leaves": [
+            [
+                "grass"
+            ]
+        ],
+        "name": "collect_sapling",
+        "wid": 8,
+        "pre_condition": [],
+        "outcome": {
+            "sapling": 1
+        }
+    },
+    "place_table": {
+        "nearby": [],
+        "where": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "leaves": [
+            [
+                "table"
+            ]
+        ],
+        "name": "place_table",
+        "wid": 9,
+        "pre_condition": [
+            {
+                "wood": 2
+            }
+        ],
+        "outcome": {
+            "table": 1
+        }
+    },
+    "make_wood_sword": {
+        "nearby": [
+            {
+                "table": 1
+            }
+        ],
+        "where": [],
+        "leaves": [],
+        "additional_information": "To craft a wood sword, the player must be standing next to a table facing any direction. One unit of wood is used from the player's inventory to create one wood sword. There are no changes to the walkable terrain or leftover resources. Crafting the sword does not require any specific side of the table to be faced, indicating any side is suitable as long as the player is adjacent to the table.",
+        "name": "make_wood_sword",
+        "wid": 10,
+        "pre_condition": [
+            {
+                "wood": 1
+            }
+        ],
+        "outcome": {
+            "wood_sword": 1
+        }
+    },
+    "make_wood_pickaxe": {
+        "nearby": [
+            {
+                "table": 1
+            }
+        ],
+        "where": [],
+        "leaves": [],
+        "additional_information": "The player must have at least one wood in their inventory and be adjacent to and facing a table to perform the action. Using the action consumes one wood from the inventory and produces one wood pickaxe in the inventory.",
+        "name": "make_wood_pickaxe",
+        "wid": 11,
+        "pre_condition": [
+            {
+                "wood": 1
+            }
+        ],
+        "outcome": {
+            "wood_pickaxe": 1
+        }
+    },
+    "eat_cow": {
+        "nearby": [
+            {
+                "cow": 1
+            }
+        ],
+        "where": [
+            [
+                "cow"
+            ]
+        ],
+        "leaves": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "additional_information": "To eat a cow, the player must be facing the cow and have at least a wood sword. Consuming the cow increases the player's food by 3 units",
+        "name": "eat_cow",
+        "wid": 12,
+        "pre_condition": [
+            {
+                "wood_sword": 1
+            }
+        ],
+        "outcome": {
+            "food": 3
+        }
+    },
+    "defeat_zombie": {
+        "nearby": [
+            {
+                "zombie": 1
+            }
+        ],
+        "where": [
+            [
+                "zombie"
+            ]
+        ],
+        "leaves": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "additional_information": "Zomcbies can be defeated when they are directly faced by the player",
+        "name": "defeat_zombie",
+        "wid": 13,
+        "pre_condition": [
+            {
+                "wood_sword": 1
+            }
+        ],
+        "outcome": {}
+    },
+    "sleep": {
+        "nearby": [],
+        "where": [],
+        "leaves": [],
+        "additional_information": "The 'sleep' action is a neutral action without any direct impact on the environment and recovers player's energy. The player will keep sleep until the energy is at 9.",
+        "name": "sleep",
+        "wid": 14,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "collect_iron": {
+        "nearby": [
+            {
+                "iron": 1
+            }
+        ],
+        "where": [
+            [
+                "iron"
+            ]
+        ],
+        "leaves": [
+            [
+                "path"
+            ]
+        ],
+        "additional_information": "To collect iron, the player must have at least a stone_pickaxe equipped and face the iron ore. Each successful action yields one iron ore and turns the iron tile into a walkable path tile",
+        "name": "collect_iron",
+        "wid": 15,
+        "pre_condition": [
+            {
+                "stone_pickaxe": 1
+            }
+        ],
+        "outcome": {
+            "iron": 1
+        }
+    },
+    "place_furnace": {
+        "nearby": [],
+        "where": [
+            [
+                "path",
+                "grass"
+            ]
+        ],
+        "leaves": [
+            [
+                "path"
+            ]
+        ],
+        "additional_information": "Placing a furnace consumes 4 stone blocks from the player's inventory and must be placed on a path block. After placing, the path block is replaced by the furnace, which is not walkable.",
+        "name": "place_furnace",
+        "wid": 16,
+        "pre_condition": [
+            {
+                "stone": 4
+            }
+        ],
+        "outcome": {
+            "furnace": 1
+        }
+    },
+    "place_stone": {
+        "nearby": [],
+        "where": [
+            [
+                [
+                    "grass",
+                    "path"
+                ]
+            ]
+        ],
+        "leaves": [
+            [
+                "stone"
+            ]
+        ],
+        "additional_information": "Placing a stone consumes 1 stone blocks from the player's inventory and must be placed on a path, grass block. After placing, the path block is replaced by the stone, which is not walkable.",
+        "name": "place_stone",
+        "wid": 17,
+        "pre_condition": [
+            {
+                "stone": 1
+            }
+        ],
+        "outcome": {}
+    },
+    "defeat_skeleton": {
+        "nearby": [
+            {
+                "skeleton": 1
+            }
+        ],
+        "where": [
+            [
+                "skeleton"
+            ]
+        ],
+        "leaves": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "additional_information": "Skeleton can be defeated when they are directly faced by the player",
+        "name": "defeat_skeleton",
+        "wid": 18,
+        "pre_condition": [
+            {
+                "wood_sword": 1
+            }
+        ],
+        "outcome": {}
+    },
+    "collect_diamond": {
+        "nearby": [
+            {
+                "diamond": 1
+            }
+        ],
+        "where": [
+            [
+                "diamond"
+            ]
+        ],
+        "leaves": [
+            [
+                "path"
+            ]
+        ],
+        "walkable": true,
+        "additional_information": "To collect diamond, the player must have at least a iron_pickaxe equipped and face the diamond. Each successful action yields one diamond and turns the diamond into a walkable path tile",
+        "name": "collect_diamond",
+        "wid": 19,
+        "pre_condition": [
+            {
+                "iron_pickaxe": 1
+            }
+        ],
+        "outcome": {
+            "diamond": 1
+        }
+    },
+    "move_up": {
+        "nearby": [],
+        "where": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "The player moves up one unit.",
+        "name": "move_up",
+        "wid": 20,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "move_down": {
+        "nearby": [],
+        "where": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "The player moves down one unit.",
+        "name": "move_down",
+        "wid": 21,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "move_left": {
+        "nearby": [],
+        "where": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "The player moves left one unit.",
+        "name": "move_left",
+        "wid": 22,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "move_right": {
+        "nearby": [],
+        "where": [
+            [
+                "grass",
+                "path"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "The player moves right one unit.",
+        "name": "move_right",
+        "wid": 23,
+        "pre_condition": [],
+        "outcome": {}
+    },
+    "make_iron_pickaxe": {
+        "nearby": [
+            {
+                "table": 1
+            },
+            {
+                "furnace": 1
+            }
+        ],
+        "where": [
+            [
+                "table"
+            ]
+        ],
+        "leaves": [],
+        "additional_information": "",
+        "name": "make_iron_pickaxe",
+        "wid": 24,
+        "pre_condition": [
+            {
+                "wood": 1
+            },
+            {
+                "coal": 1
+            },
+            {
+                "iron": 1
+            }
+        ],
+        "outcome": {
+            "iron_pickaxe": 1
+        }
+    }
+}

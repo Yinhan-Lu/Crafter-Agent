@@ -1,0 +1,22 @@
+{
+    "0": {
+        "from": "grass",
+        "to": "furnace"
+    },
+    "1": {
+        "from": "grass",
+        "to": "furnace"
+    },
+    "2": {
+        "from": "grass",
+        "to": "furnace"
+    },
+    "4": {
+        "from": "grass",
+        "to": "furnace"
+    },
+    "7": {
+        "from": "grass",
+        "to": "furnace"
+    }
+}

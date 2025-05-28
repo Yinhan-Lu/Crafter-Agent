@@ -1,0 +1,382 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_4": [
+                "grass",
+                "path",
+                "diamond",
+                "stone"
+            ],
+            "transition_8": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_11": [
+                "diamond",
+                "grass",
+                "stone",
+                "tree"
+            ],
+            "transition_5": [
+                "path",
+                "stone",
+                "diamond",
+                "grass"
+            ],
+            "transition_14": [
+                "path",
+                "diamond",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_2": [
+                "diamond",
+                "path",
+                "coal"
+            ],
+            "transition_11": [
+                "diamond",
+                "stone",
+                "grass"
+            ],
+            "transition_10": [
+                "diamond",
+                "path"
+            ],
+            "transition_6": [
+                "diamond",
+                "stone",
+                "path",
+                "grass"
+            ],
+            "transition_3": [
+                "diamond",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_5": [
+                "diamond",
+                "stone",
+                "path",
+                "grass"
+            ],
+            "transition_13": [
+                "diamond",
+                "grass"
+            ],
+            "transition_10": [
+                "diamond",
+                "path"
+            ],
+            "transition_6": [
+                "diamond",
+                "stone",
+                "path",
+                "grass"
+            ],
+            "transition_12": [
+                "diamond",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_13": [
+                "grass",
+                "diamond",
+                "path",
+                "stone"
+            ],
+            "transition_3": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_8": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_11": [
+                "grass",
+                "stone",
+                "diamond",
+                "tree"
+            ],
+            "transition_6": [
+                "stone",
+                "diamond",
+                "path",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_2": [
+                "diamond",
+                "path"
+            ],
+            "transition_5": [
+                "diamond",
+                "path",
+                "stone",
+                "grass"
+            ],
+            "transition_6": [
+                "diamond",
+                "stone",
+                "path",
+                "grass"
+            ],
+            "transition_7": [
+                "diamond",
+                "path",
+                "stone",
+                "lava"
+            ],
+            "transition_13": [
+                "diamond",
+                "grass",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_13": [
+                "grass",
+                "diamond",
+                "path",
+                "stone"
+            ],
+            "transition_14": [
+                "diamond",
+                "path",
+                "lava"
+            ],
+            "transition_11": [
+                "diamond",
+                "grass",
+                "stone",
+                "tree"
+            ],
+            "transition_0": [
+                "stone",
+                "diamond",
+                "path"
+            ],
+            "transition_9": [
+                "grass",
+                "diamond",
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_1": [
+                "diamond"
+            ],
+            "transition_7": [
+                "diamond"
+            ],
+            "transition_9": [
+                "diamond"
+            ],
+            "transition_13": [
+                "diamond"
+            ],
+            "transition_14": [
+                "diamond"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_0": [
+                "path",
+                "stone",
+                "diamond",
+                "grass"
+            ],
+            "transition_2": [
+                "diamond",
+                "path",
+                "coal"
+            ],
+            "transition_4": [
+                "diamond",
+                "grass",
+                "path",
+                "stone"
+            ],
+            "transition_5": [
+                "diamond",
+                "path",
+                "stone"
+            ],
+            "transition_10": [
+                "diamond",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_13": {
+                "grass": [
+                    "east",
+                    "north",
+                    "northEast",
+                    "northWest",
+                    "west"
+                ],
+                "diamond": [
+                    "south"
+                ],
+                "path": [
+                    "southEast"
+                ],
+                "stone": [
+                    "southWest"
+                ]
+            },
+            "transition_4": {
+                "grass": [
+                    "east",
+                    "northEast",
+                    "southEast"
+                ],
+                "diamond": [
+                    "south"
+                ],
+                "path": [
+                    "north",
+                    "northWest",
+                    "west"
+                ],
+                "stone": [
+                    "southWest"
+                ]
+            },
+            "transition_10": {
+                "path": [
+                    "east",
+                    "north",
+                    "northEast",
+                    "northWest",
+                    "south",
+                    "southWest",
+                    "west"
+                ],
+                "diamond": [
+                    "west"
+                ]
+            },
+            "transition_1": {
+                "grass": [
+                    "east",
+                    "northEast",
+                    "southEast"
+                ],
+                "diamond": [
+                    "south"
+                ],
+                "path": [
+                    "north",
+                    "northWest",
+                    "west"
+                ],
+                "stone": [
+                    "southWest"
+                ]
+            },
+            "transition_8": {
+                "stone": [
+                    "north",
+                    "northEast",
+                    "southEast",
+                    "southWest"
+                ],
+                "path": [
+                    "east",
+                    "northWest",
+                    "west"
+                ],
+                "diamond": [
+                    "south"
+                ]
+            }
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_14": [
+                "path",
+                "diamond"
+            ],
+            "transition_5": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_0": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_7": [
+                "path",
+                "stone",
+                "diamond"
+            ],
+            "transition_2": [
+                "path",
+                "diamond"
+            ]
+        },
+        "common_immediate_objects": [
+            "diamond"
+        ]
+    }
+}

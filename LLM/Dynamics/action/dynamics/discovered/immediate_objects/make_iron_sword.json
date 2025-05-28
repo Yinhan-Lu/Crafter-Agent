@@ -1,0 +1,324 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_4": [
+                "furnace",
+                "table"
+            ],
+            "transition_1": [
+                "grass",
+                "furnace",
+                "table"
+            ],
+            "transition_10": [
+                "grass",
+                "furnace",
+                "table"
+            ],
+            "transition_6": [
+                "stone",
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "grass",
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_10": [
+                "furnace",
+                "table"
+            ],
+            "transition_9": [
+                "table",
+                "furnace"
+            ],
+            "transition_2": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_0": [
+                "path",
+                "furnace",
+                "stone",
+                "table"
+            ],
+            "transition_2": [
+                "furnace",
+                "grass",
+                "path",
+                "table"
+            ],
+            "transition_4": [
+                "furnace",
+                "table",
+                "stone",
+                "grass"
+            ],
+            "transition_6": [
+                "stone",
+                "grass",
+                "path",
+                "table",
+                "furnace"
+            ],
+            "transition_7": [
+                "grass",
+                "table",
+                "furnace",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "table"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_6": [
+                "stone",
+                "grass",
+                "path",
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "grass",
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table",
+                "grass"
+            ],
+            "transition_9": [
+                "furnace",
+                "table",
+                "grass",
+                "stone"
+            ],
+            "transition_8": [
+                "grass",
+                "table",
+                "furnace",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table",
+            "grass"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_4": {
+                "furnace": "East 1 block away",
+                "table": "North 1 block away"
+            },
+            "transition_9": {
+                "furnace": "East 1 block away",
+                "table": "North 1 block away"
+            },
+            "transition_3": {
+                "furnace": "South 1 block away",
+                "table": "West 1 block away"
+            },
+            "transition_5": {
+                "furnace": "East 1 block away",
+                "table": "North 1 block away"
+            },
+            "transition_7": {
+                "furnace": "West 1 block away",
+                "table": "North 1 block away"
+            }
+        },
+        "common_immediate_objects": {
+            "furnace": "present in all transitions",
+            "table": "present in all transitions"
+        }
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_1": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "table",
+                "furnace"
+            ],
+            "transition_8": [
+                "furnace",
+                "table"
+            ],
+            "transition_9": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_2": [
+                "furnace",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table"
+            ],
+            "transition_6": [
+                "furnace",
+                "table"
+            ],
+            "transition_9": [
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_0": [
+                "path",
+                "furnace",
+                "stone",
+                "table"
+            ],
+            "transition_2": [
+                "furnace",
+                "grass",
+                "path",
+                "table"
+            ],
+            "transition_3": [
+                "furnace",
+                "grass",
+                "table"
+            ],
+            "transition_4": [
+                "furnace",
+                "table"
+            ],
+            "transition_6": [
+                "stone",
+                "grass",
+                "path",
+                "furnace",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "table"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_1": [
+                "grass",
+                "furnace",
+                "path",
+                "table"
+            ],
+            "transition_3": [
+                "grass",
+                "table",
+                "furnace"
+            ],
+            "transition_7": [
+                "grass",
+                "table",
+                "furnace",
+                "path"
+            ],
+            "transition_8": [
+                "grass",
+                "table",
+                "furnace",
+                "path"
+            ],
+            "transition_9": [
+                "furnace",
+                "table",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass",
+            "table",
+            "furnace"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_1": [
+                "grass",
+                "furnace",
+                "path",
+                "table"
+            ],
+            "transition_2": [
+                "furnace",
+                "grass",
+                "table"
+            ],
+            "transition_5": [
+                "furnace",
+                "table",
+                "grass"
+            ],
+            "transition_6": [
+                "stone",
+                "furnace",
+                "table",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "furnace",
+            "table"
+        ]
+    }
+}

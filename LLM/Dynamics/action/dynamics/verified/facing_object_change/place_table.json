@@ -1,0 +1,34 @@
+{
+    "1": {
+        "from": "grass",
+        "to": "table"
+    },
+    "2": {
+        "from": "grass",
+        "to": "table"
+    },
+    "3": {
+        "from": "grass",
+        "to": "table"
+    },
+    "4": {
+        "from": "grass",
+        "to": "table"
+    },
+    "5": {
+        "from": "any terrain object (grass or path)",
+        "to": "facing table"
+    },
+    "6": {
+        "from": "grass",
+        "to": "table"
+    },
+    "7": {
+        "from": "grass",
+        "to": "table"
+    },
+    "9": {
+        "from": "grass",
+        "to": "table"
+    }
+}

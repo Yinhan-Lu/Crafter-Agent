@@ -1,0 +1,264 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ]
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Must be nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent's food level is less than maximum (e.g., 0/9 in this case)"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "The plant must be ripe and the agent's food level must not be at maximum."
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent must be facing a ripe plant."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent's food level must be less than the maximum (assuming the maximum is higher than 4)."
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "The agent must have 0/9 food."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "The agent must have 0/9 food."
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": null,
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The 'plant-ripe' must be within immediate distance"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent must be facing plant-ripe."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Agent must be facing plant."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "Immediate object must include 'plant-ripe'."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "plant",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant"
+            ],
+            "other_preconditions": "Immediate object must include 'plant'."
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "It must be nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "grass"
+            ],
+            "other_preconditions": "It must be nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "path"
+            ],
+            "other_preconditions": "It must be nighttime"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The health should be 3/9, food should be 0/9, drink should be 9/9, energy should be 7/9."
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": ""
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "plant",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [
+                "plant"
+            ],
+            "other_preconditions": ""
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "plant-ripe",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "",
+            "precondition_about_immediate_objects": [
+                "plant-ripe"
+            ],
+            "other_preconditions": "None"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0": [
+        "furnace",
+        "table"
+    ],
+    "1": [
+        "furnace",
+        "table"
+    ],
+    "4": {
+        "furnace": "present in all transitions",
+        "table": "present in all transitions"
+    },
+    "6": [
+        "furnace",
+        "table"
+    ],
+    "9": [
+        "furnace",
+        "table"
+    ]
+}

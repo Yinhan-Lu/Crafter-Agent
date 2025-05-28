@@ -1,0 +1,476 @@
+{
+    "0": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_12": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_11": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_6": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "iron_pickaxe"
+            ],
+            "status_increase": []
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_3": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": 6
+                }
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": 2
+                }
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": 5
+                }
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": 2
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": 2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1,
+                    "wood": -2,
+                    "stone": -4,
+                    "coal": -2,
+                    "iron": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": -2
+                }
+            },
+            "transition_16": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1,
+                    "wood": -2,
+                    "stone": -4,
+                    "coal": -2,
+                    "iron": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": -2
+                }
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1,
+                    "wood": -2,
+                    "stone": -4,
+                    "coal": -2,
+                    "iron": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": -2
+                }
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1,
+                    "wood": -2,
+                    "stone": -4,
+                    "coal": -2,
+                    "iron": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": -2
+                }
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1,
+                    "wood": -2,
+                    "stone": -4,
+                    "coal": -2,
+                    "iron": -1
+                },
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": -2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1,
+                "wood": -2,
+                "stone": -4,
+                "coal": -2,
+                "iron": -1
+            },
+            "status_increase": {
+                "health": 0,
+                "food": 0,
+                "drink": 0,
+                "energy": -2
+            }
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_14": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_12": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_11": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_10": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_16": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_11": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_14": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_8": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "iron_pickaxe"
+            ],
+            "status_increase": []
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_6": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_7": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_1": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_4": {
+                "inventory_increase": [
+                    "iron_pickaxe"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "iron_pickaxe"
+            ],
+            "status_increase": []
+        }
+    },
+    "7": {
+        "increase": {
+            "#16": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "health": "increased_to_9"
+                }
+            },
+            "#8": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "health": "None"
+                }
+            },
+            "#13": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "food": "increased_to_9"
+                }
+            },
+            "#3": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "health": "None"
+                }
+            },
+            "#10": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {
+                    "energy": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_6": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_7": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": {}
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_4": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": null
+            },
+            "transition_18": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": null
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": null
+            },
+            "transition_1": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": null
+            },
+            "transition_15": {
+                "inventory_increase": {
+                    "iron_pickaxe": 1
+                },
+                "status_increase": null
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "iron_pickaxe": 1
+            },
+            "status_increase": null
+        }
+    }
+}

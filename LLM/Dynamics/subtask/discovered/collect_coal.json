@@ -1,0 +1,12 @@
+{
+    "0": {
+        "collect_coal": {
+            "General Plan": {
+                "step_1": "Ensure you are facing 'coal'. Adjust direction if needed.",
+                "step_2": "Ensure 'coal' is within immediate distance. Move closer if required.",
+                "step_3": "Execute the collect_coal action to gather the coal."
+            },
+            "termination_condition": "Inventory's coal amount increases by 1, or the food, drink, or energy levels are critically low, or there are immediate threats such as zombies or skeletons."
+        }
+    }
+}

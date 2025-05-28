@@ -1,0 +1,45 @@
+{
+    "1": [
+        "grass",
+        "table"
+    ],
+    "2": [
+        "furnace",
+        "table",
+        "grass"
+    ],
+    "3": [
+        "furnace",
+        "table",
+        "grass"
+    ],
+    "4": [
+        "grass",
+        "furnace",
+        "table"
+    ],
+    "5": [
+        "grass",
+        "table",
+        "furnace"
+    ],
+    "6": [
+        "grass",
+        "table"
+    ],
+    "7": [
+        "table",
+        "furnace",
+        "grass"
+    ],
+    "8": {
+        "grass": true,
+        "table": true,
+        "furnace": true
+    },
+    "9": [
+        "grass",
+        "furnace",
+        "table"
+    ]
+}

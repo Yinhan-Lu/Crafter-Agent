@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_22": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_28": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_33": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_29": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "iron on the south",
+                "to": "path on the south"
+            },
+            "transition_9": {
+                "from": "iron on the east",
+                "to": "path on the east"
+            },
+            "transition_36": {
+                "from": "iron on the north",
+                "to": "path on the north"
+            },
+            "transition_26": {
+                "from": "iron on the south",
+                "to": "path on the south"
+            },
+            "transition_50": {
+                "from": "iron on the south",
+                "to": "path on the south"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_20": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_27": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_15": {
+                "from": "iron",
+                "to": "arrow-left"
+            },
+            "transition_11": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_0": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_16": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_50": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_15": {
+                "from": "iron",
+                "to": "arrow-left"
+            },
+            "transition_11": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_19": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_56": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_31": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_46": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_55": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_48": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_19": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_32": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_56": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_35": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_18": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_23": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_40": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_45": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_0": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_5": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_53": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_22": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_18": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_21": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_40": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_53": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_42": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_15": {
+                "from": "iron",
+                "to": "arrow-left"
+            },
+            "transition_48": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_35": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_54": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_23": {
+                "from": "iron",
+                "to": "path"
+            },
+            "transition_56": {
+                "from": "iron",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "iron",
+            "to": "path"
+        }
+    }
+}

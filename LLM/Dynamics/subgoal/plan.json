@@ -1,0 +1,42 @@
+{
+    "subgoal_1": {
+        "subgoal": "Collect wood",
+        "resource_needed": "None"
+    },
+    "subgoal_2": {
+        "subgoal": "Place the crafting table on the ground",
+        "resource_needed": "{wood: 2}"
+    },
+    "subgoal_3": {
+        "subgoal": "Craft the wood pickaxe using the placed table",
+        "resource_needed": "{wood: 1, table: nearby}"
+    },
+    "subgoal_4": {
+        "subgoal": "Collect stone",
+        "resource_needed": "{wood_pickaxe: 1}"
+    },
+    "subgoal_5": {
+        "subgoal": "Place the furnace on the ground",
+        "resource_needed": "{stone: 4}"
+    },
+    "subgoal_6": {
+        "subgoal": "Craft the stone pickaxe using the placed table",
+        "resource_needed": "{wood: 1, stone: 1, table: nearby}"
+    },
+    "subgoal_7": {
+        "subgoal": "Collect iron",
+        "resource_needed": "{stone_pickaxe: 1}"
+    },
+    "subgoal_8": {
+        "subgoal": "Collect coal",
+        "resource_needed": "{wood_pickaxe: 1}"
+    },
+    "subgoal_9": {
+        "subgoal": "Craft the iron pickaxe using the placed table and furnace",
+        "resource_needed": "{wood: 1, coal: 1, iron: 1, table: nearby, furnace: nearby}"
+    },
+    "subgoal_10": {
+        "subgoal": "Collect diamond",
+        "resource_needed": "{iron_pickaxe: 1}"
+    }
+}

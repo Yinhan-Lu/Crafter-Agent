@@ -1,0 +1,122 @@
+{
+    "0": {
+        "increase": {
+            "transition_13": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_4": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_8": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_10": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": "None"
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": "None"
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "stone_pickaxe": 1
+            },
+            "status_increase": "None"
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": [
+                    "stone_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_2": {
+                "inventory_increase": [
+                    "stone_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_5": {
+                "inventory_increase": [
+                    "stone_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_9": {
+                "inventory_increase": [
+                    "stone_pickaxe"
+                ],
+                "status_increase": []
+            },
+            "transition_10": {
+                "inventory_increase": [
+                    "stone_pickaxe"
+                ],
+                "status_increase": []
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [
+                "stone_pickaxe"
+            ],
+            "status_increase": []
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_1": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_2": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_3": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_5": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": {}
+            },
+            "transition_9": {
+                "inventory_increase": {
+                    "stone_pickaxe": 1
+                },
+                "status_increase": {}
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {
+                "stone_pickaxe": 1
+            },
+            "status_increase": {}
+        }
+    }
+}

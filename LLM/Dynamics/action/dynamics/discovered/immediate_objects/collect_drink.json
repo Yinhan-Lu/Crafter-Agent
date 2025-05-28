@@ -1,0 +1,244 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_24": [
+                "sand",
+                "water"
+            ],
+            "transition_127": [
+                "grass",
+                "water"
+            ],
+            "transition_178": [
+                "sand",
+                "grass",
+                "water",
+                "tree"
+            ],
+            "transition_118": [
+                "grass",
+                "water"
+            ],
+            "transition_175": [
+                "path",
+                "water",
+                "stone",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_20": [
+                "sand",
+                "water"
+            ],
+            "transition_185": [
+                "water",
+                "sand",
+                "grass"
+            ],
+            "transition_83": [
+                "stone",
+                "grass",
+                "sand",
+                "water"
+            ],
+            "transition_164": [
+                "grass",
+                "water"
+            ],
+            "transition_14": [
+                "grass",
+                "sand",
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_100": [
+                "water"
+            ],
+            "transition_6": [
+                "water"
+            ],
+            "transition_157": [
+                "water"
+            ],
+            "transition_15": [
+                "water"
+            ],
+            "transition_83": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_97": [
+                "water"
+            ],
+            "transition_131": [
+                "water"
+            ],
+            "transition_29": [
+                "water"
+            ],
+            "transition_182": [
+                "water"
+            ],
+            "transition_23": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_171": [
+                "water",
+                "stone"
+            ],
+            "transition_39": [
+                "water"
+            ],
+            "transition_33": [
+                "sand",
+                "water"
+            ],
+            "transition_129": [
+                "water"
+            ],
+            "transition_158": [
+                "water",
+                "table"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_5": [
+                "water"
+            ],
+            "transition_40": [
+                "water"
+            ],
+            "transition_30": [
+                "water"
+            ],
+            "transition_138": [
+                "water"
+            ],
+            "transition_186": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_88": [
+                "water"
+            ],
+            "transition_19": [
+                "water"
+            ],
+            "transition_148": [
+                "water"
+            ],
+            "transition_124": [
+                "water"
+            ],
+            "transition_67": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_44": [
+                "water"
+            ],
+            "transition_73": [
+                "water"
+            ],
+            "transition_61": [
+                "water"
+            ],
+            "transition_182": [
+                "water"
+            ],
+            "transition_93": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_49": [
+                "water",
+                "zombie"
+            ],
+            "transition_7": [
+                "water"
+            ],
+            "transition_93": [
+                "water"
+            ],
+            "transition_38": [
+                "water"
+            ],
+            "transition_51": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_143": [
+                "water"
+            ],
+            "transition_168": [
+                "water"
+            ],
+            "transition_2": [
+                "water"
+            ],
+            "transition_11": [
+                "water"
+            ],
+            "transition_86": [
+                "water"
+            ]
+        },
+        "common_immediate_objects": [
+            "water"
+        ]
+    }
+}

@@ -1,0 +1,436 @@
+{
+    "0": {
+        "increase": {
+            "transition_171": {
+                "inventory_increase": [],
+                "status_increase": [
+                    {
+                        "drink": "increased_to_5"
+                    }
+                ]
+            },
+            "transition_130": {
+                "inventory_increase": [],
+                "status_increase": [
+                    {
+                        "drink": "increased_to_6"
+                    }
+                ]
+            },
+            "transition_11": {
+                "inventory_increase": [],
+                "status_increase": [
+                    {
+                        "drink": "increased_to_6"
+                    }
+                ]
+            },
+            "transition_197": {
+                "inventory_increase": [],
+                "status_increase": [
+                    {
+                        "drink": "increased_to_5"
+                    }
+                ]
+            },
+            "transition_82": {
+                "inventory_increase": [],
+                "status_increase": [
+                    {
+                        "drink": "increased_to_5"
+                    }
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                {
+                    "drink": "increased"
+                }
+            ]
+        }
+    },
+    "1": {
+        "increase": {
+            "transition_113": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_64": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_81": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_61": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_18": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                "drink"
+            ]
+        }
+    },
+    "2": {
+        "increase": {
+            "transition_146": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_137": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_77": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_34": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_81": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": [
+                "drink"
+            ]
+        }
+    },
+    "3": {
+        "increase": {
+            "transition_53": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 5
+                }
+            },
+            "transition_158": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 8
+                }
+            },
+            "transition_44": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 5
+                }
+            },
+            "transition_181": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 5
+                }
+            },
+            "transition_176": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 2
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": "None"
+        }
+    },
+    "4": {
+        "increase": {
+            "transition_21": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 9
+                }
+            },
+            "transition_55": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 9
+                }
+            },
+            "transition_80": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 9
+                }
+            },
+            "transition_74": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 9
+                }
+            },
+            "transition_179": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "drink": 9
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": {
+                "drink": "increased_to_9"
+            }
+        }
+    },
+    "5": {
+        "increase": {
+            "transition_29": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "drink": 7
+                }
+            },
+            "transition_183": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "drink": 7
+                }
+            },
+            "transition_110": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_131": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "drink": 8
+                }
+            },
+            "transition_132": {
+                "inventory_increase": "None",
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "None"
+        }
+    },
+    "6": {
+        "increase": {
+            "transition_189": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": "increased_to_9",
+                    "energy": 0
+                }
+            },
+            "transition_152": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": "increased_to_9",
+                    "energy": 0
+                }
+            },
+            "transition_149": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 0,
+                    "energy": 0
+                }
+            },
+            "transition_85": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": "increased_to_9",
+                    "energy": 0
+                }
+            },
+            "transition_194": {
+                "inventory_increase": [],
+                "status_increase": {
+                    "health": 0,
+                    "food": 0,
+                    "drink": 1,
+                    "energy": 0
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": [],
+            "status_increase": "None"
+        }
+    },
+    "7": {
+        "increase": {
+            "transition_183": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 4,
+                    "food": 3,
+                    "drink": 7,
+                    "energy": 4
+                }
+            },
+            "transition_168": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 9,
+                    "food": 3,
+                    "drink": "increased_to_9",
+                    "energy": 8
+                }
+            },
+            "transition_115": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 6,
+                    "food": 5,
+                    "drink": 4,
+                    "energy": 1
+                }
+            },
+            "transition_56": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 9,
+                    "food": 8,
+                    "drink": 6,
+                    "energy": 6
+                }
+            },
+            "transition_3": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "health": 5,
+                    "food": 9,
+                    "drink": 5,
+                    "energy": 3
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": "None"
+        }
+    },
+    "8": {
+        "increase": {
+            "transition_43": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_19": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_54": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_78": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            },
+            "transition_127": {
+                "inventory_increase": [],
+                "status_increase": [
+                    "drink"
+                ]
+            }
+        },
+        "common_increase": {
+            "inventory_increase": "None",
+            "status_increase": [
+                "drink"
+            ]
+        }
+    },
+    "9": {
+        "increase": {
+            "transition_125": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_66": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_0": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_23": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            },
+            "transition_180": {
+                "inventory_increase": {},
+                "status_increase": {
+                    "drink": "increased_to_9"
+                }
+            }
+        },
+        "common_increase": {
+            "inventory_increase": {},
+            "status_increase": {
+                "drink": "increased_to_9"
+            }
+        }
+    }
+}

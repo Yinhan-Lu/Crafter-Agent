@@ -1,0 +1,279 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "path"
+            ],
+            "transition_5": [
+                "stone",
+                "path",
+                "iron"
+            ],
+            "transition_9": [
+                "stone",
+                "path",
+                "water"
+            ],
+            "transition_10": [
+                "stone",
+                "path"
+            ],
+            "transition_11": [
+                "stone",
+                "path",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_1": [
+                "stone",
+                "path",
+                "lava"
+            ],
+            "transition_5": [
+                "stone",
+                "path"
+            ],
+            "transition_9": [
+                "stone",
+                "path"
+            ],
+            "transition_12": [
+                "stone",
+                "path",
+                "furnace"
+            ],
+            "transition_13": [
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_2": [
+                "stone"
+            ],
+            "transition_5": [
+                "stone"
+            ],
+            "transition_6": [
+                "stone"
+            ],
+            "transition_3": [
+                "stone"
+            ],
+            "transition_12": [
+                "stone",
+                "furnace"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_8": [
+                "stone",
+                "path",
+                "lava"
+            ],
+            "transition_13": [
+                "stone",
+                "path"
+            ],
+            "transition_9": [
+                "stone",
+                "path",
+                "water"
+            ],
+            "transition_3": [
+                "path",
+                "stone"
+            ],
+            "transition_10": [
+                "path",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_6": {
+                "stone": "path"
+            },
+            "transition_0": {
+                "stone": "path"
+            },
+            "transition_13": {
+                "stone": "path"
+            },
+            "transition_2": {
+                "stone": "path"
+            },
+            "transition_7": {
+                "stone": "path"
+            }
+        },
+        "common_immediate_objects": {
+            "stone": "path"
+        }
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_1": [
+                "stone",
+                "lava",
+                "path"
+            ],
+            "transition_6": [
+                "stone",
+                "path"
+            ],
+            "transition_4": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_8": [
+                "stone",
+                "path",
+                "lava"
+            ],
+            "transition_5": [
+                "stone",
+                "path",
+                "iron"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "path"
+            ],
+            "transition_2": [
+                "path",
+                "stone",
+                "coal"
+            ],
+            "transition_4": [
+                "stone",
+                "path",
+                "coal"
+            ],
+            "transition_7": [
+                "stone",
+                "path"
+            ],
+            "transition_12": [
+                "stone",
+                "path",
+                "furnace"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "path"
+            ],
+            "transition_10": [
+                "path",
+                "stone"
+            ],
+            "transition_3": [
+                "path",
+                "stone"
+            ],
+            "transition_5": [
+                "stone",
+                "path",
+                "iron"
+            ],
+            "transition_11": [
+                "stone",
+                "path",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone",
+            "path"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_7": [
+                "stone"
+            ],
+            "transition_8": [
+                "stone",
+                "path"
+            ],
+            "transition_0": [
+                "stone",
+                "path"
+            ],
+            "transition_6": [
+                "stone",
+                "path"
+            ],
+            "transition_10": [
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_3": [
+                "stone"
+            ],
+            "transition_5": [
+                "stone",
+                "path"
+            ],
+            "transition_10": [
+                "stone",
+                "path"
+            ],
+            "transition_12": [
+                "stone",
+                "path",
+                "furnace"
+            ],
+            "transition_13": [
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    }
+}

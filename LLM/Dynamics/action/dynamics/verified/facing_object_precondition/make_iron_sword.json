@@ -1,0 +1,34 @@
+{
+    "1": [
+        "furnace",
+        "grass",
+        "path",
+        "stone"
+    ],
+    "2": [
+        "stone",
+        "path",
+        "furnace",
+        "grass"
+    ],
+    "3": [
+        "furnace",
+        "path",
+        "grass"
+    ],
+    "5": [
+        "furnace",
+        "stone",
+        "path"
+    ],
+    "7": [
+        "furnace",
+        "path",
+        "grass"
+    ],
+    "8": [
+        "grass",
+        "path",
+        "furnace"
+    ]
+}

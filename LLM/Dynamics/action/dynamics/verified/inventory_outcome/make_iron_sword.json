@@ -1,0 +1,26 @@
+{
+    "3": {
+        "inventory_increase": {
+            "iron_sword": 1
+        },
+        "status_increase": {}
+    },
+    "4": {
+        "inventory_increase": {
+            "iron_sword": 1
+        },
+        "status_increase": {}
+    },
+    "6": {
+        "inventory_increase": {
+            "iron_sword": 1
+        },
+        "status_increase": "None"
+    },
+    "7": {
+        "inventory_increase": {
+            "iron_sword": 1
+        },
+        "status_increase": "None"
+    }
+}

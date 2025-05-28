@@ -1,0 +1,129 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_0": "grass",
+            "transition_1": "table",
+            "transition_5": "table",
+            "transition_6": "table",
+            "transition_7": "table"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_0": "grass",
+            "transition_1": "table",
+            "transition_4": "table",
+            "transition_6": "table",
+            "transition_7": "table"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_1": "table",
+            "transition_4": "table",
+            "transition_6": "table",
+            "transition_7": "table",
+            "transition_9": "table"
+        },
+        "all_facing_object_before_action": "table"
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_2": "grass",
+            "transition_3": "grass",
+            "transition_4": "table",
+            "transition_5": "table",
+            "transition_6": "table"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_1": "table",
+            "transition_4": "table",
+            "transition_5": "table",
+            "transition_7": "table",
+            "transition_9": "table"
+        },
+        "all_facing_object_before_action": [
+            "table"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_6": "table",
+            "transition_2": "grass",
+            "transition_8": "furnace",
+            "transition_9": "table",
+            "transition_7": "table"
+        },
+        "all_facing_object_before_action": [
+            "table",
+            "grass",
+            "furnace"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_2": "grass",
+            "transition_3": "grass",
+            "transition_4": "table",
+            "transition_6": "table",
+            "transition_7": "table"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_0": "grass",
+            "transition_7": "table",
+            "transition_4": "table",
+            "transition_2": "grass",
+            "transition_8": "furnace"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table",
+            "furnace"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_9": "table",
+            "transition_6": "table",
+            "transition_4": "table",
+            "transition_7": "table",
+            "transition_1": "table"
+        },
+        "all_facing_object_before_action": [
+            "table"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_0": "grass",
+            "transition_7": "table",
+            "transition_9": "table",
+            "transition_4": "table",
+            "transition_5": "table"
+        },
+        "all_facing_object_before_action": [
+            "grass",
+            "table"
+        ]
+    }
+}

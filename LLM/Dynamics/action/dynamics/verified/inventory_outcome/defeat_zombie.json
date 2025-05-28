@@ -1,0 +1,22 @@
+{
+    "0": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "1": {
+        "inventory_increase": [],
+        "status_increase": "None"
+    },
+    "6": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "7": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    },
+    "8": {
+        "inventory_increase": "None",
+        "status_increase": "None"
+    }
+}

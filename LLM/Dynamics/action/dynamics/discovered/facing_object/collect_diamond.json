@@ -1,0 +1,100 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_0": "diamond",
+            "transition_2": "diamond",
+            "transition_5": "diamond",
+            "transition_7": "diamond",
+            "transition_9": "diamond"
+        },
+        "all_facing_object_before_action": {
+            "facing_object": "diamond"
+        }
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_3": "diamond",
+            "transition_5": "diamond",
+            "transition_8": "diamond",
+            "transition_11": "diamond",
+            "transition_9": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_4": "diamond",
+            "transition_11": "diamond",
+            "transition_12": "diamond",
+            "transition_2": "diamond",
+            "transition_14": "diamond"
+        },
+        "all_facing_object_before_action": {
+            "facing_object_before_action": [
+                "diamond"
+            ]
+        }
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_3": "diamond",
+            "transition_11": "diamond",
+            "transition_2": "diamond",
+            "transition_6": "diamond",
+            "transition_8": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_7": "diamond",
+            "transition_4": "diamond",
+            "transition_3": "diamond",
+            "transition_12": "diamond",
+            "transition_6": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_3": "diamond",
+            "transition_5": "diamond",
+            "transition_8": "diamond",
+            "transition_11": "diamond",
+            "transition_12": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_0": "diamond",
+            "transition_1": "diamond",
+            "transition_2": "diamond",
+            "transition_3": "diamond",
+            "transition_10": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_1": "diamond",
+            "transition_2": "diamond",
+            "transition_4": "diamond",
+            "transition_11": "diamond",
+            "transition_12": "diamond"
+        },
+        "all_facing_object_before_action": [
+            "diamond"
+        ]
+    }
+}

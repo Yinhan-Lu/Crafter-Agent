@@ -1,0 +1,118 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_438": "stone",
+            "transition_520": "stone",
+            "transition_345": "stone",
+            "transition_184": "stone",
+            "transition_505": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_21": "stone",
+            "transition_92": "stone",
+            "transition_124": "stone",
+            "transition_15": "stone",
+            "transition_410": "stone"
+        },
+        "all_facing_object_before_action": "stone"
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_111": "stone",
+            "transition_218": "stone",
+            "transition_299": "stone",
+            "transition_313": "stone",
+            "transition_179": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_51": "stone",
+            "transition_532": "stone",
+            "transition_72": "stone",
+            "transition_273": "stone",
+            "transition_141": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_60": "stone",
+            "transition_460": "stone",
+            "transition_433": "stone",
+            "transition_99": "stone",
+            "transition_64": "stone"
+        },
+        "all_facing_object_before_action": "stone"
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_193": "stone",
+            "transition_19": "stone",
+            "transition_3": "stone",
+            "transition_478": "stone",
+            "transition_229": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_328": "stone",
+            "transition_76": "stone",
+            "transition_19": "stone",
+            "transition_162": "stone",
+            "transition_498": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_171": "stone",
+            "transition_502": "stone",
+            "transition_43": "stone",
+            "transition_180": "stone",
+            "transition_410": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_504": "stone",
+            "transition_238": "stone",
+            "transition_263": "stone",
+            "transition_399": "stone",
+            "transition_189": "stone"
+        },
+        "all_facing_object_before_action": [
+            "stone"
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_110": "stone",
+            "transition_144": "stone",
+            "transition_102": "stone",
+            "transition_557": "stone",
+            "transition_107": "stone"
+        },
+        "all_facing_object_before_action": {
+            "stone": "stone"
+        }
+    }
+}

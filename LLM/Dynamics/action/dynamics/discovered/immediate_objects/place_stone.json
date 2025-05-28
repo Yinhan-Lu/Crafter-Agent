@@ -1,0 +1,306 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_9": [
+                "lava",
+                "path",
+                "coal",
+                "stone",
+                "grass"
+            ],
+            "transition_127": [
+                "stone",
+                "water",
+                "path"
+            ],
+            "transition_126": [
+                "path",
+                "stone"
+            ],
+            "transition_40": [
+                "grass",
+                "path"
+            ],
+            "transition_94": [
+                "water",
+                "sand"
+            ]
+        },
+        "common_immediate_objects": "None"
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_85": [
+                "lava",
+                "path"
+            ],
+            "transition_65": [
+                "stone",
+                "path"
+            ],
+            "transition_44": [
+                "path",
+                "lava",
+                "stone"
+            ],
+            "transition_119": [
+                "stone",
+                "path",
+                "sand",
+                "water"
+            ],
+            "transition_11": [
+                "lava",
+                "stone",
+                "path",
+                "coal"
+            ]
+        },
+        "common_immediate_objects": "None"
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_125": {
+                "path": "East, West",
+                "water": "North, North East, North West, West",
+                "grass": "South, South East, South West"
+            },
+            "transition_85": {
+                "path": "East, North, North East, North West",
+                "lava": "South, South East, South West, West"
+            },
+            "transition_43": {
+                "path": "East, North East, South, South East, South West",
+                "stone": "North",
+                "lava": "North West, West"
+            },
+            "transition_48": {
+                "lava": "East",
+                "path": "North, West",
+                "stone": "North East, North West, South, South East, South West"
+            },
+            "transition_49": {
+                "path": "East, North West, South, South East, South West, West",
+                "stone": "North",
+                "immediate_objects": {
+                    "transition_1": {
+                        "all_the_immediate_objects": [
+                            "path",
+                            "water",
+                            "grass"
+                        ]
+                    },
+                    "transition_2": {
+                        "all_the_immediate_objects": [
+                            "path",
+                            "lava"
+                        ]
+                    },
+                    "transition_3": {
+                        "all_the_immediate_objects": [
+                            "path",
+                            "stone",
+                            "lava"
+                        ]
+                    },
+                    "transition_4": {
+                        "all_the_immediate_objects": [
+                            "lava",
+                            "path",
+                            "stone"
+                        ]
+                    },
+                    "transition_5": {
+                        "all_the_immediate_objects": [
+                            "path",
+                            "stone"
+                        ]
+                    }
+                },
+                "common_immediate_objects": []
+            }
+        }
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_6": [
+                "stone"
+            ],
+            "transition_70": [
+                "stone"
+            ],
+            "transition_86": [
+                "stone"
+            ],
+            "transition_90": [
+                "stone"
+            ],
+            "transition_91": [
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_4": [
+                "stone"
+            ],
+            "transition_17": [
+                "water",
+                "path"
+            ],
+            "transition_57": [
+                "stone",
+                "skeleton"
+            ],
+            "transition_109": [
+                "stone",
+                "lava"
+            ],
+            "transition_40": [
+                "grass"
+            ]
+        },
+        "common_immediate_objects": []
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_45": [
+                "path",
+                "stone",
+                "lava"
+            ],
+            "transition_6": [
+                "path",
+                "stone"
+            ],
+            "transition_32": [
+                "lava",
+                "path"
+            ],
+            "transition_81": [
+                "stone",
+                "path"
+            ],
+            "transition_110": [
+                "path",
+                "stone",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "path"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_20": [
+                "water"
+            ],
+            "transition_98": [
+                "water",
+                "path"
+            ],
+            "transition_86": [
+                "stone",
+                "lava",
+                "path"
+            ],
+            "transition_91": [
+                "lava",
+                "path"
+            ],
+            "transition_29": [
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": []
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_89": [
+                "lava",
+                "path",
+                "stone"
+            ],
+            "transition_93": [
+                "water",
+                "grass",
+                "sand"
+            ],
+            "transition_45": [
+                "path",
+                "stone",
+                "lava"
+            ],
+            "transition_96": [
+                "water",
+                "path"
+            ],
+            "transition_62": [
+                "path",
+                "iron"
+            ]
+        },
+        "common_immediate_objects": "None"
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_99": [
+                "stone",
+                "lava"
+            ],
+            "transition_16": [
+                "water",
+                "path"
+            ],
+            "transition_83": [
+                "stone",
+                "lava"
+            ],
+            "transition_132": [
+                "path",
+                "lava"
+            ],
+            "transition_106": [
+                "stone",
+                "lava"
+            ]
+        },
+        "common_immediate_objects": [
+            "lava"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_123": [
+                "water",
+                "path",
+                "grass"
+            ],
+            "transition_60": [
+                "stone",
+                "path"
+            ],
+            "transition_84": [
+                "path",
+                "lava"
+            ],
+            "transition_48": [
+                "lava",
+                "stone",
+                "path"
+            ],
+            "transition_11": [
+                "lava",
+                "stone",
+                "path"
+            ]
+        },
+        "common_immediate_objects": "None"
+    }
+}

@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "coal on the west",
+                "to": "path on the west"
+            },
+            "transition_27": {
+                "from": "coal on the east",
+                "to": "path on the east"
+            },
+            "transition_62": {
+                "from": "coal on the east",
+                "to": "path on the east"
+            },
+            "transition_32": {
+                "from": "coal on the east",
+                "to": "path on the east"
+            },
+            "transition_55": {
+                "from": "coal on the north",
+                "to": "path on the north"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_57": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_52": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_6": {
+                "from": "coal on the west",
+                "to": "path on the west"
+            },
+            "transition_44": {
+                "from": "coal on the west",
+                "to": "path on the west"
+            },
+            "transition_23": {
+                "from": "coal on the south",
+                "to": "path on the south"
+            },
+            "transition_40": {
+                "from": "coal on the south",
+                "to": "path on the south"
+            },
+            "transition_11": {
+                "from": "coal on the east",
+                "to": "path on the east"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_27": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_64": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_29": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_11": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_1": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_54": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_52": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_15": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_26": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_45": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_36": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_33": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_39": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_29": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_56": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_38": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_22": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_24": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_62": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_63": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_45": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_44": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_21": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_59": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_35": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_53": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_7": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_37": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_28": {
+                "from": "coal",
+                "to": "path"
+            },
+            "transition_38": {
+                "from": "coal",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "coal",
+            "to": "path"
+        }
+    }
+}

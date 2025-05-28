@@ -1,0 +1,19 @@
+*.npz
+*.npy
+*.mp4
+*.pyc
+*.pt
+*.mp4
+*.ckpt
+*.v2
+*.gz
+/Past/
+*.zip
+*.chk
+*.pth
+*.png
+crafter_agents/.env
+/RL/dreamer/logdir/
+/home/zhiyuan/Desktop/Crafter/RLs/
+
+# rsync -avz --include='*/' --include='*.jsonl' --exclude='*' -e ssh ./RL/dreamer/logdir/ zhiyuan@10.0.0.219:~/Desktop/Crafter/RL/dreamer/logdir/

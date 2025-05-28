@@ -1,0 +1,273 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_4": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_10": {
+                "from": "Facing table on the south",
+                "to": "Facing table on the south"
+            },
+            "transition_5": {
+                "from": "Facing table on the east",
+                "to": "Facing table on the east"
+            },
+            "transition_4": {
+                "from": "Facing table on the south",
+                "to": "Facing table on the south"
+            },
+            "transition_0": {
+                "from": "Facing table on the west",
+                "to": "Facing table on the west"
+            },
+            "transition_7": {
+                "from": "Facing table on the east",
+                "to": "Facing table on the east"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_7": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_9": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_5": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_8": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_3": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_6": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_1": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_2": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_8": {
+                "from": "table",
+                "to": "table"
+            },
+            "transition_10": {
+                "from": "table",
+                "to": "table"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "table",
+            "to": "table"
+        }
+    }
+}

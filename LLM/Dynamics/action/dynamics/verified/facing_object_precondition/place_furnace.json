@@ -1,0 +1,33 @@
+{
+    "0": {
+        "grass": true,
+        "path": true
+    },
+    "1": [
+        "grass"
+    ],
+    "2": [
+        "grass",
+        "path"
+    ],
+    "3": {
+        "grass": true,
+        "path": true
+    },
+    "4": [
+        "grass"
+    ],
+    "5": [
+        "grass"
+    ],
+    "7": [
+        "grass",
+        "path"
+    ],
+    "8": [
+        "grass"
+    ],
+    "9": [
+        "grass"
+    ]
+}

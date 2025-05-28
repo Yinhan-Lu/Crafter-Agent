@@ -1,0 +1,25 @@
+{
+    "4": {
+        "inventory_increase": {
+            "sapling": 1
+        },
+        "status_increase": "None"
+    },
+    "7": {
+        "inventory_increase": {
+            "sapling": 1
+        },
+        "status_increase": {
+            "health": "None",
+            "food": "None",
+            "drink": "None",
+            "energy": "None"
+        }
+    },
+    "8": {
+        "inventory_increase": {
+            "sapling": 1
+        },
+        "status_increase": "None"
+    }
+}

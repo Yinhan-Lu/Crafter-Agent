@@ -1,0 +1,134 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_0": {
+                "stone": "North East",
+                "plant": "North",
+                "grass": "West",
+                "path": "South East"
+            }
+        },
+        "common_immediate_objects": [
+            "grass"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone",
+            "plant",
+            "grass"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant"
+            ]
+        },
+        "common_immediate_objects": [
+            "plant"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant-ripe",
+                "grass",
+                "stone"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_0": {
+                "stone": "East",
+                "plant-ripe": "North",
+                "grass": "West",
+                "path": "South East"
+            }
+        },
+        "common_immediate_objects": [
+            "None"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant-ripe",
+                "stone",
+                "grass",
+                "grass",
+                "grass",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "plant-ripe"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_0": {
+                "stone": "East",
+                "plant-ripe": "North",
+                "grass": "West",
+                "path": "South East"
+            }
+        },
+        "common_immediate_objects": [
+            "None"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "plant"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant-ripe",
+                "grass",
+                "path"
+            ]
+        },
+        "common_immediate_objects": [
+            "None"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_0": [
+                "stone",
+                "plant-ripe",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "stone",
+            "plant-ripe",
+            "grass"
+        ]
+    }
+}

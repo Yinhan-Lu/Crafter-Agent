@@ -1,0 +1,50 @@
+{
+    "collect_coal": {},
+    "collect_diamond": {},
+    "collect_drink": {},
+    "collect_iron": {},
+    "collect_sapling": {},
+    "collect_stone": {},
+    "collect_wood": {},
+    "defeat_skeleton": {},
+    "defeat_zombie": {},
+    "eat_cow": {},
+    "eat_plant": {},
+    "make_iron_pickaxe": {
+        "wood": 1,
+        "coal": 1,
+        "iron": 1
+    },
+    "make_iron_sword": {
+        "coal": 1,
+        "iron": 1,
+        "wood": 1
+    },
+    "make_stone_pickaxe": {
+        "wood": 1,
+        "stone": 1
+    },
+    "make_stone_sword": {
+        "wood": 1,
+        "stone": 1
+    },
+    "make_wood_pickaxe": {
+        "wood": 1
+    },
+    "make_wood_sword": {
+        "wood": 1
+    },
+    "place_furnace": {
+        "stone": 4
+    },
+    "place_plant": {
+        "sapling": 1
+    },
+    "place_stone": {
+        "stone": 1
+    },
+    "place_table": {
+        "wood": 2
+    },
+    "sleep": {}
+}

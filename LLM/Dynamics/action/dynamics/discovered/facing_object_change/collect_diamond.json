@@ -1,0 +1,282 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_6": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_9": {
+                "from": "diamond",
+                "to": "arrow-up"
+            },
+            "transition_11": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "None"
+        }
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_14": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            },
+            "transition_7": {
+                "from": "diamond on the west",
+                "to": "path on the west"
+            },
+            "transition_11": {
+                "from": "diamond on the east",
+                "to": "path on the east"
+            },
+            "transition_4": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            },
+            "transition_12": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_11": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_0": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_9": {
+                "from": "diamond",
+                "to": "arrow-up"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            },
+            "transition_7": {
+                "from": "diamond on the west",
+                "to": "path on the west"
+            },
+            "transition_11": {
+                "from": "diamond on the east",
+                "to": "path on the east"
+            },
+            "transition_12": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            },
+            "transition_13": {
+                "from": "diamond on the south",
+                "to": "path on the south"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_11": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_7": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_0": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_7": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_10": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_13": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_10": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_11": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "diamond",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "diamond",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "diamond",
+            "to": "path"
+        }
+    }
+}

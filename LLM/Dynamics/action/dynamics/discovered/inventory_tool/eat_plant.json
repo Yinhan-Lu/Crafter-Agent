@@ -1,0 +1,306 @@
+{
+    "0": {
+        "inventory_tools": {
+            "transition_0": [
+                "None",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "None",
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tools": "iron_sword"
+    },
+    "1": {
+        "inventory_tools": {
+            "transition_0": {
+                "tools": [
+                    "wood_pickaxe",
+                    "stone_pickaxe",
+                    "iron_pickaxe",
+                    "wood_sword",
+                    "stone_sword",
+                    "iron_sword"
+                ]
+            }
+        },
+        "common_inventory_tools": {
+            "tools": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "2": {
+        "inventory_tools": {
+            "transition_1": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "sapling",
+            "wood",
+            "stone",
+            "coal",
+            "iron",
+            "diamond",
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "3": {
+        "inventory_tools": {
+            "transition_0": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "4": {
+        "inventory_tools": {
+            "transition_0": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "5": {
+        "inventory_tools": {
+            "transition_1": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "sapling",
+            "wood",
+            "stone",
+            "coal",
+            "iron",
+            "diamond",
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "6": {
+        "inventory_tools": {
+            "transition_0": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "sapling",
+            "wood",
+            "stone",
+            "coal",
+            "iron",
+            "diamond",
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "7": {
+        "inventory_tools": {
+            "transition_0": [
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    },
+    "8": {
+        "inventory_tools": {
+            "transition_0": {
+                "sapling": 1,
+                "wood": 9,
+                "stone": 9,
+                "coal": 1,
+                "iron": 4,
+                "diamond": 2,
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "iron_pickaxe": 1,
+                "wood_sword": 1,
+                "stone_sword": 1,
+                "iron_sword": 1
+            }
+        },
+        "common_inventory_tools": {
+            "sapling": 1,
+            "wood": 9,
+            "stone": 9,
+            "coal": 1,
+            "iron": 4,
+            "diamond": 2,
+            "wood_pickaxe": 1,
+            "stone_pickaxe": 1,
+            "iron_pickaxe": 1,
+            "wood_sword": 1,
+            "stone_sword": 1,
+            "iron_sword": 1
+        },
+        "most_advanced_common_inventory_tools": "iron_sword"
+    },
+    "9": {
+        "inventory_tools": {
+            "transition_0": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_1": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ],
+            "transition_2": [
+                "sapling",
+                "wood",
+                "stone",
+                "coal",
+                "iron",
+                "diamond",
+                "wood_pickaxe",
+                "stone_pickaxe",
+                "iron_pickaxe",
+                "wood_sword",
+                "stone_sword",
+                "iron_sword"
+            ]
+        },
+        "common_inventory_tools": [
+            "sapling",
+            "wood",
+            "stone",
+            "coal",
+            "iron",
+            "diamond",
+            "wood_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "wood_sword",
+            "stone_sword",
+            "iron_sword"
+        ],
+        "most_advanced_common_inventory_tool": "iron_sword"
+    }
+}

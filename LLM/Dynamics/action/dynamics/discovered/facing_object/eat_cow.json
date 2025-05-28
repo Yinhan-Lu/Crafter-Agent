@@ -1,0 +1,124 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_11": "cow",
+            "transition_12": "cow",
+            "transition_15": "cow",
+            "transition_18": "cow",
+            "transition_26": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_25": "cow",
+            "transition_4": "cow",
+            "transition_22": "cow",
+            "transition_27": "cow",
+            "transition_2": "cow"
+        },
+        "all_facing_object_before_action": "cow"
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_33": "cow",
+            "transition_27": "cow",
+            "transition_17": "cow",
+            "transition_9": "cow",
+            "transition_16": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_32": "cow",
+            "transition_34": "cow",
+            "transition_10": "cow",
+            "transition_17": "cow",
+            "transition_31": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_1": "cow",
+            "transition_13": "cow",
+            "transition_15": "cow",
+            "transition_20": "cow",
+            "transition_30": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_16": "cow",
+            "transition_18": "cow",
+            "transition_9": "cow",
+            "transition_1": "cow",
+            "transition_19": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_34": "cow",
+            "transition_0": "cow",
+            "transition_33": "cow",
+            "transition_5": "cow",
+            "transition_2": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_9": "cow",
+            "transition_22": "cow",
+            "transition_33": "cow",
+            "transition_1": "cow",
+            "transition_15": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_2": "cow",
+            "transition_31": "cow",
+            "transition_33": "cow",
+            "transition_16": "cow",
+            "transition_19": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ],
+        "pre_conditions": [
+            "The agent must be facing a cow for the action 'eat_cow' to be executed.",
+            "The cow must be within immediate distance (1 block away)."
+        ]
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_21": "cow",
+            "transition_32": "cow",
+            "transition_22": "cow",
+            "transition_4": "cow",
+            "transition_20": "cow"
+        },
+        "all_facing_object_before_action": [
+            "cow"
+        ]
+    }
+}

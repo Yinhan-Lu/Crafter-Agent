@@ -1,0 +1,13 @@
+{
+    "0": {
+        "make_iron_pickaxe": {
+            "General Plan": {
+                "step_1": "Ensure the inventory contains 1 wood, 1 coal, and 1 iron, and the inventory is accessible.",
+                "step_2": "Walk to the nearest table and furnace, both of which must be within immediate distance.",
+                "step_3": "Ensure the character is facing either 'grass', 'path', 'furnace', or 'stone'. If facing the incorrect object, turn to face one of the acceptable objects.",
+                "step_4": "Execute the make_iron_pickaxe action to craft the iron pickaxe."
+            },
+            "termination_condition": "The inventory's iron_pickaxe amount increased by 1, or the food, drink, or energy levels are low, or there are zombies or skeletons nearby."
+        }
+    }
+}

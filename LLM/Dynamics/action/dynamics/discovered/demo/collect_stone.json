@@ -1,0 +1,418 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "None"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": {
+                "wood_pickaxe": 1,
+                "stone_pickaxe": 1,
+                "iron_pickaxe": 1
+            },
+            "precondition_about_immediate_objects": [
+                "None"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "none"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": null
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": null
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": null
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": null,
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": []
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_6": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        },
+        "precondition_7": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ]
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": null,
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "It is daytime or nighttime"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "None": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "It is daytime or nighttime"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_pickaxe",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "stone",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "Facing a stone block in an immediate position."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 0
+            },
+            "precondition_about_inventory_tool": "wood_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone"
+            ],
+            "other_preconditions": "Stone must be in immediate vicinity."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "None",
+            "precondition_about_inventory_materials": {
+                "stone": 0,
+                "coal": 0
+            },
+            "precondition_about_inventory_tool": "stone_pickaxe",
+            "precondition_about_immediate_objects": [
+                "stone",
+                "coal"
+            ],
+            "other_preconditions": "Facing or having stone and coal in immediate proximity."
+        }
+    }
+}

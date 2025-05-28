@@ -1,0 +1,538 @@
+{
+    "0": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "health > 0"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "health > 0"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "health > 0"
+        }
+    },
+    "1": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Must have enough health to survive the encounter, as defeating a skeleton may inflict some damage."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Must have enough health to survive the encounter, as defeating a skeleton may inflict some damage."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Must have enough health to survive the encounter, as defeating a skeleton may inflict some damage."
+        }
+    },
+    "2": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 5,
+                "stone": 9,
+                "coal": 5,
+                "iron": 1
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Agent's status: health > 0. Possession of wood sword as backup."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 5,
+                "stone": 9,
+                "coal": 6,
+                "iron": 3
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Agent's status: health > 0"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 9,
+                "stone": 9,
+                "coal": 4,
+                "iron": 4,
+                "diamond": 2
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Agent's status: health > 0. Possession of another sword in the inventory as backup."
+        }
+    },
+    "3": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0
+            },
+            "precondition_about_inventory_tool": "None",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "4": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "food": "1/9 or less",
+                "drink": "3/9 or less",
+                "energy": "5/9 or more"
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "Specific health, food, and drink levels"
+        }
+    },
+    "5": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "6": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "It must be nighttime."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "It must be nighttime."
+        }
+    },
+    "7": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "8": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "9": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "stone": 1
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "iron": 1
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 1
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "other_notes": "The preconditions listed are based on the assumption that the skeleton must be defeated using a sword of varying material types (wood, stone, or iron) while facing the skeleton directly, with the mentioned materials in the inventory."
+    },
+    "10": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "11": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "any sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "12": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "wood": 0,
+                "stone": 0,
+                "coal": 0,
+                "iron": 0,
+                "diamond": 0,
+                "sapling": 0
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [
+                "skeleton"
+            ],
+            "other_preconditions": "None"
+        }
+    },
+    "13": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "None"
+        }
+    },
+    "14": {
+        "precondition_0": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "stone": 7,
+                "iron": 5
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The agent must be facing the skeleton directly."
+        },
+        "precondition_1": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "stone": 7
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "The agent must have a sufficient health level (typically above 5/9) to safely engage the skeleton."
+        },
+        "precondition_2": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {},
+            "precondition_about_inventory_tool": "wood_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "An adequate tool such as a wood_sword must be present even if less effective, and the agent should have the necessary health and energy levels."
+        },
+        "precondition_3": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "coal": 5
+            },
+            "precondition_about_inventory_tool": "stone_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "To further improve chances of survival in combat."
+        },
+        "precondition_4": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "iron": 5
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Iron-based tools or materials can be advantageous due to their higher effectiveness."
+        },
+        "precondition_5": {
+            "precondition_about_facing_object": "skeleton",
+            "precondition_about_inventory_materials": {
+                "diamond": 1
+            },
+            "precondition_about_inventory_tool": "iron_sword",
+            "precondition_about_immediate_objects": [],
+            "other_preconditions": "Possessing rare materials like a diamond can suggest preparation for high-difficulty actions."
+        }
+    }
+}

@@ -1,0 +1,306 @@
+{
+    "0": {
+        "immediate_objects": {
+            "transition_32": [
+                "cow"
+            ],
+            "transition_23": [
+                "cow"
+            ],
+            "transition_15": [
+                "cow"
+            ],
+            "transition_21": [
+                "cow"
+            ],
+            "transition_28": [
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "1": {
+        "immediate_objects": {
+            "transition_18": [
+                "cow",
+                "stone",
+                "lava",
+                "path",
+                "grass"
+            ],
+            "transition_26": [
+                "cow",
+                "stone",
+                "path",
+                "grass",
+                "tree",
+                "sand",
+                "water"
+            ],
+            "transition_25": [
+                "cow",
+                "stone",
+                "path",
+                "grass",
+                "plant",
+                "skeleton",
+                "tree"
+            ],
+            "transition_10": [
+                "cow",
+                "sand",
+                "water",
+                "grass",
+                "tree"
+            ],
+            "transition_16": [
+                "cow",
+                "stone",
+                "path",
+                "grass",
+                "lava",
+                "sand"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "2": {
+        "immediate_objects": {
+            "transition_0": [
+                "cow",
+                "sand",
+                "grass"
+            ],
+            "transition_7": [
+                "grass",
+                "cow"
+            ],
+            "transition_24": [
+                "stone",
+                "cow",
+                "grass",
+                "path"
+            ],
+            "transition_2": [
+                "grass",
+                "cow"
+            ],
+            "transition_29": [
+                "grass",
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "3": {
+        "immediate_objects": {
+            "transition_6": [
+                "cow"
+            ],
+            "transition_9": [
+                "cow"
+            ],
+            "transition_31": [
+                "cow"
+            ],
+            "transition_14": [
+                "cow"
+            ],
+            "transition_0": [
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "4": {
+        "immediate_objects": {
+            "transition_29": [
+                "cow"
+            ],
+            "transition_10": [
+                "cow"
+            ],
+            "transition_28": [
+                "cow"
+            ],
+            "transition_7": [
+                "cow"
+            ],
+            "transition_33": [
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "5": {
+        "immediate_objects": {
+            "transition_32": [
+                "grass",
+                "cow",
+                "sand",
+                "tree"
+            ],
+            "transition_13": [
+                "path",
+                "cow",
+                "stone"
+            ],
+            "transition_8": [
+                "grass",
+                "cow",
+                "path"
+            ],
+            "transition_26": [
+                "cow",
+                "grass"
+            ],
+            "transition_5": [
+                "grass",
+                "tree",
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "6": {
+        "immediate_objects": {
+            "transition_3": [
+                "cow"
+            ],
+            "transition_11": [
+                "cow"
+            ],
+            "transition_29": [
+                "cow"
+            ],
+            "transition_31": [
+                "cow"
+            ],
+            "transition_24": [
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "7": {
+        "immediate_objects": {
+            "transition_30": [
+                "cow",
+                "grass"
+            ],
+            "transition_18": [
+                "cow",
+                "grass"
+            ],
+            "transition_33": [
+                "cow",
+                "grass"
+            ],
+            "transition_31": [
+                "cow",
+                "grass"
+            ],
+            "transition_27": [
+                "cow",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow",
+            "grass"
+        ]
+    },
+    "8": {
+        "immediate_objects": {
+            "transition_6": [
+                "cow"
+            ],
+            "transition_9": [
+                "cow"
+            ],
+            "transition_28": [
+                "cow"
+            ],
+            "transition_7": [
+                "cow"
+            ],
+            "transition_8": [
+                "cow"
+            ]
+        },
+        "common_immediate_objects": [
+            "cow"
+        ]
+    },
+    "9": {
+        "immediate_objects": {
+            "transition_22": [
+                "grass",
+                "grass",
+                "grass",
+                "grass",
+                "tree",
+                "grass",
+                "grass",
+                "cow"
+            ],
+            "transition_8": [
+                "grass",
+                "grass",
+                "path",
+                "grass",
+                "cow",
+                "grass",
+                "grass",
+                "grass"
+            ],
+            "transition_25": [
+                "cow",
+                "grass",
+                "stone",
+                "grass",
+                "grass",
+                "stone",
+                "grass",
+                "grass"
+            ],
+            "transition_29": [
+                "grass",
+                "grass",
+                "grass",
+                "grass",
+                "cow",
+                "grass",
+                "grass",
+                "grass"
+            ],
+            "transition_16": [
+                "cow",
+                "grass",
+                "grass",
+                "grass",
+                "grass",
+                "grass",
+                "path",
+                "grass"
+            ]
+        },
+        "common_immediate_objects": [
+            "grass"
+        ]
+    }
+}

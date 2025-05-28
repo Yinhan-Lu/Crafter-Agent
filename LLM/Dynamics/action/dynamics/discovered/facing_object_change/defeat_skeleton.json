@@ -1,0 +1,267 @@
+{
+    "0": {
+        "facing_object_change": {
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_0": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_10": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_3": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_7": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "1": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_6": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_1": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_2": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "skeleton",
+            "to": "path"
+        }
+    },
+    "2": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "skeleton on the south",
+                "to": "path on the south"
+            },
+            "transition_2": {
+                "from": "skeleton on the south",
+                "to": "path on the south"
+            },
+            "transition_3": {
+                "from": "skeleton on the north",
+                "to": "path on the north"
+            },
+            "transition_4": {
+                "from": "skeleton on the west",
+                "to": "grass on the west"
+            },
+            "transition_5": {
+                "from": "skeleton on the west",
+                "to": "path on the west"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "3": {
+        "facing_object_change": {
+            "transition_3": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_11": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_12": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_4": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "skeleton",
+            "to": "None"
+        }
+    },
+    "4": {
+        "facing_object_change": {
+            "transition_1": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_4": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_6": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_12": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "skeleton",
+            "to": "path"
+        }
+    },
+    "5": {
+        "facing_object_change": {
+            "transition_2": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_3": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_13": {
+                "from": "skeleton",
+                "to": "grass"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "6": {
+        "facing_object_change": {
+            "transition_11": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_5": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_13": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_1": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_7": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "skeleton",
+            "to": "path"
+        }
+    },
+    "7": {
+        "facing_object_change": {
+            "transition_0": {
+                "from": "skeleton on the north",
+                "to": "grass on the north"
+            },
+            "transition_3": {
+                "from": "skeleton on the south",
+                "to": "path on the south"
+            },
+            "transition_5": {
+                "from": "skeleton on the south",
+                "to": "path on the south"
+            },
+            "transition_8": {
+                "from": "skeleton on the west",
+                "to": "grass on the west"
+            },
+            "transition_13": {
+                "from": "skeleton on the east",
+                "to": "grass on the east"
+            }
+        },
+        "common_facing_object_change": {
+            "from": "skeleton",
+            "to": "grass"
+        }
+    },
+    "8": {
+        "facing_object_change": {
+            "transition_10": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_0": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_6": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_2": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": "None"
+    },
+    "9": {
+        "facing_object_change": {
+            "transition_13": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_3": {
+                "from": "skeleton",
+                "to": "path"
+            },
+            "transition_0": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_8": {
+                "from": "skeleton",
+                "to": "grass"
+            },
+            "transition_6": {
+                "from": "skeleton",
+                "to": "path"
+            }
+        },
+        "common_facing_object_change": "None"
+    }
+}

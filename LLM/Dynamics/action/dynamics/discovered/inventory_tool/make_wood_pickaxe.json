@@ -1,0 +1,236 @@
+{
+    "0": {
+        "inventory_tools": {
+            "transition_2": [
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_7": [
+                "None"
+            ],
+            "transition_6": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tool": "None"
+    },
+    "1": {
+        "inventory_tools": {
+            "transition_1": [
+                "None"
+            ],
+            "transition_2": [
+                "None"
+            ],
+            "transition_4": [
+                "wood_sword"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tool": "None"
+    },
+    "2": {
+        "inventory_tools": {
+            "transition_0": [
+                "None"
+            ],
+            "transition_3": [
+                "None"
+            ],
+            "transition_4": [
+                "wood_sword",
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_8": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tool": "None"
+    },
+    "3": {
+        "inventory_tools": {
+            "transition_1": [
+                "wood"
+            ],
+            "transition_4": [
+                "wood",
+                "wood_sword"
+            ],
+            "transition_6": [
+                "wood"
+            ],
+            "transition_8": [
+                "wood"
+            ],
+            "transition_9": [
+                "wood"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood"
+        ],
+        "most_advanced_common_inventory_tools": "wood"
+    },
+    "4": {
+        "inventory_tools": {
+            "transition_0": [
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_7": [
+                "None"
+            ],
+            "transition_2": [
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tools": "None"
+    },
+    "5": {
+        "inventory_tools": {
+            "transition_3": [
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_4": [
+                "wood_sword",
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ],
+            "transition_7": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tool": "None"
+    },
+    "6": {
+        "inventory_tools": {
+            "transition_9": [
+                "wood"
+            ],
+            "transition_7": [
+                "wood"
+            ],
+            "transition_6": [
+                "wood"
+            ],
+            "transition_8": [
+                "wood"
+            ],
+            "transition_0": [
+                "wood"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood"
+        ],
+        "most_advanced_common_inventory_tool": "wood"
+    },
+    "7": {
+        "inventory_tools": {
+            "transition_7": [
+                "None"
+            ],
+            "transition_4": [
+                "wood_sword"
+            ],
+            "transition_0": [
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tools": "None"
+    },
+    "8": {
+        "inventory_tools": {
+            "transition_6": [
+                "wood"
+            ],
+            "transition_4": [
+                "wood",
+                "wood_sword"
+            ],
+            "transition_2": [
+                "wood"
+            ],
+            "transition_0": [
+                "wood"
+            ],
+            "transition_8": [
+                "wood"
+            ]
+        },
+        "common_inventory_tools": [
+            "wood"
+        ],
+        "most_advanced_common_inventory_tool": "wood"
+    },
+    "9": {
+        "inventory_tools": {
+            "transition_8": [
+                "None"
+            ],
+            "transition_2": [
+                "None"
+            ],
+            "transition_5": [
+                "None"
+            ],
+            "transition_9": [
+                "None"
+            ],
+            "transition_3": [
+                "None"
+            ]
+        },
+        "common_inventory_tools": [
+            "None"
+        ],
+        "most_advanced_common_inventory_tool": "None"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "0": {
+        "facing_object_before_action": {
+            "transition_15": "tree",
+            "transition_161": "tree",
+            "transition_144": "tree",
+            "transition_156": "tree",
+            "transition_154": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "1": {
+        "facing_object_before_action": {
+            "transition_169": "tree",
+            "transition_58": "tree",
+            "transition_142": "tree",
+            "transition_45": "tree",
+            "transition_32": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "2": {
+        "facing_object_before_action": {
+            "transition_77": "tree",
+            "transition_26": "tree",
+            "transition_34": "tree",
+            "transition_123": "tree",
+            "transition_32": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "3": {
+        "facing_object_before_action": {
+            "transition_31": "tree",
+            "transition_143": "tree",
+            "transition_82": "tree",
+            "transition_88": "tree",
+            "transition_34": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "4": {
+        "facing_object_before_action": {
+            "transition_148": "tree",
+            "transition_95": "tree",
+            "transition_85": "tree",
+            "transition_2": "tree",
+            "transition_76": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "5": {
+        "facing_object_before_action": {
+            "transition_144": "tree",
+            "transition_69": "tree",
+            "transition_85": "tree",
+            "transition_149": "tree",
+            "transition_5": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "6": {
+        "facing_object_before_action": {
+            "transition_15": "tree",
+            "transition_9": "tree",
+            "transition_167": "tree",
+            "transition_115": "tree",
+            "transition_57": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    },
+    "7": {
+        "facing_object_before_action": {
+            "transition_1": "tree",
+            "transition_2": "tree",
+            "transition_3": "tree",
+            "transition_4": "tree",
+            "transition_5": "tree"
+        },
+        "all_facing_object_before_action": {
+            "tree": "facing_object_before_action"
+        }
+    },
+    "8": {
+        "facing_object_before_action": {
+            "transition_95": "tree",
+            "transition_69": "tree",
+            "transition_6": "tree",
+            "transition_11": "tree",
+            "transition_173": "tree"
+        },
+        "all_facing_object_before_action": {
+            "tree": "daytime/immediate_distance/ within proximity"
+        }
+    },
+    "9": {
+        "facing_object_before_action": {
+            "transition_16": "tree",
+            "transition_158": "tree",
+            "transition_60": "tree",
+            "transition_69": "tree",
+            "transition_94": "tree"
+        },
+        "all_facing_object_before_action": [
+            "tree"
+        ]
+    }
+}
