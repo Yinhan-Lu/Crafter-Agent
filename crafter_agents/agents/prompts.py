@@ -1,51 +1,3 @@
-class GameRules:
-    """
-    Contains a reference description of the Crafter game, including objectives, 
-    rules, actions, and mechanics. This text is used in prompts to remind the LLM 
-    of the game environment and constraints.
-    """
-    RULES_TEXT: str = (
-        "### Crafter Game Environment Rules and Objectives\n"
-        "Crafter is a 2D open-world survival game on a 64x64 grid:contentReference[oaicite:30]{index=30}. Each game starts in a unique world with grasslands, lakes, and mountains that contain forests, caves, ores, and lava:contentReference[oaicite:31]{index=31}. "
-        "Your overarching goal is to **survive** as long as possible and eventually **find and collect a diamond**, which is the most difficult achievement:contentReference[oaicite:32]{index=32}.\n\n"
-        "**Survival**: You have Health, Hunger, Thirst, and Energy (fatigue). Keep yourself fed, hydrated, and rested, or you will start losing health. You can eat food (plants or cows) to restore hunger and drink water from lakes to quench thirst:contentReference[oaicite:33]{index=33}. "
-        "Sleep when you are tired to restore energy:contentReference[oaicite:34]{index=34}. If you are not hungry, thirsty, or exhausted, your health will slowly regenerate:contentReference[oaicite:35]{index=35}. If any of Hunger, Thirst, or Energy runs out, your health will begin to drop. "
-        "The game ends if your health reaches 0 (death) or after a certain time limit (10000 steps):contentReference[oaicite:36]{index=36}.\n\n"
-        "**Hazards**: Beware of monsters and environmental dangers. Hostile creatures like zombies and skeletons roam the world:contentReference[oaicite:37]{index=37}, especially in dark areas or at night. They will attack you on sight, reducing your health. "
-        "Avoid or defeat them to stay alive (using weapons makes fighting easier). Wild animals like cows are not hostile and can be hunted for food. "
-        "Lava pools exist in some caves or mountains:contentReference[oaicite:38]{index=38} – falling into lava or touching it will severely hurt or kill you, so stay away from lava. Always be cautious at night or when exploring caves.\n\n"
-        "**Resources**: The world contains various resources you can collect:\n"
-        "- **Wood**: obtained by chopping trees (use the interact action on a tree). Wood is used for crafting tools and building a crafting table:contentReference[oaicite:39]{index=39}.\n"
-        "- **Stone**: obtained by mining rocks. Stone is needed for better tools and for building a furnace:contentReference[oaicite:40]{index=40}.\n"
-        "- **Coal**: obtained by mining coal ore (usually found in rocks or caves). Coal is used as a fuel/resource for crafting iron tools:contentReference[oaicite:41]{index=41}.\n"
-        "- **Iron**: obtained by mining iron ore (found in mountains/caves). Iron (along with coal) is needed to craft the highest tier tools:contentReference[oaicite:42]{index=42}.\n"
-        "- **Saplings**: sometimes obtained from chopping trees. You can plant saplings to grow new trees (providing a renewable source of wood or food).\n"
-        "- **Food**: Plants (fruits) and animals (cows) provide food. Eating a plant or a cow immediately restores some hunger:contentReference[oaicite:43]{index=43} (and grants an achievement **eat_plant** or **eat_cow**:contentReference[oaicite:44]{index=44}). Cows must be killed (interact with a cow) to yield meat; plants or fruits can be directly consumed when found.\n"
-        "- **Water**: Lakes are water sources. Interact with a water tile (lake) to drink:contentReference[oaicite:45]{index=45}, restoring thirst (achievement **collect_drink**:contentReference[oaicite:46]{index=46}).\n"
-        "Some resources (stone, coal, iron, diamond) require the appropriate tool tier to collect. For example, you need a pickaxe to mine stone/ore, and only an Iron Pickaxe can mine diamond.\n\n"
-        "**Crafting and Building**:\n"
-        "You can craft tools and build certain structures using resources:\n"
-        "- **Crafting Table**: Basic workstation crafted from wood. Place a table (action `place_table`) when you have wood:contentReference[oaicite:47]{index=47}. Crafting tools requires being adjacent to a table.\n"
-        "- **Furnace**: Smelting facility crafted from stone. Place a furnace (action `place_furnace`) when you have stone:contentReference[oaicite:48]{index=48}. A furnace is required to craft iron tools.\n"
-        "- **Tools**: You can craft pickaxes and swords of increasing quality:\n"
-        "  - *Wooden Pickaxe* – Requires at least 1 wood and a nearby crafting table:contentReference[oaicite:49]{index=49}. Allows mining stone and coal. (Craft using action `make_wood_pickaxe`.)\n"
-        "  - *Stone Pickaxe* – Requires 1 wood + 1 stone and a table:contentReference[oaicite:50]{index=50}. Allows mining iron ore. (Action `make_stone_pickaxe`.)\n"
-        "  - *Iron Pickaxe* – **Requires** 1 wood + 1 iron + 1 coal, a table, **and** a furnace:contentReference[oaicite:51]{index=51}. Needed to mine diamond. (Action `make_iron_pickaxe`.)\n"
-        "  - *Wooden Sword* – Requires 1 wood and a table:contentReference[oaicite:52]{index=52}. A basic weapon for defense. (Action `make_wood_sword`.)\n"
-        "  - *Stone Sword* – Requires 1 wood + 1 stone and a table:contentReference[oaicite:53]{index=53}. Better weapon. (Action `make_stone_sword`.)\n"
-        "  - *Iron Sword* – Requires 1 wood + 1 iron + 1 coal, a table, and a furnace:contentReference[oaicite:54]{index=54}. Strongest weapon. (Action `make_iron_sword`.)\n"
-        "- **Building Blocks**: You can also place raw materials into the world: e.g. place stone blocks (`place_stone`) to build walls or barriers (this uses a stone from your inventory), or plant a sapling (`place_plant`) to grow a tree:contentReference[oaicite:55]{index=55}.\n"
-        "Crafting or placing an item consumes the required resources from your inventory, so gather sufficient quantities.\n\n"
-        "**Available Actions**:\n"
-        "Each turn, you can perform one action. The actions you can take include:contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}:\n"
-        "- **Move**: `move_up`, `move_down`, `move_left`, or `move_right` to move one tile in that direction (if the path is clear).\n"
-        "- **Interact**: `do` – Use the item in front of you or attack what's in front of you. This is used to gather resources (chop wood, mine ores), pick up items, drink water, or attack enemies. You must be facing the target and have the correct tool if required (e.g. need a pickaxe equipped to mine, a sword to effectively fight monsters).\n"
-        "- **Place**: `place_table`, `place_furnace`, `place_stone`, `place_plant` – Build/place a crafting table (uses wood), furnace (uses stone), stone block (uses stone), or plant a sapling (uses a sapling) respectively. These actions are only available when you have the required item in inventory.\n"
-        "- **Craft**: `make_wood_pickaxe`, `make_stone_pickaxe`, `make_iron_pickaxe`, `make_wood_sword`, `make_stone_sword`, `make_iron_sword` – Craft a tool or weapon if you have the required resources and are next to a crafting table (and furnace for iron-tier). These actions instantly produce the item and consume the resources.\n"
-        "- **Sleep**: `sleep` – Rest to recover energy when tired (only possible if your energy is not full). Sleeping skips some time (possibly to daytime) and heals you a bit if you were injured and not hungry/thirsty. After sleeping, you automatically wake up (`wake_up`). Use this to avoid dying of exhaustion and to regenerate health safely.\n"
-        "- **Noop**: `noop` – Do nothing for a turn. (Use this if you have no other viable action or need to wait.)\n\n"
-        "**Goal**: Survive as long as possible by managing your needs and dangers, and work towards mining a **diamond**. Achieve this by following the progression: gather basic resources, craft better tools, build necessary structures, fight or avoid monsters, and explore the world for rare resources. There are 22 milestones (achievements) you can accomplish:contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}, and finding the diamond is the final and most challenging one. Good luck!\n"
-    )
 
 env_description_prompt = """
         You are an agent in a procedurally generated 2D survival world called Crafter. Your goal is to explore, collect resources, 
@@ -218,3 +170,111 @@ format_prompt="""
       "action": "place_plant"
     }.
         """
+
+
+
+# class PromptBuilder:
+#     """
+#     Integrates GameRules, GameStateParser, SubgoalManager, and optionally ReActManager to build the final prompt for the LLM.
+#     """
+#     def __init__(self, 
+#                  game_rules: CrafterGameRules, 
+#                  state_parser: Optional[GameStateParser] = None, 
+#                  subgoal_manager: Optional[SubgoalManager] = None, 
+#                  react_manager: Optional[ReActManager] = None):
+#         # Accept instances of the components (or create default ones if not provided).
+#         self.game_rules = game_rules
+#         self.state_parser = state_parser or GameStateParser()
+#         self.subgoal_manager = subgoal_manager or SubgoalManager()
+#         self.react_manager = react_manager or ReActManager()
+    
+#     def state_text_creator(self, state: dict) -> str:
+#         """
+#         Create the state text for the prompt.
+#         state: the state of the game
+#         return: the state text
+#         """
+
+
+#         state_text = ""
+#         stats_line = ""
+#         if 'health' in state:
+#             # Assuming health is out of 10.
+#             stats_line += f"Health: {state['health']}/10, "
+#         if 'hunger' in state:
+#             stats_line += f"Hunger: {state['hunger']}/10, "
+#         if 'thirst' in state:
+#             stats_line += f"Thirst: {state['thirst']}/10, "
+#         if 'energy' in state:
+#             stats_line += f"Energy: {state['energy']}/10"
+#         # Remove trailing comma if any:
+#         stats_line = stats_line.strip().strip(',')
+#         inventory_line = ""
+#         inv = state.get('inventory', {})
+#         if inv:
+#             inv_items = ", ".join(f"{item}={count}" for item, count in inv.items())
+#             inventory_line = f"Inventory: {inv_items}"
+#         # Nearby entities:
+#         nearby_line = ""
+#         res_list = state.get('resources', [])
+#         enemy_list = state.get('enemies', [])
+#         if res_list or enemy_list:
+#             desc = []
+#             for r in res_list:
+#                 desc.append(r)
+#             for enemy in enemy_list:
+#                 desc.append(enemy)
+#             nearby_line = "Visible: " + ", ".join(desc)
+#         # Combine lines
+#         state_lines = [stats_line, inventory_line, nearby_line]
+#         state_text = "\n".join([line for line in state_lines if line])
+#         return state_text
+#     def build_prompt(self, raw_state_text: str) -> str:
+#         """
+#         Construct the prompt string by combining the game rules, current state, subgoal, and instructions.
+#         raw_state_text: the raw state text from the game state parser
+#         """
+#         # 1. Always include the game rules reference:
+#         rules_text = self.game_rules.get_rules_text()
+        
+#         # 2. Parse the raw state text into structured data (if parser is available)
+#         try:
+#             state = self.state_parser.parse(raw_state_text)
+#             state_text = self.state_text_creator(state)
+#         except Exception as e:
+#             state = {}
+#             state_text = raw_state_text.strip()
+#         # If parsing failed or is not implemented, we could fall back to using raw text in the prompt.
+        
+#         # 3. Update the SubgoalManager with the current state to get the latest subgoal.
+#         self.subgoal_manager.update_plan(state)
+#         current_goal = self.subgoal_manager.get_current_subgoal()
+        
+       
+        
+#         # 4. Construct the prompt sections.
+#         prompt_sections: List[str] = []
+#         # Game rules section
+#         prompt_sections.append(rules_text)
+
+#         # Current state section (label it for clarity)
+#         prompt_sections.append("### Current Game State\n" + (state_text or "(No state description available)\n"))
+#         # Current goals/subgoal section
+
+#         # prompt_sections.append("### Current Objective\n" 
+#         #                         f"Main Goal: {self.subgoal_manager.main_objective}\n"
+#         #                         f"Current Sub-Goal: {current_goal}\n")
+        
+
+#         # Instruction/Reasoning section
+#         reasoning_instruction = ("### Instructions to Agent\n"
+#             "You are the Crafter agent. Based on the above game rules and the current state, determine the best next action to achieve the sub-goal. "
+#             "First, **think step by step** about what you should do (you can refer to the game rules and consider your inventory and surroundings). "
+#             "Then, provide your decision as an action.\n"
+#             "Format:\nThought: (your reasoning here)\nAction: (the single next action to take)\n"
+#             "Remember: only choose valid actions from the list, and try to accomplish the sub-goal.\n")
+#         prompt_sections.append(reasoning_instruction)
+        
+#         # Join all sections with blank lines between for clarity.
+#         final_prompt = "\n\n".join(prompt_sections)
+#         return final_prompt

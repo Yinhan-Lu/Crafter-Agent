@@ -1,0 +1,29 @@
+# Core AI/ML Libraries
+openai>=1.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Image Processing
+Pillow>=9.0.0
+opencv-python>=4.5.0
+imageio>=2.9.0
+
+# Game Environment
+pygame>=2.1.0
+
+# Configuration Management
+python-dotenv>=0.19.0
+
+# YAML Processing (for crafter constants)
+ruamel.yaml>=0.17.0
+
+# Noise Generation (for crafter worldgen)
+opensimplex>=0.3.0
+
+# Development Tools (Optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Type Hints Support (for older Python versions)
+typing-extensions>=4.0.0 

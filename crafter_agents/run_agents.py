@@ -16,9 +16,148 @@ from game.action_space import *
 import cv2
 import os
 import utils.helper_functions as helper_functions
+from agents.structured_prompts import get_recent_results_prompt
 from datetime import datetime
+import textwrap
 
-def run_single_trajectory(env, agent, current_state, current_updater, action_space, num_steps, record_video=False):
+def wrap_text(text, font, max_width):
+    """
+    Wrap text to fit within a given width.
+    
+    Args:
+        text: The text to wrap
+        font: The pygame font object
+        max_width: Maximum width in pixels
+        
+    Returns:
+        List of wrapped lines
+    """
+    if not text or text == "None":
+        return ["N/A"]
+    
+    # Clean up the text
+    text = str(text).strip()
+    if not text:
+        return ["N/A"]
+    
+    # Estimate characters per line based on font size
+    char_width = font.size("A")[0]
+    chars_per_line = max(10, max_width // char_width - 2)
+    
+    # Wrap the text
+    wrapped_lines = []
+    for paragraph in text.split('\n'):
+        if not paragraph.strip():
+            wrapped_lines.append("")
+            continue
+        lines = textwrap.wrap(paragraph, width=chars_per_line)
+        if not lines:
+            lines = [""]
+        wrapped_lines.extend(lines)
+    
+    return wrapped_lines
+
+def render_text_block(surface, text, font, x, y, max_width, max_height, color=(255, 255, 255)):
+    """
+    Render a block of text with proper wrapping and height limits.
+    
+    Returns:
+        int: The Y position after rendering (for stacking text blocks)
+    """
+    if not text:
+        text = "N/A"
+        
+    wrapped_lines = wrap_text(text, font, max_width)
+    line_height = font.get_height() + 2
+    max_lines = max_height // line_height
+    
+    current_y = y
+    lines_rendered = 0
+    
+    for line in wrapped_lines:
+        if lines_rendered >= max_lines - 1:  # Save space for "..." if needed
+            if lines_rendered < len(wrapped_lines):
+                text_surface = font.render("...", True, color)
+                surface.blit(text_surface, (x, current_y))
+            break
+            
+        text_surface = font.render(line, True, color)
+        surface.blit(text_surface, (x, current_y))
+        current_y += line_height
+        lines_rendered += 1
+    
+    return current_y
+
+def render_matrix_visual(surface, matrix, title, x, y, font, cell_size=15):
+    """
+    Render a 9x9 matrix as a visual grid with a title.
+    
+    Args:
+        surface: Pygame surface to draw on
+        matrix: 9x9 matrix to visualize
+        title: Title for the matrix
+        x, y: Position to draw at
+        font: Font for labels
+        cell_size: Size of each cell in pixels
+        
+    Returns:
+        int: Y position after the matrix
+    """
+    # Render title
+    title_surface = font.render(title, True, (255, 255, 255))
+    surface.blit(title_surface, (x, y))
+    y += font.get_height() + 5
+    
+    if not matrix or len(matrix) == 0:
+        error_surface = font.render("No data", True, (255, 100, 100))
+        surface.blit(error_surface, (x, y))
+        return y + font.get_height()
+    
+    # Color mapping for different materials/objects
+    color_map = {
+        'grass': (34, 139, 34),    # Forest green
+        'tree': (0, 100, 0),       # Dark green
+        'stone': (128, 128, 128),  # Gray
+        'water': (0, 191, 255),    # Deep sky blue
+        'sand': (238, 203, 173),   # Beige
+        'path': (139, 69, 19),     # Saddle brown
+        'coal': (36, 36, 36),      # Dark gray
+        'iron': (184, 134, 11),    # Dark golden rod
+        'diamond': (185, 242, 255), # Light cyan
+        'lava': (255, 69, 0),      # Red orange
+        'player': (255, 255, 0),   # Yellow
+        'Cow': (139, 69, 19),      # Brown
+        'Zombie': (255, 0, 0),     # Red
+        'Skeleton': (255, 255, 255), # White
+        'Nothing': (0, 0, 0),      # Black
+        'table': (160, 82, 45),    # Saddle brown
+        'furnace': (105, 105, 105) # Dim gray
+    }
+    
+    # Transpose the matrix to match game view orientation
+    # The game uses a different coordinate system than our matrix
+    transposed_matrix = list(zip(*matrix)) if matrix else []
+    
+    # Draw the grid
+    for row in range(min(9, len(transposed_matrix))):
+        for col in range(min(9, len(transposed_matrix[row]) if row < len(transposed_matrix) else 0)):
+            cell_x = x + col * cell_size
+            cell_y = y + row * cell_size
+            
+            # Get cell value and color
+            cell_value = transposed_matrix[row][col] if row < len(transposed_matrix) and col < len(transposed_matrix[row]) else 'Nothing'
+            cell_color = color_map.get(cell_value, (64, 64, 64))  # Default gray
+            
+            # Draw cell
+            pygame.draw.rect(surface, cell_color, (cell_x, cell_y, cell_size-1, cell_size-1))
+            
+            # Highlight player position (center)
+            if row == 4 and col == 4:
+                pygame.draw.rect(surface, (255, 255, 0), (cell_x, cell_y, cell_size-1, cell_size-1), 2)
+    
+    return y + 9 * cell_size + 10
+
+def run_single_trajectory(env, agent, current_state, current_updater, action_space, num_steps, record_video=False, video_output_dir=None):
     """
     Run a single trajectory of the game for a specified number of steps.
     
@@ -30,25 +169,42 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
         action_space: The action space
         num_steps: Number of steps to run
         record_video: Whether to record the gameplay video
+        video_output_dir: Directory to save videos (default: current directory)
         
     Returns:
         tuple: (total_reward, average_response_time, average_token_count)
     """
     # Pygame setup
     pygame.init()
-    window_size = (1800, 3000)
+    window_size = (1600, 1200)
     screen = pygame.display.set_mode(window_size)
+    pygame.display.set_caption("Crafter Agent Gameplay")
     clock = pygame.time.Clock()
     running = True
 
     # Font setup
-    font = pygame.font.Font(None, 30)
+    title_font = pygame.font.Font(None, 24)
+    header_font = pygame.font.Font(None, 20)
+    text_font = pygame.font.Font(None, 16)
+    small_font = pygame.font.Font(None, 14)  # Smaller font for detailed descriptions
+
+    # Layout dimensions
+    game_area_width = 600
+    info_area_width = window_size[0] - game_area_width - 20
+    info_area_x = game_area_width + 10
 
     # Video recording setup if needed
     out = None
     if record_video:
         current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
-        video_filename = f'gameplay_{current_time}.mp4'
+        
+        if video_output_dir:
+            os.makedirs(video_output_dir, exist_ok=True)
+            video_filename = os.path.join(video_output_dir, f'gameplay_{current_time}.mp4')
+        else:
+            video_filename = f'gameplay_{current_time}.mp4'
+        
+        print(f"Recording video to: {video_filename}")
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         out = cv2.VideoWriter(video_filename, fourcc, 5.0, window_size)
 
@@ -63,11 +219,13 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
             if event.type == pygame.QUIT:
                 running = False
 
-        # Render the environment
-        game_image = env.render((600, 600))
-        full_surface = pygame.Surface(window_size)
+        # Clear screen
+        screen.fill((0, 0, 0))
+
+        # Render the game environment
+        game_image = env.render((game_area_width, game_area_width))
         game_surface = pygame.surfarray.make_surface(game_image.transpose((1, 0, 2)))
-        full_surface.blit(game_surface, (0, 0))
+        screen.blit(game_surface, (0, 0))
 
         # Get the action from the agent
         action = agent.act()
@@ -105,46 +263,163 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
         }
         action_num = move_mapping.get(action)
 
-        # Display game information
-        words = f"""
-        closest wood: {current_state.closest_wood}
-        current iteration: {i+1}
-        language description of the local view: {current_state.lan_wrapper}
-        current local view of materials:\n{helper_functions.matrix_to_string(current_state.text_local_view_mat)}
-        current local view of objects:\n{helper_functions.matrix_to_string(current_state.text_local_view_obj)}
-        walkable areas: {current_state.walkable_description}
-        facing direction: {current_state.get_facing_direction()}
-        current reasoning: {agent.get_current_reasoning()}
-        current observation:{agent.get_current_observation()}
-        current action: {agent.get_current_action()}
-        target_material: {current_state.target_material}
-        target_object: {current_state.target_obj}
-        local view of objects: {current_state.text_local_view_obj}
-        valid actions: {action_space.get_valid_action_prompt(current_state)}
-        invalid actions: {action_space.get_invalid_action_prompt(current_state)}
-        """
-        inventory_words = f"current inventory: {current_state.get_inventory_string()}"
+        # Information panel
+        y_pos = 10
         
-        # Render text
-        y_offset = 800
-        for line in words.split('\n'):
-            text_surface = font.render(line, True, (255, 255, 255))
-            full_surface.blit(text_surface, (100, y_offset))
-            y_offset += 40
+        # Step number (prominent)
+        step_title = f"=== STEP {i+1}/{num_steps} ==="
+        step_surface = title_font.render(step_title, True, (255, 255, 0))
+        screen.blit(step_surface, (info_area_x, y_pos))
+        y_pos += 35
 
-        y_offset = 40
-        for line in inventory_words.split('\n'):
-            text_surface = font.render(line, True, (255, 255, 255))
-            full_surface.blit(text_surface, (620, y_offset))
-            y_offset += 40
+        # Current action (highlighted)
+        action_text = f"ACTION: {action}"
+        action_surface = header_font.render(action_text, True, (0, 255, 0))
+        screen.blit(action_surface, (info_area_x, y_pos))
+        y_pos += 30
+
+        # Player stats
+        stats_text = f"Health: {current_state.health}/9  Food: {current_state.food}/9  Drink: {current_state.drink}/9  Energy: {current_state.energy}/9"
+        stats_surface = text_font.render(stats_text, True, (255, 255, 255))
+        screen.blit(stats_surface, (info_area_x, y_pos))
+        y_pos += 25
+
+        # Target info
+        target_text = f"Target: {current_state.target_material} | Facing: {current_state.get_facing_direction()}"
+        target_surface = text_font.render(target_text, True, (255, 255, 255))
+        screen.blit(target_surface, (info_area_x, y_pos))
+        y_pos += 30
+
+        # Goal section - Main objective and current subgoal
+        goal_header = header_font.render("🎯 GOALS:", True, (255, 215, 0))  # Gold color
+        screen.blit(goal_header, (info_area_x, y_pos))
+        y_pos += 25
+        
+        # Main objective (fixed goal)
+        main_goal_text = "Main: Find and collect a diamond"
+        main_goal_surface = text_font.render(main_goal_text, True, (255, 255, 255))
+        screen.blit(main_goal_surface, (info_area_x, y_pos))
+        y_pos += 20
+        
+        # Current subgoal (dynamic)
+        try:
+            from planning.sub_goal_manager import SubgoalManager
+            subgoal_manager = SubgoalManager()
+            subgoal_manager.update_plan(current_state)
+            current_subgoal = subgoal_manager.get_current_subgoal()
+        except Exception as e:
+            current_subgoal = f"Error: {str(e)}"
+        
+        # Render subgoal with wrapping
+        subgoal_text = f"Current: {current_subgoal}"
+        y_pos = render_text_block(screen, subgoal_text, text_font, info_area_x, y_pos, 
+                                info_area_width, 60, (144, 238, 144))  # Light green color
+        y_pos += 15
+
+        # 9x9 Area Visualization
+        header_surface = header_font.render("9x9 AREA - MATERIALS:", True, (255, 255, 0))
+        screen.blit(header_surface, (info_area_x, y_pos))
+        y_pos += 25
+        
+        if current_state.text_local_view_mat:
+            y_pos = render_matrix_visual(screen, current_state.text_local_view_mat, 
+                                       "Materials", info_area_x, y_pos, text_font, cell_size=12)
+        y_pos += 10
+
+        header_surface = header_font.render("9x9 AREA - OBJECTS:", True, (255, 255, 0))
+        screen.blit(header_surface, (info_area_x, y_pos))
+        y_pos += 25
+        
+        if current_state.text_local_view_obj:
+            y_pos = render_matrix_visual(screen, current_state.text_local_view_obj, 
+                                       "Objects", info_area_x, y_pos, text_font, cell_size=12)
+        y_pos += 15
+
+        # Natural language description of 9x9 area
+        lang_header = header_font.render("9x9 AREA - DESCRIPTION:", True, (255, 255, 0))
+        screen.blit(lang_header, (info_area_x, y_pos))
+        y_pos += 25
+        
+        if current_state.lan_wrapper:
+            y_pos = render_text_block(screen, current_state.lan_wrapper, small_font, info_area_x, y_pos, 
+                                    info_area_width, 350, (200, 200, 255))  # Increased from 200 to 350 pixels to show full content
+        y_pos += 15
+
+        # Precise 3x3 area description
+        precise_3x3_header = header_font.render("3x3 PRECISE DIRECTIONS:", True, (255, 255, 0))
+        screen.blit(precise_3x3_header, (info_area_x, y_pos))
+        y_pos += 25
+        
+        # Import and use the precise 3x3 description function
+        from agents.structured_prompts import get_precise_3x3_area_description
+        precise_3x3_description = get_precise_3x3_area_description(current_state)
+        y_pos = render_text_block(screen, precise_3x3_description, small_font, info_area_x, y_pos, 
+                                info_area_width, 200, (144, 238, 144))  # Light green color
+        y_pos += 15
+
+        # Current observation
+        obs_header = header_font.render("OBSERVATION:", True, (0, 255, 255))
+        screen.blit(obs_header, (info_area_x, y_pos))
+        y_pos += 25
+        
+        observation = agent.get_current_observation()
+        y_pos = render_text_block(screen, observation, text_font, info_area_x, y_pos, 
+                                info_area_width, 100, (255, 255, 255))
+        y_pos += 15
+
+        # Current reasoning
+        reasoning_header = header_font.render("REASONING:", True, (255, 165, 0))
+        screen.blit(reasoning_header, (info_area_x, y_pos))
+        y_pos += 25
+        
+        reasoning = agent.get_current_reasoning()
+        y_pos = render_text_block(screen, reasoning, text_font, info_area_x, y_pos, 
+                                info_area_width, 120, (255, 255, 255))
+        y_pos += 15
+
+        # Inventory (compact)
+        inv_header = header_font.render("INVENTORY:", True, (255, 255, 255))
+        screen.blit(inv_header, (info_area_x, y_pos))
+        y_pos += 20
+        
+        # Show only non-zero inventory items
+        inv_items = []
+        for item, count in current_state.inventory.items():
+            if count > 0:
+                inv_items.append(f"{item}:{count}")
+        
+        if inv_items:
+            inv_text = " | ".join(inv_items)
+            y_pos = render_text_block(screen, inv_text, text_font, info_area_x, y_pos, 
+                                    info_area_width, 60, (255, 255, 255))
+            
+        # Valid actions
+        valid_actions = action_space.get_valid_actions(current_state)
+        
+        
+        # Show valid actions
+        if valid_actions:
+            valid_text = "Valid Actions: " + ", ".join(valid_actions)
+            y_pos = render_text_block(screen, valid_text, text_font, info_area_x, y_pos, 
+                                    info_area_width, 60, (144, 238, 144))
+            y_pos += 15
+
+        # Show the recent results
+        recent_results = get_recent_results_prompt(agent.recent_results)
+        if recent_results:
+            recent_text = "Recent Results: " + recent_results
+            y_pos = render_text_block(screen, recent_text, text_font, info_area_x, y_pos, 
+                                    info_area_width, 60, (144, 238, 144))
+            y_pos += 15
+        
+        
 
         # Update display
-        screen.blit(full_surface, (0, 0))
         pygame.display.flip()
 
         # Record video if enabled
         if record_video:
-            frame = pygame.surfarray.array3d(full_surface)
+            frame = pygame.surfarray.array3d(screen)
             frame = frame.swapaxes(0, 1)
             frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             out.write(frame)
@@ -163,10 +438,11 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
     pygame.quit()
     if record_video and out is not None:
         out.release()
+        print(f"Video saved successfully!")
 
     return total_reward, agent.time/i if i > 0 else 0, agent.token_count/i if i > 0 else 0
 
-def run_multiple_trajectories(num_trajectories, steps_per_trajectory, record_video=False):
+def run_multiple_trajectories(num_trajectories, steps_per_trajectory, record_video=False, video_output_dir=None):
     """
     Run multiple trajectories of the game.
     
@@ -174,6 +450,7 @@ def run_multiple_trajectories(num_trajectories, steps_per_trajectory, record_vid
         num_trajectories: Number of trajectories to run
         steps_per_trajectory: Number of steps per trajectory
         record_video: Whether to record videos for each trajectory
+        video_output_dir: Directory to save videos (default: current directory)
     """
     results = []
     
@@ -203,7 +480,7 @@ def run_multiple_trajectories(num_trajectories, steps_per_trajectory, record_vid
         # Run the trajectory
         total_reward, avg_response_time, avg_token_count = run_single_trajectory(
             env, agent, current_state, current_updater, action_space, 
-            steps_per_trajectory, record_video
+            steps_per_trajectory, record_video, video_output_dir
         )
 
         results.append({
@@ -238,8 +515,18 @@ def run_multiple_trajectories(num_trajectories, steps_per_trajectory, record_vid
     print(f"Average token count across all trajectories: {avg_tokens:.2f}")
 
 def main():
-    # Example usage: Run 3 trajectories with 50 steps each
-    run_multiple_trajectories(num_trajectories=1, steps_per_trajectory=2, record_video=True)
+    # Example usage with custom video location
+    
+    # Option 1: Save to a specific directory
+    # run_multiple_trajectories(num_trajectories=1, steps_per_trajectory=10, 
+    #                          record_video=True, video_output_dir="./videos")
+    
+    # Option 2: Save to absolute path
+    # run_multiple_trajectories(num_trajectories=1, steps_per_trajectory=10,
+    #                          record_video=True, video_output_dir="/Users/admin/Desktop/gameplay_videos")
+    
+    # Option 3: Save to current directory (default behavior)
+    run_multiple_trajectories(num_trajectories=1, steps_per_trajectory=200, record_video=True, video_output_dir="./videos")
 
 if __name__ == "__main__":
     main()

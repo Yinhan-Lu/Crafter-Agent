@@ -29,6 +29,7 @@ class Direction(Enum):
     WEST = 3
 
 def noop_condition(game_state: GameState) -> bool:
+    return False
     return True  # Noop is always possible
 
 def move_condition(game_state: GameState, direction: str) -> bool:
@@ -43,6 +44,7 @@ def collect_wood_condition(game_state: GameState) -> bool:
     return game_state.target_material == "tree"
 
 def collect_grass_condition(game_state: GameState) -> bool:
+    return False
     return game_state.target_material == "grass"
 
 def collect_water_condition(game_state: GameState) -> bool:

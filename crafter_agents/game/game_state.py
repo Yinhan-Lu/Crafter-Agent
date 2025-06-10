@@ -206,10 +206,6 @@ class GameStateUpdater:
                 obj_idx = wbarr_obj[y, x]
                 if obj_idx != 0:  # If there's an object
                     obj = world_objects[obj_idx - 1]  # Get the actual object
-                    if int(obj_matrix[y, x]) == 0:
-                        print(obj)
-                    if int(obj_matrix[y, x]) == 17:
-                        print(obj)
                     if isinstance(obj, crafter.objects.Arrow):
                         # Map arrow directions to specific numbers
                         # We'll use 17 as base (original Arrow number) plus direction modifier
@@ -275,6 +271,7 @@ class GameStateUpdater:
                       center_x: int = 4, center_y: int = 4) -> Tuple[str, str]:
         """
         Convert material and object matrices to language descriptions.
+        Handles dominant terrains (>60% coverage) and empty areas.
         
         Args:
             material_matrix: 9x9 list of lists containing material names
@@ -305,10 +302,13 @@ class GameStateUpdater:
             (270, "south"),
             (315, "southeast")
         ]
+
         def transpose_matrix(matrix):
             return list(map(list, zip(*matrix)))
+        
         object_matrix = transpose_matrix(object_matrix)
         material_matrix = transpose_matrix(material_matrix)
+
         def get_distance_bucket(dx: int, dy: int) -> str:
             """Determine the distance bucket for given dx, dy."""
             distance = sqrt(dx*dx + dy*dy)
@@ -331,11 +331,67 @@ class GameStateUpdater:
                             key=lambda x: abs(angle - x[0]))
             return closest_dir[1]
 
-        def describe_matrix(matrix: List[List[str]], matrix_type: str) -> str:
+        def analyze_dominant_terrain(matrix: List[List[str]]) -> Tuple[str, float, int]:
+            """Analyze matrix for dominant terrain (>60% coverage)."""
+            if not matrix or not matrix[0]:
+                return None, 0.0, 0
+            
+            # Count occurrences of each material/object
+            counts = {}
+            total_cells = 0
+            
+            for y in range(len(matrix)):
+                for x in range(len(matrix[0]) if matrix[0] else 0):
+                    value = matrix[y][x]
+                    if value and value not in ['None', 'Nothing']:
+                        counts[value] = counts.get(value, 0) + 1
+                    total_cells += 1
+            
+            if total_cells == 0:
+                return None, 0.0, 0
+            
+            # Find the most common material/object
+            if not counts:
+                return None, 0.0, total_cells
+                
+            dominant_material = max(counts, key=counts.get)
+            coverage_percentage = (counts[dominant_material] / total_cells) * 100
+            
+            return dominant_material, coverage_percentage, counts[dominant_material]
+
+        def get_dominant_terrain_description(material: str, coverage: float) -> str:
+            """Generate descriptive prompts for dominant terrain situations."""
+            descriptors = {
+                'grass': "You are in a grassy area. The landscape is dominated by open grassland, perfect for movement and basic resource gathering. This is ideal terrain for placing structures or planting saplings.",
+                
+                'water': "You are in an aquatic environment. The area is mostly covered by water, which can provide drink resources but limits movement. Look for solid ground nearby for safer positioning.",
+                
+                'sand': "You are in a sandy region. The terrain consists primarily of sand, offering good mobility and a suitable surface for construction. This is common in desert-like biomes.",
+                
+                'path': "You are in a previously mined area. Most of the terrain shows paths left behind from resource extraction. This indicates a region where materials have already been harvested.",
+                
+                'stone': "You are in a rocky area. The region is rich with stone deposits, making it an excellent location for mining stone resources with the appropriate pickaxe.",
+                
+                'coal': "You are in a coal-rich region. The area contains abundant coal deposits, valuable for advanced crafting and fuel. A wood pickaxe is needed for extraction.",
+                
+                'iron': "You are in an iron-rich zone. This area contains significant iron deposits, essential for crafting advanced tools. A stone pickaxe is required for mining.",
+                
+                'tree': "You are in a forested area. The region is heavily wooded with trees, providing abundant wood resources that can be collected without any tools.",
+                
+                'lava': "You are near a lava field. The area contains dangerous lava that will cause damage. Exercise extreme caution and avoid direct contact with lava tiles."
+            }
+            
+            default_desc = f"You are in an area dominated by {material}. The terrain consists primarily of {material} covering {coverage:.0f}% of the surrounding area."
+            return descriptors.get(material, default_desc)
+
+        def describe_non_dominant_items(matrix: List[List[str]], matrix_type: str, exclude_material: str = None) -> str:
+            """Describe non-dominant materials/objects with their locations."""
             descriptions = []
             
             if not matrix or not matrix[0]:
-                return f"Empty {matrix_type} description"
+                if matrix_type == "object":
+                    return "no objects around the 9x9 area"
+                return f"no {matrix_type}s around the 9x9 area"
             
             rows = len(matrix)
             cols = len(matrix[0])
@@ -346,8 +402,12 @@ class GameStateUpdater:
                         continue  # Skip center (player position)
                     
                     value = matrix[y][x]
-                    if value in ['None', 'Nothing']:
+                    if value in ['None', 'Nothing'] or not value:
                         continue  # Skip empty spaces
+                    
+                    # Skip dominant material if specified
+                    if exclude_material and value == exclude_material:
+                        continue
                     
                     # Calculate relative position
                     dx = x - center_x
@@ -362,6 +422,11 @@ class GameStateUpdater:
                             'distance': distance,
                             'direction': direction
                         })
+            
+            if not descriptions:
+                if matrix_type == "object":
+                    return "no other objects around the 9x9 area"
+                return f"no other {matrix_type}s around the 9x9 area"
             
             # Group by value and distance
             groups = {}
@@ -391,10 +456,41 @@ class GameStateUpdater:
             
             return ";\n ".join(sentences)
 
-        # Generate descriptions for both matrices
-        material_desc = describe_matrix(material_matrix, "material")
-        object_desc = describe_matrix(object_matrix, "object")
-        self.lan_wrapper = "this is observation of material around you:\n " + material_desc + ";\n this is observation of object around you:\n " + object_desc
+        # Analyze materials for dominant terrain
+        dominant_material, material_coverage, material_count = analyze_dominant_terrain(material_matrix)
+        
+        # Generate material description
+        if dominant_material and material_coverage > 60:
+            # Dominant terrain description
+            terrain_desc = get_dominant_terrain_description(dominant_material, material_coverage)
+            other_materials = describe_non_dominant_items(material_matrix, "material", exclude_material=dominant_material)
+            
+            if other_materials and "no other materials" not in other_materials:
+                material_desc = f"{terrain_desc} Additionally,\n {other_materials}."
+            else:
+                material_desc = terrain_desc
+        else:
+            # No dominant terrain, describe all materials
+            material_desc = describe_non_dominant_items(material_matrix, "material")
+            if not material_desc or "no materials" in material_desc:
+                material_desc = "The area has diverse terrain with no dominant material type"
+
+        # Analyze objects
+        dominant_object, object_coverage, object_count = analyze_dominant_terrain(object_matrix)
+        
+        # Generate object description
+        if dominant_object and object_coverage > 60:
+            # Dominant objects (rare but possible)
+            object_desc = f"The area is densely populated with {dominant_object}s covering {object_coverage:.0f}% of the region"
+            other_objects = describe_non_dominant_items(object_matrix, "object", exclude_material=dominant_object)
+            if other_objects and "no other objects" not in other_objects:
+                object_desc += f". Additionally, {other_objects}."
+        else:
+            # Normal object distribution
+            object_desc = describe_non_dominant_items(object_matrix, "object")
+
+        # Create final lan_wrapper description
+        self.lan_wrapper = f"this is observation of material around you:\n{material_desc};\nthis is observation of object around you:\n{object_desc}"
         return self
 
     def get_walkable_directions(self) -> Dict[str, bool]:

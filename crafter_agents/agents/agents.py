@@ -5,7 +5,6 @@ import crafter
 import openai
 import numpy as np
 import matplotlib.pyplot as plt
-import utils.memory as memory
 import random
 import json
 import time
@@ -17,14 +16,20 @@ from game.action_space import *
 from agents.prompts import *
 from utils.helper_functions import *
 from game.game_infos import *
+from agents.structured_prompts import *
 
 
 class lan_agent_react_v2:
-    def __init__(self, game_state, action_space:ActionSpace,api_key):
+    def __init__(self, game_state, action_space: "ActionSpace", api_key):
         self.game_state = game_state
-        self.recent_results = Recent_Results(num_of_results=5)
-        openai.api_key = api_key
         self.action_space = action_space
+        self.api_key = api_key
+        self.prompt = ""
+        
+        # Initialize memory with correct parameter name
+        self.recent_results = Recent_Results(num_of_results=5)
+        
+        openai.api_key = api_key
         self.time = 0
         self.token_count = 0
         self.current_reasoning = None
@@ -45,47 +50,31 @@ class lan_agent_react_v2:
     
     def prompt_creator(self):
         """
-        create the prompt for the agent
+        最终prompt的组成部分：
+        1到6是写死的，7可能会call一个function来获取，8来自sub goal manager的，9是写死的，10来自memory的recent_results，11是写死的
+        
+        1. Crafter的基本规则（这个游戏总体上是在干嘛，游戏目标是什么，游戏规则是什么，例如这个游戏是个2D沙盒游戏等这些最general的信息），不包含具体每个action的意义，每个material的性质或每个player condition的作用，这些在后面会给出
+        2. 每个material的性质：每个material的性质是什么，例如wood是可收集的，stone是可收集的，water是可收集的，等等
+        3. 每个生物的性质：每个生物的性质是什么，例如cow是可收集的，zombie是可攻击的，等等
+        3. 每个action具体描述：每个action可以做的前提条件（例如collect stone必须要有pickaxe，并且游戏人物面前是石头），每个action会得到什么
+        4. 每个道具的具体描述：每个道具(pickaxe, sword, 工具台，etc)的获取条件和用途
+        5. 每个游戏状态的具体描述：例如口渴的数值到了什么情况会有什么问题，该如何避免，饥饿的数值到了什么情况会有什么问题，该如何避免，等等
+        7. current state：
+        7.1 当前游戏人物的inventory
+        7.2 当前游戏人物的condition（例如口渴，饥饿，facing direction等等）
+        7.2 player周围 9x9这个范围内的信息（例如周围的树的位置等等）
+        8.对goal的描述。包括写死的goal和动态的sub goal。写死的goal是：找到钻石，动态的sub goal是：根据当前的inventory和condition，以及周围的环境，由sub goal manager生成subgoal
+        9. 对React这个回答框架的描述（什么叫ReAct，以及一个例子，用于few shot learning）
+        10. 之前n步的react格式信息（step number，observation，reasoning，action， etc）
+        11. 对回答格式的要求（例如必须返回json格式，并且json格式必须能够被json.loads()函数解析，回答的action的范围，等等）
         """
-        mat_str = array_to_string(self.game_state.text_local_view_mat)
-        obj_str = array_to_string(self.game_state.text_local_view_obj)
-        
-
-        
-        print(self.game_state.walkable_view_string)
-        language_wrapper_description_prompt = language_wrapper_description_prompt_creator(self.game_state.lan_wrapper)
-        self.prompt = [
-            # {"type": "text", "text": "Here is the local view of the map:"},
-            # {"type": "text", "text": f"wood around you:{self.game_state.wood_matrix}\n"},
-            # {"type": "text", "text": f"Materials around you:{self.game_state.text_local_view_mat}\n"},
-            # {"type": "text", "text": f"Objects around you:{self.game_state.text_local_view_obj}\n"},
-
-            # {"type": "text", "text": f"The closest wood locations are:{self.game_state.closest_wood}\n"},
-            # {"type": "text", "text": f"The closest cows locations are:{self.game_state.closest_cows}\n"},
-            {"type": "text", "text": f"Your current inventory: {self.game_state.inventory}\n"},
-            {"type": "text", "text": f"Your current achievements: {self.game_state.achievements}\n"},
-            {"type": "text", "text": f"{target_material_prompt(self)}\n"},
-            {"type": "text", "text": f"{target_obj_prompt(self)}\n"},
-            {"type": "text", "text": f"{self.game_state.walkable_description}\n"},
-            {"type": "text", "text": f"{language_wrapper_description_prompt}\n"},
-            # {"type": "text", "text": f"The walkable areas map is:{self.game_state.walkable_view_string}\nThe map is oriented with north at the top, south at the bottom, west on the left, and east on the right.before any reasoning, you should always print out the walkable condition of the surrounding position of the player. eg. 'the position One space due north of the player is walkable' or 'the position One space due north of the player is not walkable'\n"},
-            {"type": "text", "text": f"the facing direction is {self.game_state.get_facing_direction()}. "},
-            # {"type": "text", "text": f"the facing direction not affect the further moving direction of player. that is, if you facing south but a tree is in north side, you can directly move north without any problem\n"},
-            {"type": "text", "text":"""(you need to let a material/object to be
-            target of the player if you want to do some thing to it like collect it. if a material is One space to the north of the player, 
-            and the player's facing direction is north, then this material/object will become the player's target.The same is true in several other directions)\n"""},
-            {"type": "text", "text":"""When a object that going to be collect is adjacent to the player but not be faced by the player, you can using turn to function. For example,if a player is facing south, and there is a tree in north side, the player can turn to north to let the wood be the target of the player if the player wanna collect it.\n"""},
-            {"type": "text", "text": f"""the action you can do currently is {self.action_space.get_valid_action_prompt(self.game_state)}. \n"""},
-            {"type": "text", "text": f"""the action you cannot do currently with their 
-            usage and using requirement is {self.action_space.get_invalid_action_prompt(self.game_state)}. By which you might be able to find some action
-            you need to do but cannot do now because of requirement unmeeted, and learning how to meet the requirement of them.\n"""},
-            {"type": "text", "text": "Your current task is to work to iterately move to closest trees and collect 10 woods and iterately move to closest cows and collect 10 meat\n"},
-            # {"type": "text", "text": "Your current task is to work to iterately move to closest cows and collect 10 meat\n"},
-            # {"type": "text", "text": "Your current task is to walk as far as possible in limited 30 steps by the walkable areas information\n"},
-            {"type": "text", "text": """Given these information, which action should the player do?"""}
-        ]
-        # Structured Prompt for Crafter Environment LLM Agent
-        
+        # Use the new structured prompt system that follows the 10-part structure
+        self.prompt = build_complete_prompt(
+            game_state=self.game_state,
+            action_space=self.action_space,
+            recent_results=self.recent_results
+        )
+    
     def act(self):
         """
         1. retrieve game state from the game state class and update the prompt to the agent api
@@ -93,19 +82,14 @@ class lan_agent_react_v2:
         3. parse the json file and get the action
         4. return the action
         """
-
-        
-        reasoning_way_prompt = reasoning_way_prompt_creator(self.action_space.get_valid_action_prompt(self.game_state))
-        
         
         self.prompt_creator()
         start_time = time.time()
+        
+        # The new structured prompt returns a single string, not a list
         response = openai.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": env_description_prompt},
-                {"role": "system", "content": reasoning_way_prompt},
-                {"role": "system", "content": format_prompt},
                 {"role": "user", "content": self.prompt},
             ],
         )
@@ -116,41 +100,76 @@ class lan_agent_react_v2:
         self.token_count += tokens
         self.time += each_time
         
+        # Initialize default values
+        observation = "encode observation failed"
+        reasoning = "encode reasoning failed"
+        action = None
+        
+        # Try to parse the response
         try: 
-            response_json = json.loads(response.choices[0].message.content)
-            action = response_json.get('action')
-            print("observation is :",response_json.get('observation'),'\n')
-            print("reasoning is :",response_json.get('reasoning'),"\n")
-            self.current_observation = response_json.get('observation')
-            self.current_reasoning = response_json.get('reasoning')
+            content = response.choices[0].message.content.strip()
             
-            try:
-                action = action.strip()  
-                if action in legal_actions:  
-                    self.current_action = action
-                    print("action is :",action)
-                    self.step_count += 1
-                    return action
-                else:
-                    current_random_action = random.choice(legal_actions)
-                    self.current_action = f"encode action failed. use random action{current_random_action}"
-                    print(f"Invalid action from GPT: {action}. Choosing a random action instead.")
-                    self.step_count += 1
-                    return current_random_action
-            except ValueError:
-                current_random_action = random.choice(legal_actions)
-                self.current_action = f"encode action failed. use random action{current_random_action}"
-                print(f"Invalid GPT response: {action}. Choosing a random action instead.")
-                self.step_count += 1
-                return current_random_action
-        except:
-            current_random_action = random.choice(legal_actions)
-            self.current_observation = "encode observation failed"
-            self.current_reasoning = "encode reasoning failed"
-            self.current_action = f"encode action failed. use random action{current_random_action}"
-            print(f"Unable to encode json. This is the json-like string: {response.choices[0].message.content}. Choosing a random action instead.")
-            self.step_count += 1
-            return current_random_action
+            # Handle markdown code blocks - strip ```json and ``` markers
+            if content.startswith('```json'):
+                content = content[7:]  # Remove ```json
+            elif content.startswith('```'):
+                content = content[3:]   # Remove ```
+            
+            if content.endswith('```'):
+                content = content[:-3]  # Remove trailing ```
+            
+            content = content.strip()  # Remove any remaining whitespace
+            
+            response_json = json.loads(content)
+            observation = response_json.get('observation', observation)
+            reasoning = response_json.get('reasoning', reasoning)
+            action = response_json.get('action')
+            
+            # print("observation is :", observation, '\n')
+            # print("reasoning is :", reasoning, "\n")
+            
+        except Exception as e:
+            print(f"Unable to encode json. This is the json-like string: {response.choices[0].message.content}. Error: {e}")
+        
+        # Validate and process the action
+        final_action = self._process_action(action)
+        
+        # Update agent state
+        self.current_observation = observation
+        self.current_reasoning = reasoning
+        self.current_action = final_action
+        self.step_count += 1
+        
+        # Store result
+        self.recent_results.add_result(
+            reasoning=reasoning,
+            observation=observation,
+            current_step=self.step_count,
+            action=final_action
+        )
+        
+
+        return final_action
+    
+    def _process_action(self, action):
+        """Process and validate the action, returning a valid action."""
+        if action is None:
+            return self._get_random_action("No action provided")
+        
+        try:
+            action = action.strip()
+            if action in legal_actions:
+                return action
+            else:
+                return self._get_random_action(f"Invalid action from GPT: {action}")
+        except (AttributeError, ValueError) as e:
+            return self._get_random_action(f"Error processing action: {e}")
+    
+    def _get_random_action(self, reason):
+        """Get a random action and log the reason."""
+        random_action = random.choice(legal_actions)
+        print(f"{reason}. Choosing random action: {random_action}")
+        return random_action
 
 
 

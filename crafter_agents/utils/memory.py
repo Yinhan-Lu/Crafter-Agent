@@ -14,7 +14,7 @@ class Recent_Results:
         self.result_buffer:deque[StepMemory] = deque(maxlen = self.num_of_results)
 
     def add_result(self, reasoning, observation, current_step, action):
-        self.result_buffer.append(StepMemory(reasoning, current_step, action))
+        self.result_buffer.append(StepMemory(reasoning, observation, current_step, action))
 
     
     def get_recent_results_as_string(self):
