@@ -125,7 +125,7 @@ ACTION_DESCRIPTIONS = """
 **Turning Actions:**
 - **turn_north/turn_south/turn_east/turn_west**: Change facing direction without moving
   - Precondition: Always possible
-  - Effect: Changes facing direction, affects which objects/materials become targets
+  - Effect: Changes facing direction, affects which objects/materials become targets. When you need to take an action in a object/material one step away but you are not facing it(e.g. you are facing north but the object is to the east), you need to turn to the direction of the object/material first to make sure it is your target.
 
 **Collection Actions:**
 - **collect_wood**: Collect wood from trees
@@ -208,9 +208,6 @@ ACTION_DESCRIPTIONS = """
   - Precondition: Energy not at maximum (less than 9)
   - Effect: Restores energy to maximum, passes time, may heal if not hungry/thirsty
 
-- **noop**: Do nothing for one turn
-  - Precondition: Always possible
-  - Effect: No changes, time passes
 """
 
 # ============================================================================
@@ -412,8 +409,23 @@ def get_current_state_prompt(game_state, action_space):
     Function to generate current state description.
     This includes the current game state AND the valid/invalid actions for this turn.
     """
-    inventory_items = [f"{item}: {count}" for item, count in game_state.inventory.items() if count > 0]
-    inventory_str = ", ".join(inventory_items) if inventory_items else "Empty"
+    # Enhanced inventory display to reduce AI hallucination
+    materials = ['wood', 'stone', 'coal', 'iron', 'diamond', 'sapling']
+    tools = ['wood_pickaxe', 'stone_pickaxe', 'iron_pickaxe', 'wood_sword', 'stone_sword', 'iron_sword']
+    
+    # Separate materials and tools
+    material_items = [f"{item}: {game_state.inventory.get(item, 0)}" for item in materials if game_state.inventory.get(item, 0) > 0]
+    tool_items = [f"{item}: {game_state.inventory.get(item, 0)}" for item in tools if game_state.inventory.get(item, 0) > 0]
+    
+    # Create clear inventory display
+    if material_items and tool_items:
+        inventory_str = f"Materials: {', '.join(material_items)} | Tools: {', '.join(tool_items)}"
+    elif material_items:
+        inventory_str = f"Materials: {', '.join(material_items)} | Tools: None"
+    elif tool_items:
+        inventory_str = f"Materials: None | Tools: {', '.join(tool_items)}"
+    else:
+        inventory_str = "Materials: None | Tools: None"
     
     # Get facing direction if available
     facing_direction = "Unknown"
@@ -443,6 +455,11 @@ def get_current_state_prompt(game_state, action_space):
 - Energy: {game_state.energy}/9
 
 **Inventory:** {inventory_str}
+
+**⚠️ IMPORTANT INVENTORY NOTE:**
+- If you have ZERO wood, you CANNOT craft items that require wood
+- Tools like "wood_pickaxe" are NOT the same as having "wood" material
+- Always check the Materials section to see what you can actually use for crafting
 
 **Environment:**
 - Facing Direction: {facing_direction}
@@ -539,19 +556,12 @@ def get_answer_format_requirements(action_space, game_state):
 **Critical Requirements:**
 1. **JSON Validity**: Your response must be parseable by `json.loads()` function
 2. **Required Keys**: Must include "observation", "reasoning", and "action" 
-3. **Action Constraint**: The "action" value must be EXACTLY one of these legal actions:
+3. **Action Constraint**: The "action" value must be EXACTLY one of these valid actions this turn::
    ```
-   noop, move_west, move_east, move_north, move_south, 
-   turn_west, turn_east, turn_north, turn_south,
-   collect_wood, collect_grass, collect_iron, collect_stone, 
-   collect_diamond, collect_water, collect_coal,
-   sleep, place_stone, place_table, place_furnace, place_plant,
-   make_wood_pickaxe, make_stone_pickaxe, make_iron_pickaxe,
-   make_wood_sword, make_stone_sword, make_iron_sword, attach_cow. 
-   Besides, you can only use the actions that are available(because of the precondition is met) this turn:
-   {action_space.get_valid_action_prompt(game_state)}. the reason why you can't use the invalid actions is that the precondition is not met.
+   {action_space.get_valid_action_prompt(game_state)}
+   ```
+   the reason why you can't use the invalid actions is that the precondition is not met.
    the precondition can be found in Action Detailed Descriptions above.
-   ```
 
 4. **No Extra Actions**: Do NOT use "do" action or any action not in the above list
 5. **String Format**: All values should be strings, properly escaped for JSON

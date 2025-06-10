@@ -68,17 +68,18 @@ def render_text_block(surface, text, font, x, y, max_width, max_height, color=(2
         text = "N/A"
         
     wrapped_lines = wrap_text(text, font, max_width)
-    line_height = font.get_height() + 2
+    line_height = font.get_height() + 1  # Reduced spacing from +2 to +1 for more compact display
     max_lines = max_height // line_height
     
     current_y = y
     lines_rendered = 0
     
     for line in wrapped_lines:
-        if lines_rendered >= max_lines - 1:  # Save space for "..." if needed
-            if lines_rendered < len(wrapped_lines):
-                text_surface = font.render("...", True, color)
-                surface.blit(text_surface, (x, current_y))
+        if lines_rendered >= max_lines - 2:  # Reserve space for "..." and give more room
+            if lines_rendered < len(wrapped_lines) - 1:  # Only show "..." if there are actually more lines
+                ellipsis_surface = font.render("... (content truncated)", True, (200, 200, 200))
+                surface.blit(ellipsis_surface, (x, current_y))
+                current_y += line_height
             break
             
         text_surface = font.render(line, True, color)
@@ -176,7 +177,7 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
     """
     # Pygame setup
     pygame.init()
-    window_size = (1600, 1200)
+    window_size = (1800, 1400)  # Increased from (1600, 1200) to accommodate more content
     screen = pygame.display.set_mode(window_size)
     pygame.display.set_caption("Crafter Agent Gameplay")
     clock = pygame.time.Clock()
@@ -404,15 +405,25 @@ def run_single_trajectory(env, agent, current_state, current_updater, action_spa
                                     info_area_width, 60, (144, 238, 144))
             y_pos += 15
 
-        # Show the recent results
+        # Show the recent results with much larger height allocation
+        recent_header = header_font.render(" RECENT HISTORY:", True, (255, 255, 0))
+        screen.blit(recent_header, (info_area_x, y_pos))
+        y_pos += 25
+        
         recent_results = get_recent_results_prompt(agent.recent_results)
-        if recent_results:
-            recent_text = "Recent Results: " + recent_results
-            y_pos = render_text_block(screen, recent_text, text_font, info_area_x, y_pos, 
-                                    info_area_width, 60, (144, 238, 144))
+        if recent_results and recent_results.strip():
+            # Remove the "Recent Results: " prefix since we have a header
+            if recent_results.startswith("Recent Results: "):
+                recent_results = recent_results[16:]  # Remove "Recent Results: " prefix
+            
+            # Significantly increase height allocation for recent results (from 60 to 300 pixels)
+            y_pos = render_text_block(screen, recent_results, small_font, info_area_x, y_pos, 
+                                    info_area_width, 300, (255, 255, 150))  # Light yellow color
             y_pos += 15
-        
-        
+        else:
+            no_history_surface = text_font.render("No previous actions recorded", True, (128, 128, 128))
+            screen.blit(no_history_surface, (info_area_x, y_pos))
+            y_pos += 25
 
         # Update display
         pygame.display.flip()
@@ -526,7 +537,7 @@ def main():
     #                          record_video=True, video_output_dir="/Users/admin/Desktop/gameplay_videos")
     
     # Option 3: Save to current directory (default behavior)
-    run_multiple_trajectories(num_trajectories=1, steps_per_trajectory=200, record_video=True, video_output_dir="./videos")
+    run_multiple_trajectories(num_trajectories=2, steps_per_trajectory=200, record_video=True, video_output_dir="./videos")
 
 if __name__ == "__main__":
     main()
