@@ -88,7 +88,7 @@ class lan_agent_react_v2:
         
         # The new structured prompt returns a single string, not a list
         response = openai.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4o",
             messages=[
                 {"role": "user", "content": self.prompt},
             ],
